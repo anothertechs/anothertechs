@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
-import { navlink, burger } from "./index.module.css";
+import { navlink } from "./index.module.css";
 import { CodeSlash } from "react-bootstrap-icons";
 /*
           <Form className="d-lg-flex mx-sm-2 px-sm-2">

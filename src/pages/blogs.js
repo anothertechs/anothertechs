@@ -20,7 +20,7 @@ const BlogIndex = ({ data }) => {
               <Card className="p-2 border border-2 rounded" key={post.id}>
                 <Card.Img
                   variant="top"
-                  src={post.frontmatter.featureImage.childImageSharp.fixed.src}
+                  src={post.frontmatter.thumbnail.childImageSharp.fixed.src}
                 />
                 <div className="mt-3 pt-2 ">
                   <Link
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
           date(formatString: "YYYY MMMM Do")
           published
           title
-          featureImage {
+          thumbnail {
             childImageSharp {
               fixed {
                 src

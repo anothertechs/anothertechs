@@ -15,8 +15,8 @@ const IndexPage = ({ data }) => {
             <Row>
               <Col md="5" sm="12">
                 <Image
-                  src={post.frontmatter.featureImage.childImageSharp.fixed.src}
-                  alt={post.frontmatter.featureImage.childImageSharp.fixed.src}
+                  src={post.frontmatter.thumbnail.childImageSharp.fixed.src}
+                  alt={post.frontmatter.thumbnail.childImageSharp.fixed.src}
                   width={"100%"}
                 />
               </Col>
@@ -56,7 +56,7 @@ export const recentBlogQuery = graphql`
         frontmatter {
           title
           published
-          featureImage {
+          thumbnail {
             childImageSharp {
               id
               fixed {

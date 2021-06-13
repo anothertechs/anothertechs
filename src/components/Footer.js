@@ -39,7 +39,7 @@ function Footer() {
                   <Link
                     className={navlink}
                     style={{ textDecoration: "none" }}
-                    to="/blogs"
+                    to="/about"
                   >
                     About
                   </Link>

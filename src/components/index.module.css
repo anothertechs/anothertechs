@@ -1,0 +1,18 @@
+.navlink {
+  color: white;
+}
+.navlink:hover {
+  color: yellow;
+}
+
+.barger {
+  color: white;
+}
+
+.barger:hover {
+  color: yellow;
+}
+
+.footer {
+  background-color: black;
+}

@@ -20,7 +20,7 @@ const BlogIndex = ({ data }) => {
               <Card className="p-2 border border-2 rounded" key={post.id}>
                 <Card.Img
                   variant="top"
-                  src={post.frontmatter.thumbnail.childImageSharp.fixed.src}
+                  src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
                 />
                 <div className="mt-3 pt-2 ">
                   <Link
@@ -57,8 +57,8 @@ export const pageQuery = graphql`
           title
           thumbnail {
             childImageSharp {
-              fixed {
-                src
+              fluid {
+                srcWebp
               }
             }
           }

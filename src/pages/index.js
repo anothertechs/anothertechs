@@ -3,11 +3,13 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Link, graphql } from "gatsby";
 import { Image, Container, Row, Col } from "react-bootstrap";
+import Seo from "../components/seo";
 
 const IndexPage = ({ data }) => {
   const { nodes: posts } = data.allMdx;
   return (
     <main>
+      <Seo title="Home" />
       <NavBar />
       <Container>
         {posts.map((post, index) => (
@@ -15,8 +17,8 @@ const IndexPage = ({ data }) => {
             <Row>
               <Col md="5" sm="12">
                 <Image
-                  src={post.frontmatter.thumbnail.childImageSharp.fixed.src}
-                  alt={post.frontmatter.thumbnail.childImageSharp.fixed.src}
+                  src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+                  alt={post.frontmatter.title}
                   width={"100%"}
                 />
               </Col>
@@ -59,8 +61,8 @@ export const recentBlogQuery = graphql`
           thumbnail {
             childImageSharp {
               id
-              fixed {
-                src
+              fluid {
+                srcWebp
               }
             }
           }

@@ -6,6 +6,7 @@ import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 //import { Link } from "gatsby";
 import { Container } from "react-bootstrap";
+import Seo from "../components/seo";
 
 //const shortcodes = { Link };
 
@@ -14,8 +15,11 @@ export default function BlogPost({ data }) {
   const {
     mdx: { body },
   } = data;
+  const title = data.mdx.frontmatter.title;
+
   return (
     <div>
+      <Seo title={title} />
       <NavBar />
       <Container>
         <div className="mb-4 pb-2">

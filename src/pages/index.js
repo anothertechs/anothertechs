@@ -48,7 +48,7 @@ const IndexPage = ({ data }) => {
 export const recentBlogQuery = graphql`
   query RecentBlog {
     allMdx(
-      sort: { fields: frontmatter___date }
+      sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { published: { eq: true } } }
       limit: 7
     ) {

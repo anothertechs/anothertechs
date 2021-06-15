@@ -3,10 +3,12 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import img from "../images/photo_2021-06-13_08-31-26.jpg";
+import Seo from "../components/seo";
 
 const AboutPage = () => {
   return (
     <main>
+      <Seo title="About" />
       <NavBar />
       <div className="m-3 p-2">
         <Container>

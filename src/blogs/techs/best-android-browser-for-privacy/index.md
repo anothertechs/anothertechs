@@ -5,9 +5,7 @@ published: true
 thumbnail: ../../../images/thumbnail-dan-nelson.png
 ---
 
-![Best Android browsers for privacy](../../../images/dan-nelson-ah-HeguOe9k-unsplash.jpg)
-
-## Best Android browsers for privacy
+# Best Android browsers for privacy
 
 Use these Android web browsers that come with a free built-in VPN to enhance your privacy and security.
 

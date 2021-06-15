@@ -16,6 +16,8 @@ export default function BlogPost({ data }) {
     mdx: { body },
   } = data;
   const title = data.mdx.frontmatter.title;
+  const src =
+    data.mdx.frontmatter.thumbnail.childrenImageSharp[0].fluid.srcWebp;
 
   return (
     <div>
@@ -23,7 +25,12 @@ export default function BlogPost({ data }) {
       <NavBar />
       <Container>
         <div className="mb-4 pb-2">
-          <MDXRenderer>{body}</MDXRenderer>
+          <div>
+            <img src={src} alt={title} width={"100%"} />
+          </div>
+          <div>
+            <MDXRenderer>{body}</MDXRenderer>
+          </div>
         </div>
       </Container>
       <Footer />
@@ -37,6 +44,13 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "YYYY MMMM Do")
         title
+        thumbnail {
+          childrenImageSharp {
+            fluid {
+              srcWebp
+            }
+          }
+        }
       }
       body
     }

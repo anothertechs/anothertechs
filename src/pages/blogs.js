@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Row, Container, Col, Card } from "react-bootstrap";
+import Seo from "../components/seo";
 //import Dump from "../components/Dump";
 
 //<Dump previous={data} />
@@ -12,6 +13,7 @@ const BlogIndex = ({ data }) => {
   const { nodes: posts } = data.allMdx;
   return (
     <div>
+      <Seo title="Blogs" />
       <NavBar />
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
@@ -20,6 +22,8 @@ const BlogIndex = ({ data }) => {
               <Card className="p-2 border border-2 rounded" key={post.id}>
                 <Card.Img
                   variant="top"
+                  width={300}
+                  height={300}
                   src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
                 />
                 <div className="mt-3 pt-2 ">

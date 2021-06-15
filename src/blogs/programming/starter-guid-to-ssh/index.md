@@ -5,9 +5,7 @@ date: 2021-06-14
 thumbnail: ../../../images/thumbnail-markus.png
 ---
 
-![What is SSH](../../../images/markus-winkler-djDQKdjdYss-unsplash.jpg)
-
-## What is SSH?
+# What is SSH?
 
 SSH or Secure Shell allows people to access your server remotely. It uses encryption technology to ensure that all communications to and from the server are encrypted.
 

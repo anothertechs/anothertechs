@@ -5,8 +5,6 @@ thumbnail: ../../../images/cardmapr-thumbnail.jpg
 published: true
 ---
 
-![5 Crypto you should watch in 2021](../../../images/cardmapr-nl-rDzI7m7sjPE-unsplash.jpg)
-
 ### 5 Crypto you should watch in 2021
 
 The cryptocurrency has exploded in popularity and widespread awareness. Part of the reason is that the value of some of these tokens has skyrocketed. A typical example is the rapid growth of Bitcoin over the years. Bitcoin's price when it debuted in 2010 was $ 0.0008 and skyrocketed to a recent high of over $ 60,000.

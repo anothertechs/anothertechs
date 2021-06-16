@@ -19,8 +19,7 @@ const IndexPage = ({ data }) => {
                 <Image
                   src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
                   alt={post.frontmatter.title}
-                  width={400}
-                  height={300}
+                  width={"100%"}
                 />
               </Col>
               <Col

@@ -13,12 +13,13 @@ export default function BlogPost({ data }) {
     mdx: { body },
   } = data;
   const title = data.mdx.frontmatter.title;
+  console.log(data);
   const src =
     data.mdx.frontmatter.thumbnail.childrenImageSharp[0].fluid.srcWebp;
 
   return (
     <div>
-      <Seo title={title} />
+      <Seo title={title} description={data.mdx.frontmatter.description} />
       <NavBar />
       <Container>
         <div className="mb-4 pb-2">
@@ -41,6 +42,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "YYYY MMMM Do")
         title
+        description
         thumbnail {
           childrenImageSharp {
             fluid {

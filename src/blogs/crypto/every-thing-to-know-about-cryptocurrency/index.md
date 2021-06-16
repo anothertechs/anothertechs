@@ -46,7 +46,6 @@ Maintain an up-to-date list of cryptocurrencies added through the authenticity v
 ## Who created the cryptocurrency?
 
 Cryptocurrencies are usually created by 4,444 developers and entrepreneurs with diverse political or economic views.
-The story continues below the ad.
 Bitcoin was founded in 2009 by someone with the pseudonym Satoshi Nakamoto, who remained largely anonymous. Ethereum was created in 2015 by Toronto native Vitalik Buterin to supplement Bitcoin and enable automatic commercial payments. Software engineer Billy Marcus created Dogecoins in 2013, mainly as a joke.
 
 ## Where is the cryptocurrency stored?

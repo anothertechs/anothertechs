@@ -19,48 +19,33 @@ often use candlestick charts as a good visual aid to analyze and monitor the per
 in a given time period. They have the most flexibility to understand the
 trend of the market. The model can help traders measure the market sentiment of
 financial assets. For example, the hammer candle is a bullish
-pattern, which is formed when the asset price falls from its opening price of
-and is close to the support level, and only rebounds at
+pattern, which is formed when the asset price falls from its opening price and is close to the support level, and only rebounds at
 and closes at a high level.
 
 When it comes to bullish candles, a popular pattern is the
 hammer candle formation. The hammer is one of the most important
-reversal patterns that traders should pay attention to. The hammer is considered a bullish reversal from
-, but only when it appears under certain conditions. The
+reversal patterns that traders should pay attention to. The hammer is considered a bullish reversal, but only when it appears under certain conditions. The
 pattern generally forms near the bottom of a downtrend, indicating that the market is trying to define the lower.
 
 ![Hammer Signal](../../../images/hammer-candle-stick.webp "Image by Julie Bang © Investopedia 2019")
 
 The hammer candle is at the bottom of the downtrend and
 indicates a possible (bullish) reversal in the market. The hammer line is the
-candlestick pattern. When the stock opens, it drops sharply during the day, and then
+candlestick pattern. When the stock opens, it drops sharply during the day and then
 rebounds to near the opening price. The
 candle pattern looks like a hammer. The long lower wick at the low point of the day looks like
 . The handle and the main body of the opening and closing prices form the head of
-that looks like a hammer. The lower wick is usually twice the size of the
+that looks like a hammer. The lower part is usually twice the size of the
 candle body, but it can be larger. For a clear understanding of the Hammer
 candle and its appearance, please refer to the table below.
 
-When the high and the closing price of
-are equal, a bullish hammer candle forms. It is considered a stronger pattern because the
-bulls can completely reject the shorts and the bulls can push the price higher at
+When the high and the closing price are equal, a bullish hammer candle forms. It is considered a stronger pattern because the
+bulls can completely reject the shorts and the bulls can push the price higher
 before the opening price.
 
-The long lower shadow of the hammer indicates that the market tested
-for support and demand. When the market found the support area of the day low of
-, the bulls started to push the price higher and
-was close to the opening price. Therefore, the bearish push to the downside was rejected by the bulls at.
-
-The long lower shadow of the hammer indicates that the market tested
-for support and demand. When the market found the support area of the day low of
-, the bulls started to push the price higher and
-was close to the opening price. Therefore, the bearish push to the downside was rejected by the bulls at.
-
-The long lower shadow of the hammer indicates that the market tested
-for support and demand. When the market found the support area of the day low of
-, the bulls started to push the price higher and
-was close to the opening price. Therefore, the bearish push to the downside was rejected by the bulls at
-.
+The lower shadow of the hammer suggests that the market tested
+for support and demand. When the market found the support area of the day low, the bulls started to push the price higher and
+were close to the opening price. Therefore, the bearish push to the downside was rejected by the bulls.
 
 ![Hammer Signal](../../../images/hammer2.webp "Image source nirmalbang")
 
@@ -72,19 +57,15 @@ Inverted Hammer candlesticks mainly occur at the bottom of the
 downtrend, which can be used as a warning of possible reversal upward.
 **It should be noted that the reversal pattern is a warning of
 's potential price changes, and is not a signal to buy in itself**. The
-inverted hammer, like the shootig star, is created when the opening, low, and closing prices of
-are approximately the same. In addition, there is a very long top shadow of
-, which should be at least twice the length of the actual
+inverted hammer, like the shooting star, is created when the opening, low, and closing prices are approximately the same. In addition, there is a very long top shadow, which should be at least twice the length of the actual
 body. When the low and the opening price are equal, the
 inverted hammer bullish candle is formed, which is considered a stronger bullish signal.
 After a long downtrend, the formation of an inverted hammer
 is bullish, because the price rises
 sharply during the day and is hesitant to move down. Despite this, sellers re-enter stocks, futures,
-or the currency and push the price back near the open, but the fact that the price of
-may rise significantly indicates that the bulls are testing the price. power of the
+or the currency and push the price back near the open, but the fact that the price may rise significantly indicates that the bulls are testing the price. power of the
 bears. What happened the day after the
-hammer pattern reversal allowed traders to know if the price of
-would rise or fall.
+hammer pattern reversal allowed traders to know if the price would rise or fall.
 
 ![Inverted Hammer Formation](../../../images/hammer4.webp "Image source nirmalbang")
 

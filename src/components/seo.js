@@ -42,16 +42,16 @@ function Seo({ description, lang, meta, title }) {
           content: title,
         },
         {
+          property: `og:image`,
+          content: site.siteMetadata.image,
+        },
+        {
           property: `og:description`,
           content: site.siteMetadata.description,
         },
         {
           property: `og:type`,
           content: `https://anothertechs.com`,
-        },
-        {
-          property: `og:image`,
-          content: site.siteMetadata.image,
         },
         {
           name: `twitter:card`,

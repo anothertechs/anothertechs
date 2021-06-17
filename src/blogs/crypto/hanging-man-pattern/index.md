@@ -1,6 +1,6 @@
 ---
 title: Candle stick Pattern - Hanging Man
-thumbnail: ../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
+thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 date: 2021-06-17
 published: true
 category: crypto
@@ -22,7 +22,7 @@ This model gives traders the opportunity to close a buy position and enter a sho
 
 When the opening price, the highest price, and the closing price are approximately the same, a hanging man form will be formed, just like a [hammer](https://anothertechs.com/crypto/hammer-signal/). In addition, there is a very long lower shadow, which should be at least twice the actual length of the body.
 
-![Hanging Man](../../images/hanging-man.webp "source investopidia")
+![Hanging Man](../../../images/hanging-man.webp "source investopidia")
 
 ## What does Red and Green Hanging Man tell us?
 
@@ -32,7 +32,7 @@ Although the **green** candlestick is still bearish, it is considered less beari
 
 ## How to identify this pattern:
 
-![Hanging Man 2](../../images/hanging-man-2.webp "source cdn")
+![Hanging Man 2](../../../images/hanging-man-2.webp "source cdn")
 
 Here are some points to consider when identifying this pattern on a candlestick chart:
 
@@ -48,6 +48,6 @@ It is important to reiterate that hanging man patterns are not a sign of potenti
 
 ### Formation Examples
 
-![Hanging Man Chart 1](../../images/hanging-man-chart-1.webp "source theforexgeek")
+![Hanging Man Chart 1](../../../images/hanging-man-chart-1.webp "source theforexgeek")
 
-![Hangin Man Chart 2](../../images/hanging-man-2.webp "source eqsis")
+![Hangin Man Chart 2](../../../images/hanging-man-2.webp "source eqsis")

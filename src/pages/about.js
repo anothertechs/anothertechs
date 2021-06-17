@@ -2,7 +2,7 @@ import * as React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import img from "../images/photo_2021-06-13_08-31-26.jpg";
+import img from "../images/about_phot.webp";
 import Seo from "../components/seo";
 
 const AboutPage = () => {

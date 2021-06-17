@@ -10,8 +10,11 @@ function Seo({ description, lang, meta, title }) {
         site {
           siteMetadata {
             title
+            titleTemplate
+            url
             description
             author
+            image
           }
         }
       }
@@ -20,6 +23,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
+  const url = site.siteMetadata.url;
 
   return (
     <Helmet
@@ -39,11 +43,15 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: site.siteMetadata.description,
         },
         {
           property: `og:type`,
           content: `https://anothertechs.com`,
+        },
+        {
+          property: `og:image`,
+          content: site.siteMetadata.image,
         },
         {
           name: `twitter:card`,
@@ -61,6 +69,10 @@ function Seo({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `og:url`,
+          content: url,
+        },
       ].concat(meta)}
     />
   );
@@ -69,12 +81,14 @@ function Seo({ description, lang, meta, title }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
+  image: null,
   description: ``,
 };
 
 Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
+  image: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 };

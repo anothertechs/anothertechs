@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function Seo({ description, lang, meta, title }) {
+function Seo({ description, lang, meta, title, url }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -23,7 +23,7 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
-  const url = site.siteMetadata.url;
+  const url = url || site.siteMetadata.url;
 
   return (
     <Helmet
@@ -35,7 +35,7 @@ function Seo({ description, lang, meta, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: site.siteMetadata.description,
         },
         {
           property: `og:title`,
@@ -46,12 +46,16 @@ function Seo({ description, lang, meta, title }) {
           content: site.siteMetadata.image,
         },
         {
-          property: `og:description`,
+          name: `og:description`,
           content: site.siteMetadata.description,
         },
         {
+          property: `og:url`,
+          content: url,
+        },
+        {
           property: `og:type`,
-          content: `https://anothertechs.com`,
+          content: `website`,
         },
         {
           name: `twitter:card`,
@@ -62,16 +66,20 @@ function Seo({ description, lang, meta, title }) {
           content: site.siteMetadata?.author || ``,
         },
         {
+          property: `twitter:domain`,
+          content: site.siteMetadata.url,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
           name: `twitter:title`,
           content: title,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
-        },
-        {
-          name: `og:url`,
-          content: url,
         },
       ].concat(meta)}
     />

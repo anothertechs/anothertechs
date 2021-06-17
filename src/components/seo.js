@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function Seo({ description, lang, meta, title, siteurl }) {
+function Seo({ description, lang, meta, title, siteurl, siteImage }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -24,7 +24,11 @@ function Seo({ description, lang, meta, title, siteurl }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
-  const url = siteurl || site.siteMetadata.url;
+  const url = siteurl
+    ? `${site.siteMetadata.url}${siteurl}`
+    : site.siteMetadata.url;
+  const img = siteImage || site.siteMetadata.image;
+  console.log(url);
 
   return (
     <Helmet
@@ -48,11 +52,19 @@ function Seo({ description, lang, meta, title, siteurl }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: img,
+        },
+        {
+          property: `og:image:width`,
+          content: 800,
+        },
+        {
+          property: `og:image:height`,
+          content: 800,
         },
         {
           name: `og:description`,
-          content: site.siteMetadata.description,
+          content: metaDescription,
         },
         {
           property: `og:url`,
@@ -101,7 +113,11 @@ Seo.defaultProps = {
 Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
-  image: PropTypes.string,
+  image: PropTypes.shape({
+    src: PropTypes.string.isRequired,
+    height: PropTypes.number.isRequired,
+    width: PropTypes.number.isRequired,
+  }),
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 };

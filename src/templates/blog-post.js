@@ -13,13 +13,17 @@ export default function BlogPost({ data }) {
     mdx: { body },
   } = data;
   const title = data.mdx.frontmatter.title;
-  console.log(data);
   const src =
     data.mdx.frontmatter.thumbnail.childrenImageSharp[0].fluid.srcWebp;
 
   return (
     <div>
-      <Seo title={title} description={data.mdx.frontmatter.description} />
+      <Seo
+        title={title}
+        description={data.mdx.frontmatter.description}
+        siteurl={data.mdx.slug}
+        siteImage={src}
+      />
       <NavBar />
       <Container>
         <div className="mb-4 pb-2">
@@ -39,6 +43,7 @@ export default function BlogPost({ data }) {
 export const pageQuery = graphql`
   query PostBySlug($id: String!) {
     mdx(id: { eq: $id }) {
+      slug
       frontmatter {
         date(formatString: "YYYY MMMM Do")
         title

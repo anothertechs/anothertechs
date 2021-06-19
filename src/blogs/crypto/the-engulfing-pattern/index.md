@@ -32,14 +32,6 @@ A candle shows the opening and closing prices of each trading cycle. Your time r
 2. The second real body must engulf the previous real body.
 3. Second real body must be of the opposite color.
 
-## Bullish Engulfing Pattern
-
-![Bullish Engulfing Pattern](./bullish-engulfing.webp "source Dailyfx")
-
-The bearish engulfing pattern is the complete opposite of the bullish pattern. When it appears at the top of an uptrend, it provides the strongest signal and indicates an increase in selling pressure. As more sellers enter the market and lower prices further, a bearish engulfing candle usually triggers a reversal of an existing trend. This pattern includes two candles, the second candle fully covering the "body" of the prior green candle.
-
-**How to identify**: When a bearish pattern appears, the price movement should show a clear uptrend. The huge bearish candle indicates that sellers are actively entering the market, providing an initial bias for further bearish momentum. The trader will then confirm that the trend is reversing by using indicators, support and resistance levels, and the subsequent price action that occurs after this pattern.
-
 ## Bearish Engulfing Pattern
 
 ![Bearish Engulfing Pattern](./bearsih-engulfing.webp)
@@ -48,7 +40,15 @@ The bearish engulfing chart pattern is a technical pattern that indicates that t
 
 This pattern is the complete opposite of the bullish pattern. It provides the best signal when you see an uptrend and show an increase in selling pressure. Candles primarily lead to a trend reversal, as more and more sellers enter the market to further lower prices. This pattern consists of two candles, the second candle completely enveloping the previous green candle.
 
-** How to Identify **: When there is a bullish pattern, the price trend should show a clear downtrend. The huge bullish candle indicates that buyers are actively entering the market, providing an initial bias for further bullish momentum. The trader will then confirm that the trend is reversing by using indicators, key support and resistance levels, and subsequent price action after the engulfing pattern.
+**How to identify**: When a bearish pattern appears, the price movement should show a clear uptrend. The huge bearish candle indicates that sellers are actively entering the market, providing an initial bias for further bearish momentum. The trader will then confirm that the trend is reversing by using indicators, support and resistance levels, and the subsequent price action that occurs after this pattern.
+
+## Bullish Engulfing Pattern
+
+![Bullish Engulfing Pattern](./bullish-engulfing.webp "source Dailyfx")
+
+The bullish engulfing pattern is the complete opposite of the bearish pattern. When it appears at the down of an downtrend, it provides the strongest signal and indicates an increase in buying pressure. As more buyers enter the market and increase prices further, a bullish engulfing candle usually triggers a reversal of an existing trend. This pattern includes two candles, the second candle fully covering the "body" of the prior green candle.
+
+**How to Identify**: When there is a bullish pattern, the price trend should show a clear downtrend. The huge bullish candle indicates that buyers are actively entering the market, providing an initial bias for further bullish momentum. The trader will then confirm that the trend is reversing by using indicators, key support and resistance levels, and subsequent price action after the engulfing pattern.
 
 ## Example Charts
 

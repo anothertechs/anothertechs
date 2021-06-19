@@ -28,7 +28,7 @@ export default function BlogPost({ data }) {
       <Container>
         <div className="mb-4 pb-2">
           <div className="mb-3 pb-2">
-            <img src={src} alt={title} width={"100%"} />
+            <img src={src} alt={title} width={"100%"} height={"100%"} />
           </div>
           <div>
             <MDXRenderer>{body}</MDXRenderer>

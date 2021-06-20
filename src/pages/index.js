@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { Link, graphql } from "gatsby";
 import { Image, Container, Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
+import { indexpostimage } from "../components/index.module.css";
 
 const IndexPage = ({ data }) => {
   const { nodes: posts } = data.allMdx;
@@ -19,7 +20,7 @@ const IndexPage = ({ data }) => {
                 <Image
                   src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
                   alt={post.frontmatter.title}
-                  width={"100%"}
+                  className={indexpostimage}
                 />
               </Col>
               <Col

@@ -1,5 +1,5 @@
 ---
-title: Candle Stick Patter - Dark Cloud Cover
+title: Candle Stick Pattern - Dark Cloud Cover
 published: true
 date: 2021-06-20
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg

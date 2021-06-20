@@ -19,3 +19,35 @@
 .gatsby-resp-image-figcaption {
   text-align: center;
 }
+
+.blogpostimage {
+  width: 100%;
+  height: 800px;
+}
+
+@media (max-width: 320px) {
+  .blogpostimage {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .blogpostimage {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .blogpostimage {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (min-width: 1224px) {
+  .blogpostimage {
+    width: 100%;
+    height: 700px;
+  }
+}

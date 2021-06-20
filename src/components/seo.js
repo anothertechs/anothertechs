@@ -28,7 +28,6 @@ function Seo({ description, lang, meta, title, siteurl, siteImage }) {
     ? `${site.siteMetadata.url}${siteurl}`
     : site.siteMetadata.url;
   const img = siteImage || site.siteMetadata.image;
-  console.log(url);
 
   return (
     <Helmet

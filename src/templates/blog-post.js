@@ -6,6 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Container } from "react-bootstrap";
 import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+import { blogpostimage } from "../components/index.module.css";
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
@@ -28,7 +29,7 @@ export default function BlogPost({ data }) {
       <Container>
         <div className="mb-4 pb-2">
           <div className="mb-3 pb-2">
-            <img src={src} alt={title} width={"100%"} height={"100%"} />
+            <img src={src} alt={title} className={blogpostimage} />
           </div>
           <div>
             <MDXRenderer>{body}</MDXRenderer>

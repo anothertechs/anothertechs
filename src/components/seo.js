@@ -50,6 +50,10 @@ function Seo({ description, lang, meta, title, siteurl, siteImage }) {
           content: title,
         },
         {
+          property: `og:site_name`,
+          content: defaultTitle,
+        },
+        {
           property: `og:image`,
           content: img,
         },
@@ -96,6 +100,10 @@ function Seo({ description, lang, meta, title, siteurl, siteImage }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: img,
         },
       ].concat(meta)}
     />

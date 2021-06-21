@@ -25,7 +25,7 @@ function Seo({ description, lang, meta, title, siteurl, siteImage }) {
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata?.title;
   const url = siteurl
-    ? `${site.siteMetadata.url}${siteurl}`
+    ? `${site.siteMetadata.url}${siteurl}/`
     : site.siteMetadata.url;
   const img = siteImage || site.siteMetadata.image;
 
@@ -39,7 +39,7 @@ function Seo({ description, lang, meta, title, siteurl, siteImage }) {
       meta={[
         {
           name: `description`,
-          content: site.siteMetadata.description,
+          content: metaDescription,
         },
         {
           name: `keywords`,

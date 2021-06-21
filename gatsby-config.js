@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Another Techs",
     url: "https://anothertechs.com/",
+    siteUrl: "https://anothertechs.com",
     titleTemplate: "%s · Wisdom for nerds",
     author: "Hatim",
     keywords: [
@@ -78,6 +79,7 @@ module.exports = {
       "Articles/Blogs about many things, including, but not limited to linx,bash,commands,computer,ardino,chips,software,github, programming languages, Framework, Machine Learning, AI,cryptocurrency,bitcoin,altcoin, Javascript,C/C++,python,modules,react,gatsby,numpy,tensorflow,flask,angular,reviews,pytorch,libraries,crypto,android,ios, ,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
   },
   plugins: [
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     {

@@ -44,6 +44,7 @@ export default function BlogPost({ data }) {
 export const pageQuery = graphql`
   query PostBySlug($id: String!) {
     mdx(id: { eq: $id }) {
+      id
       slug
       frontmatter {
         date(formatString: "YYYY MMMM Do")

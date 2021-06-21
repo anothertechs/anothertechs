@@ -56,22 +56,31 @@ function Footer() {
             <Col xs={12} lg={4}>
               <div className="d-flex justify-content-center align-items-center">
                 <div className="m-3 p-2">
-                  <Link to="#" className={navlink}>
+                  <Link
+                    to="https://www.facebook.com/Another-Techs-102190855452182"
+                    className={navlink}
+                  >
                     <Facebook size={25} />
                   </Link>
                 </div>
                 <div className="m-3 p-2">
-                  <Link to="#" className={navlink}>
+                  <Link
+                    to="https://www.instagram.com/anothertechs/"
+                    className={navlink}
+                  >
                     <Instagram size={25} />
                   </Link>
                 </div>
                 <div className="m-3 p-2">
-                  <Link to="#" className={navlink}>
+                  <Link
+                    to="https://twitter.com/anothertechs"
+                    className={navlink}
+                  >
                     <Twitter size={25} />
                   </Link>
                 </div>
                 <div className="m-3 p-2">
-                  <Link to="#" className={navlink}>
+                  <Link to="https://github.com/Master52" className={navlink}>
                     <Github size={25} />
                   </Link>
                 </div>

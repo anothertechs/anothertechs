@@ -9,7 +9,7 @@ published: true
 
 React Core Team recently released an alpha version of React18. This version pays more attention to user experience and internal architecture changes, including adaptive concurrency functions,it gives you more control over DOM rendering events.
 
-##### Installation
+## Installation
 
 ```bash
 npm install react@alpha
@@ -57,7 +57,7 @@ If you don't use these two functions, you don't have to worry about their change
 
 By switching to the new root API, you will automatically get the new out-of-the-box enhancements that React 18 offers.
 
-## Suspense
+### Suspense
 
 Suspense updates are all to improve server-side rendering. One of the main problems we face in the server-side rendering process is that not all data is sent to the user at once. Send HTML first, then CSS, while JS is still rendered on the server. This is also called hydration time. Buttons are great, but until event handlers are attached to them, they are just visual effects.
 
@@ -75,7 +75,7 @@ For using `Suspense` all you have to do is warp your components in an `<Suspense
 
 In the above snippet, React will show `<Loading/>` component at first and then replace it with `<Component>` when the data gets resolved.
 
-## Transition API
+### Transition API
 
 This is a new API introduced in this version, which helps to keep the current web page responsive and allows a large number of non-blocking UI updates at the same time.
 
@@ -98,7 +98,7 @@ startTransition(() => {
 });
 ```
 
-## Server Side Rendering Imporvements
+### Server Side Rendering Imporvements
 
 The server-side rendering has undergone an architectural overhaul in this release, including improvements to the first loading screen time.
 In the normal version (up to React 17), SSR must load the entire page to start reloading the page.
@@ -107,7 +107,7 @@ In the normal version (up to React 17), SSR must load the entire page to start r
 
 This is now called selective hydration. Assuming we have 5-8 different components on the screen, once the code loads and does not block the rest of the page, packaging a component will now start to hydrate a very specific component. By adopting this strategy, the most important part/component of the page can first become interactive (under extremely slow connections), while other components continue to remain hydrated to provide a good user experience.
 
-## Strict Effects coming to Strict Mode
+### Strict Effects coming to Strict Mode
 
 React 18 will now be released with strict effects mode. Like strict mode, it will be used for developing builds and improving DX.
 

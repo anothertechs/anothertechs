@@ -7,7 +7,7 @@ published: true
 date: 2021-06-16
 thumbnail: ../../../../images/thumbnail-windows-package-manager.png
 ---
-
+# Winget Package Manger for Windows
 If you have ever used any time today, then you will be familiar with the
 idea of the package manager. When I use it to switch to
 , I might miss that package manager very much.

@@ -1,5 +1,5 @@
 ---
-title: Trading Pattern - Hammer Candlestick
+title: Candlestick Pattern - Hammer Candlestick
 published: true
 date: 2021-06-16
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
@@ -10,7 +10,7 @@ reversal patterns that traders should pay attention to. The hammer is considered
 pattern generally forms near the bottom of a downtrend, indicating that the market is trying to define the lower"
 ---
 
-# Hammer Candlestick
+# Hammer Candlestick pattern for stock/crypto trading
 
 ## What is a hammer candlestick?
 
@@ -49,7 +49,7 @@ were close to the opening price. Therefore, the bearish push to the downside was
 
 ![Hammer Signal](../../../images/hammer2.webp "Image source nirmalbang")
 
-### Inverted Hammer
+## Inverted Hammer
 
 ![Inverted Hammer Signal](../../../images/hammer3.webp "Image source nirmalbang")
 
@@ -69,14 +69,14 @@ hammer pattern reversal allowed traders to know if the price would rise or fall.
 
 ![Inverted Hammer Formation](../../../images/hammer4.webp "Image source nirmalbang")
 
-### Limitation
+## Limitation
 
 There is no guarantee that the price will continue to rise
 after the candle is confirmed. The long shadow hammer and the powerful
 confirmation candle can push the price higher in two periods.
 This may not be an ideal buy point, because the stop loss may be far from the entry point, putting traders at risk, and does not justify the potential return.
 
-### Formation Chart Example
+## Formation Chart Example
 
 ![ Hammer Fomation 1](../../../images/hanging_man_trade_strategy-5bfd934f46e0fb00518666ed.webp "image source investopedia")
 ![ Hammer Fomation 2](../../../images/hanging_man_candlestick_chart_example-5bfd9351c9e77c0051c1a728.webp "image source investopedia")

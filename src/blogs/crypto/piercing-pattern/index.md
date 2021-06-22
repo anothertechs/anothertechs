@@ -38,7 +38,7 @@ The piercing pattern is similar to the bullish [engulfing](https://anothertechs.
 
 After the strong downtrend took effect, the sentiment was bearish. The fear became more prominent and the price gap narrowed. The bears may even drive prices down even further, but before the end of the time period, the bulls intervene and reverse the prices drastically. The price closed near the high of the time period, a move that almost offset the price drop the time period before. Now, this worries the bears. More purchases in the next time period confirmed this move.
 
-### Example chart for Piercing Pattern
+## Example chart for Piercing Pattern
 
 ![Piercing Pattern Example 1](./piercing-pattern-exmaple-2.webp "source nothardtrading")
 ![Piercing Pattern Example 2](./piercing-pattern-exmaple-chart.webp "source investobull")

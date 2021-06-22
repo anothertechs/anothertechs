@@ -3,12 +3,7 @@ title: Top linux distros to try in 2021
 published: true
 date: 2021-06-16
 thumbnail: ../../../images/custom-linux-distro.jpg
-description: "Looking for a new Linux experience? Get to know the best Linux
-distribution for all user levels, from beginners to experts.
-
-As a free and open-source operating system, Linux continues to spread its wings,
-attracts the attention of novices and experienced people.
-"
+description: "Looking for a new Linux experience? Get to know the best Linuxdistribution for all user levels, from beginners to experts.As a free and open-source operating system, Linux continues to spread its wings,attracts the attention of novices and experienced people."
 ---
 
 # Top linux distros to try in 2021
@@ -22,7 +17,7 @@ attracts the attention of novices and experienced people.
 
 Check out some of these desks and set up a desk that suits your interests and abilities.
 
-### 1. Ubuntu
+## 1. Ubuntu
 
 ![Ubuntu](../../../images/ubuntu.webp "source wikipedia")
 
@@ -39,7 +34,7 @@ ready-to-use applications such as Firefox, LibreOffice, music players, and video
 
 [Download Ubuntu](https://ubuntu.com/download/desktop)
 
-### 2. Linux Mint
+## 2. Linux Mint
 
 ![Linux Mint](../../../images/linuxmint.webp)
 Looking for a lightweight Linux distribution? If so, dial
@@ -57,7 +52,7 @@ modified taskbar and high-resolution background images.
 
 [Download Linux Mint](https://linuxmint.com/download.php)
 
-### 3. Elementory OS
+## 3. Elementory OS
 
 ![Elementory](../../../images/elementoryos.webp "source wikipedia")
 
@@ -73,7 +68,7 @@ Pantheon desktop environment.
 
 [Download Elementory OS](https://elementary.io/)
 
-### 4. Solus
+## 4. Solus
 
 ![Solus](../../../images/budgie.webp)
 
@@ -89,7 +84,7 @@ repositories to enhance your long-term experience.
 
 [Download Solus](https://getsol.us/download/)
 
-### 5. OpenSUSE
+## 5. OpenSUSE
 
 ![Open Suse](../../../images/opensuse.webp "source wikipedia")
 
@@ -105,7 +100,7 @@ versions generally lack these features.
 
 [Download OpenSUSE](https://get.opensuse.org/)
 
-### 6. FEDORA.
+## 6. FEDORA.
 
 Fedora is often mentioned as one of the most popular Linux distributions and is also for good reason. Like OpenSUSE,
 is also an open-source operating system, free to use, reliable, and easy to use.
@@ -116,7 +111,7 @@ servers, and the Internet of Things. Advanced users can choose to customize the 
 However, unlike some other distributions, only a limited number of pre-installed
 applications are available in this release.
 
-### 7. Debian
+## 7. Debian
 
 ![Debian](../../../images/debian.webp "source wikipedia")
 

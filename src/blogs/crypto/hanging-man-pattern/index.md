@@ -7,7 +7,7 @@ category: crypto
 description: "Hanging Man is a bearish reversal candlestick pattern with a longer lower shadow and smaller entities.This candlestick pattern appears at the end of an uptrend, indicating further weakness in price movements.It was formed when the bulls raised prices and are now unable to apply further pressure.There is no upper shadow and the lower shadow is twice the length of its body.This model gives traders the opportunity to close a buy position and enter a short position"
 ---
 
-# Hanging Man Candlestick Pattern
+# Hanging Man Candlestick Pattern for Stock/Crypto Trading
 
 ## What is it?
 
@@ -46,7 +46,7 @@ For some traders, the confirmation candle the next day, coupled with the fact th
 
 It is important to reiterate that hanging man patterns are not a sign of potential shorting; Other indicators (such as trend line breakouts or confirmation candles) should be used to determine to sell signals.
 
-### Formation Examples
+## Formation Examples
 
 ![Hanging Man Chart 1](../../../images/hanging-man-chart-1.webp "source theforexgeek")
 

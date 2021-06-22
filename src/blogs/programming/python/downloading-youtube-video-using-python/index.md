@@ -1,5 +1,5 @@
 ---
-title: Download YouTube videos using Python
+title: Downloading YouTube videos using Python
 published: true
 date: 2021-06-19
 description: "Downloading youtube video using python. Here we will be using pytube module for downaloding youtube videos.
@@ -20,7 +20,7 @@ thumbnail: ./youtube-python-download.webp
 	pip install pytube
 ```
 
-### Downloading Youtube video
+## Downloading Youtube video
 
 After installing pytube, return to the text editor, open the Python file and import pytube:
 
@@ -103,8 +103,8 @@ def print_stream(video):
 def get_video_by_itag(ext_video,itag_num):
 	return ext_video.get_by_itag(itag_num)
 
-def downlaod_stream(stream,file_name,path):
-	stream.downlaod(filename = file_name,output_path=path)
+def download_stream(stream,file_name,path):
+	stream.download(filename = file_name,output_path=path)
 
 if __name__ == '__main__':
 	url = 'https://www.youtube.com/watch?v=example'
@@ -113,6 +113,6 @@ if __name__ == '__main__':
 	ext_video = video.streams.filter(file_extension='your_extension')
 	print(ext_video)
 	video_stream = get_video_by_itag(ext_video,your_tab_num_here)
-	downlaod_stream(video_stream,"First Youtube video","./")
+	download_stream(video_stream,"First Youtube video","./")
 
 ```

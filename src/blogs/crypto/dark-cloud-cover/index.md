@@ -6,7 +6,7 @@ thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 description: "Dark cloud cover refers to the candlestick pattern in technical analysis, which is a bearish reversal signal. It can be observed when the down candle opens above the closing price of the previous up candle and continues to close below the midpoint of the up candle on the candlestick chart."
 ---
 
-# Dark Cloud Cover Candle Stick Pattern
+# Dark Cloud Cover Candlestick Pattern for Stock/Crypto Trading
 
 ## What it is?
 

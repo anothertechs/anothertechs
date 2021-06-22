@@ -11,7 +11,7 @@ function Seo({ description, lang, meta, title, siteurl, siteImage }) {
           siteMetadata {
             title
             titleTemplate
-            url
+            siteUrl
             description
             author
             keywords

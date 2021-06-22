@@ -3,7 +3,7 @@ title: Candle Stick Pattern - Piercing Pattern
 date: 2021-06-22
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 published: true
-description: "Identifying and trading piercing pattern"
+description: "The piercing line pattern is considered a bullish reversal candlestick pattern that is at the bottom of a downtrend. When bulls enter the stock/crypto market and prices rise, it usually indicates a change in trend."
 category: crypto
 ---
 
@@ -32,7 +32,7 @@ The piercing pattern is similar to the bullish [engulfing](https://anothertechs.
 
 3. The opening price of the next time period is lower than the price of the previous time period.
 
-4. The white or green candles close to more than half of the black or red candles. 
+4. The white or green candles close to more than half of the black or red candles.
 
 ## What does Piercing Pattern tell Us
 

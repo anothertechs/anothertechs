@@ -30,7 +30,7 @@ const IndexPage = ({ data }) => {
               >
                 <div className="mt-4">
                   <Link className="link-dark" to={`${post.fields.slug}`}>
-                    <h4>{post.frontmatter.title}</h4>
+                    <h1>{post.frontmatter.title}</h1>
                   </Link>
                   <p className="mt-3 pt-1">{post.excerpt}</p>
                 </div>

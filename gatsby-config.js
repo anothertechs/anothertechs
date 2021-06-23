@@ -73,12 +73,20 @@ module.exports = {
       "when",
       "time",
     ],
-    image: "./src/images/icon.webp",
+    image: "./src/images/icon.png",
     description:
       "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
   },
   plugins: [
     "gatsby-plugin-image",
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://anothertechs.com`,
+        sitemap: `https://anothertechs.com/sitemap.xml`,
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-advanced-sitemap`,

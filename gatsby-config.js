@@ -81,19 +81,6 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-plugin-advanced-sitemap`,
-      options: {
-        output: "/sitemap.xml",
-        entryLimit: 100,
-        exclude: [
-          `/dev-404-page`,
-          `/404`,
-          `/404.html`,
-          `/offline-plugin-app-shell-fallback`,
-        ],
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: ["G-WY6TT5EQVC"],

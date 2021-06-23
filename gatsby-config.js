@@ -80,6 +80,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://anothertechs.com`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         host: `https://anothertechs.com`,
@@ -132,7 +138,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: `${__dirname}/src/images/icon.png`,
       },
     },
     {
@@ -169,7 +175,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "src/images/",
+        path: `${__dirname}/src/images/`,
       },
       __key: "images",
     },
@@ -177,15 +183,15 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "src/pages/",
+        path: `${__dirname}/src/pages/`,
       },
       __key: "pages",
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: "blogs",
-        path: "src/blogs/",
+        path: `${__dirname}/src/blogs/`,
       },
       __key: "blogs",
     },

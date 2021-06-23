@@ -78,9 +78,21 @@ module.exports = {
       "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
   },
   plugins: [
-    "gatsby-plugin-sitemap",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+        output: "/sitemap.xml",
+        entryLimit: 100,
+        exclude: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/offline-plugin-app-shell-fallback`,
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

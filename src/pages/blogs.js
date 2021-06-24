@@ -11,9 +11,25 @@ import Seo from "../components/seo";
 //const BlogIndex = ({ data, pageContext }) => {
 const BlogIndex = ({ data }) => {
   const { nodes: posts } = data.allMdx;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Another Techs",
+    alternateName: "Another Techs Blogs",
+    description:
+      "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
+    url: "https://anothertechs.com/blogs",
+    logo: "https://anothertechs.com/static/about_phot-3af4d7af10290361c408910909a8fcc2.webp",
+    sameAs: [
+      "https://www.facebook.com/Another-Techs-102190855452182",
+      "https://twitter.com/home",
+      "https://www.instagram.com/anothertechs/",
+      "https://github.com/anothertechs",
+    ],
+  };
   return (
     <div>
-      <Seo title="Blogs" />
+      <Seo title="Blogs" schemaMarkup={schema} />
       <NavBar />
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">

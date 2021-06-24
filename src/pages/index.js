@@ -8,9 +8,25 @@ import { indexpostimage } from "../components/index.module.css";
 
 const IndexPage = ({ data }) => {
   const { nodes: posts } = data.allMdx;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Another Techs",
+    alternateName: "Another Techs",
+    description:
+      "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
+    url: "https://anothertechs.com",
+    logo: "https://anothertechs.com/static/about_phot-3af4d7af10290361c408910909a8fcc2.webp",
+    sameAs: [
+      "https://www.facebook.com/Another-Techs-102190855452182",
+      "https://twitter.com/home",
+      "https://www.instagram.com/anothertechs/",
+      "https://github.com/anothertechs",
+    ],
+  };
   return (
     <main>
-      <Seo title="Home" />
+      <Seo title="Home" schemaMarkup={schema} />
       <NavBar />
       <Container>
         {posts.map((post, index) => (

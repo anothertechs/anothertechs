@@ -19,7 +19,7 @@ export default function BlogPost({ data }) {
   const month = date.toLocaleString("default", { month: "short" });
   const year = date.getFullYear();
   var desc =
-    "Updated " + month + "," + year + ":" + data.mdx.frontmatter.description;
+    "Updated " + month + "," + year + ": " + data.mdx.frontmatter.description;
   const src =
     data.mdx.frontmatter.thumbnail.childrenImageSharp[0].fluid.srcWebp;
 

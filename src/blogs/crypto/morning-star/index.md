@@ -3,7 +3,7 @@ title: Understanding Morning Star Candlestick Pattern
 published: true
 date: 2021-06-24
 category: crypto
-description: "For a long time, investors have been carefully studying the candlestick patterns that appear in the price trajectory. This is to predict the future. These areconsidered price signals in technical analysis.One of the fascinating set of **reversal** pattern analysis is morning star"
+description: "For a long time, investors have been carefully studying the candlestick patterns.This is to predict the future of price. One of the fascinating set of reversal pattern analysis is morning star"
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 keywords: morning,star,investing,investors,indicator,reversal,pattern,candlestick,candle,analysis,trading,reversal,bullish,examples,real life,reading,formation,technical analysis,crypto,stock,chart,analyst,trade,signal,meaning,understanding,traders,predict,market,price
 ---

@@ -5,7 +5,7 @@ date: 2021-06-24
 category: crypto
 description: "For a long time, investors have been carefully studying the candlestick patterns.This is to predict the future of price. One of the fascinating set of reversal pattern analysis is morning star"
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-keywords: morning,star,investing,investors,indicator,reversal,pattern,candlestick,candle,analysis,trading,reversal,bullish,examples,real life,reading,formation,technical analysis,crypto,stock,chart,analyst,trade,signal,meaning,understanding,traders,predict,market,price
+keywords: morning,star,investing,investors,indicator,reversal,pattern,candlestick,candle,analysis,trading,reversal,bullish,examples,real,formation,technical analysis,crypto,stock,chart,analyst,trade,signal,understanding,traders,predict,market,price
 ---
 
 # Understanding Morning Start Candlestick Pattern
@@ -30,7 +30,7 @@ Morningstar is a visual pattern composed of three candles, and technical analyst
 
 ## What does morning star analysis tells us?
 
-The star's small real body represent a stalement between the bulls and bear. The bear are obviously in charge in a brisky descending market. With the emergence of a morning star in such an environment,it is a signal of a shift from the **seller being in control to a deadlock between the selling and buying forces**.This dealock may have occured either because of a diminution in the selling forces or an increase in the buying pressure. Either way, the morning star analysis tells us the rally's prior power has slightly dissipated. This means the market will move upwards.
+The star's small real body represent a stalement between the bulls and bear. The bear are obviously in charge in a brisky descending market(crypto,stock,foreing exchange). With the emergence of a morning star in such an environment,it is a signal of a shift from the **seller being in control to a deadlock between the selling and buying forces**.This dealock may have occured either because of a diminution in the selling forces or an increase in the buying pressure. Either way, the morning star analysis tells us the rally's prior power has slightly dissipated. This means the market will move upwards.
 
 ## Using Morning Star Indicator in Trading
 

@@ -14,6 +14,12 @@ export default function BlogPost({ data }) {
     mdx: { body },
   } = data;
   const title = data.mdx.frontmatter.title;
+  const keywords = data.mdx.frontmatter.keywords;
+  var date = new Date();
+  const month = date.toLocaleString("default", { month: "short" });
+  const year = date.getFullYear();
+  var desc =
+    "Updated " + month + "," + year + ":" + data.mdx.frontmatter.description;
   const src =
     data.mdx.frontmatter.thumbnail.childrenImageSharp[0].fluid.srcWebp;
 
@@ -21,9 +27,10 @@ export default function BlogPost({ data }) {
     <div>
       <Seo
         title={title}
-        description={data.mdx.frontmatter.description}
+        description={desc}
         siteurl={data.mdx.slug}
         siteImage={src}
+        keywords={keywords}
       />
       <NavBar />
       <Container>
@@ -50,6 +57,7 @@ export const pageQuery = graphql`
         date(formatString: "YYYY MMMM Do")
         title
         description
+        keywords
         thumbnail {
           childrenImageSharp {
             fluid {

@@ -14,7 +14,7 @@ Package Manager is a set of integrated
 services that make it easy to install, update, remove, and configure
 packages/programs on computers.
 
-Especially with regard to the [linux](https://en.wikipedia.org/wiki/Linux) operating system, you can choose
+Especially with regard to the linux operating system, you can choose
 from a wide range of package managers, such as Pacman(Arch/Manjaro), apt(Ubuntu/Debian), yum(Red Hat/Cent Os),dnf(Fedora). Each of these package managers has different
 features that can distinguish them from the others.
 

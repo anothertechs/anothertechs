@@ -25,7 +25,7 @@ When the opening price, the highest price, and the closing price are approximate
 
 ![Hanging Man formed](../../../images/hanging-man.webp "source investopidia")
 
-## What does Red and Green Hanging Man tell us?
+### What does Red and Green Hanging Man tell us?
 
 When the high and open prices are equal, a bearish **red** hanging candle forms. This pattern is considered a stronger bearish signal than when the high and close prices are the same, forming a **green** hanging man.
 

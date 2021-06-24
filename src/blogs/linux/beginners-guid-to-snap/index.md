@@ -3,18 +3,19 @@ title: Beginner Guid to Snap and Snap Store
 thumbnail: ../../../images/snapcraft.webp
 date: 2021-06-22
 published: true
-description: "Snap is a cross-platform packaging and deployment system developed by Ubuntu manufacturer Canonical for the Linux platform. It is compatible with most major Linux distributions, including Ubuntu, Debian, Arch Linux,Fedora, CentOS, and Manjaro."
+description: "Snap is a cross-platform packaging and deployment system developed by  Canonical for the Linux. It is compatible with most major Linux distributions, including Ubuntu,Linux mint, Debian, Arch Linux,Fedora, CentOS, and Manjaro."
 category: linux
+keywords: snap,snapd,store,snap store,ubuntu,linux,manjaro,arch, arch linux,download,install,package,manager,aur,deb,snapd,snapcraft,snaps,installing,linux mint,distros,command,dependencie,remove,uninstall,app,apps
 ---
 
-# Beginner guide to Snap and Snap Store
+# Beginner guide to Snapcraft,Snap,Snapd and Snap Store
 
 Package Manager is a set of integrated
 services that make it easy to install, update, remove, and configure
 packages/programs on computers.
 
-Especially with regard to the Linux operating system, you can choose
-from a wide range of package managers, such as Pacman, apt, yum,dnf. Each of these package managers has different
+Especially with regard to the [linux](https://en.wikipedia.org/wiki/Linux) operating system, you can choose
+from a wide range of package managers, such as Pacman(Arch/Manjaro), apt(Ubuntu/Debian), yum(Red Hat/Cent Os),dnf(Fedora). Each of these package managers has different
 features that can distinguish them from the others.
 
 However, a relatively new package manager, Snap, has become a
@@ -24,7 +25,7 @@ advantages and disadvantages, and how to install and use it on Linux.
 ## What is a Snap?
 
 Snap is a cross-platform packaging and deployment system developed by Ubuntu
-manufacturer Canonical for the Linux platform. It is compatible with most major Linux
+manufacturer [Canonical](https://canonical.com/) for the Linux platform. It is compatible with most major Linux
 distributions, including Ubuntu, Debian, Arch Linux,
 Fedora, CentOS, and Manjaro.
 
@@ -34,8 +35,8 @@ Like any other package manager, Snap also includes a package called
 snaps. Unlike the traditional package manager counterparts, these packages have no dependencies and are easy to install.
 
 The snaps end with the extension **.snap**, essentially a compressed
-file system using the SquashFS format, contains the entire
-package module, including the application, its dependent libraries, and additional
+file system using the [SquashFS](https://www.kernel.org/doc/html/latest/filesystems/squashfs.html) format, contains the entire
+package module, including the app, its dependent libraries, and additional
 metadata.
 
 ### What is Snapd?
@@ -48,7 +49,7 @@ happens in the background.
 
 Snap is located in the Snap Store, and you can browse and download them like other
 package managers. In addition, you can also use the
-option to publish your own instant packages directly to the Snap store, which is
+option to publish your own instant packages directly to the [Snap store](https://snapcraft.io/store), which is
 something that traditional package managers cannot achieve.
 
 In addition to these elements, Snap has another basic component
@@ -57,9 +58,9 @@ of the installation snaps and tracking updates on its system. Therefore, when yo
 , you can specify which
 channel you want to continue to use for each of these operations.
 
-## Installing Snap in Linux
+## Command for installing Snap in Linux
 
-On Debian/Ubuntu based distros:
+On Debian/Ubuntu/Linux Mint based distros:
 
 ```bash
 sudo apt update && sudo apt install snapd
@@ -92,11 +93,11 @@ sudo systemctl start snapd.socket # To start snapd services
 sudo systemctl enable snapd.socket # To start services at boot
 ```
 
-## Common usage of Snap
+## Common command of Snap
 
 ### Finding in Snap
 
-To find packages accross different category:
+To find app accross different category:
 
 ```bash
 snap find category_name
@@ -109,7 +110,7 @@ snap find development
 ### Installing a snap Package
 
 ```bash
-sudo snap install package_name
+sudo snap install app
 
 #For example
 sudo snap install steam
@@ -117,13 +118,13 @@ sudo snap install steam
 
 After installation, you can find the program in the "Applications" menu of the Linux distribution. Then you can run it directly from the menu or enter its name through the terminal.
 
-### List all the snap packages
+### List all the snap apps
 
 ```bash
 snap list
 ```
 
-### To Know the version information of Snap packages
+### To Know the version information of Snap app
 
 ```bash
 snap list package_name
@@ -132,7 +133,7 @@ snap list package_name
 snap list steam
 ```
 
-### Updating snap packages
+### Updating snap apps
 
 ```bash
 snap refresh
@@ -141,13 +142,13 @@ snap refresh
 To update a particular package
 
 ```bash
-snap refresh package_name
+snap refresh app
 
 #For Example
 snap refresh steam
 ```
 
-### Removing Snap packages
+### Removing Snap app
 
 ```bash
 snap remove package_name

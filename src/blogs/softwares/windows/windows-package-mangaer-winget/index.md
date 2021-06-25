@@ -6,21 +6,24 @@ author: Hatim
 published: true
 date: 2021-06-16
 thumbnail: ../../../../images/thumbnail-windows-package-manager.png
+keywords: windows,window 10,winget,install,download,window 7,install,installer,list,lists,package,manager,packages,server,repository,command,commands,github,powerskkjj/chell,command prompt,chocolatey,find,software,app,application,batch
 ---
+
 # Winget Package Manger for Windows
+
 If you have ever used any time today, then you will be familiar with the
 idea of the package manager. When I use it to switch to
 , I might miss that package manager very much.
 
 It's been on Windows 10 for some time, like the excellent third-party solution
-Chocolatey. But now, Microsoft has its own Windows Package Manager called.
+[Chocolatey](https://chocolatey.org/). But now, Microsoft has its own Windows Package Manager called.
 
 After being previewed for a whole year, it recently reached v1.0. It has not yet come out with Windows, but it is ready and does not require batches to install it on your computer. This is what you need to know.
 
 ## What is the Windows Package Manager?
 
 Windows Package Manager is a command-line tool used to manage
-software, which can be used in Windows 10 via command prompt or. The
+software, which can be used in Windows 10 via command prompt or powershell. The
 implementation is very similar to the Linux package manager.
 
 Windows Package Manager itself does not host any packages. Instead,
@@ -48,7 +51,7 @@ insider build, then you should be happy. You can verify this by typing
 
 For beginners, there is now a more simplified way to install
 Windows Package Manager. There is a direct link
-in the v1.0, but you can also go directly and get it from there. In any case, Github is worth, because there is a lot of useful information there.
+in the [winget](https://github.com/microsoft/winget-cli) v1.0, but you can also go directly and get it from there. In any case, Github is worth, because there is a lot of useful information there.
 
 Get the latest version from the release page by downloading the
 `.appxbundle` file. After downloading, just open it like any Windows

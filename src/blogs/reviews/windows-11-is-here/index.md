@@ -1,7 +1,7 @@
 ---
 title: Window 11 - All new Feature you need to know about
 date: 2021-06-25
-description: windows11
+description: "Microsoft has redesigned the UI to increase users' experience of windows 11.From the new windows home button and taskbar to every sound, font, and icon, everything is beautifully designed to keep you in check and give you a sense of calm and relaxation."
 published: true
 category: review
 thumbnail: ./windows-11.jpg

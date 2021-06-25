@@ -36,7 +36,9 @@ function Seo({
   const url = siteurl
     ? `${site.siteMetadata.url}${siteurl}/`
     : site.siteMetadata.url;
-  const img = siteImage || site.siteMetadata.image;
+  const img =
+    `${site.siteMetadata.url}${siteImage}` ||
+    `${site.siteMetadata.url}${site.siteMetadata.image}`;
   const keyword = keywords ? keywords : site.siteMetadata.keywords.join(",");
 
   return (
@@ -69,11 +71,11 @@ function Seo({
         },
         {
           property: `og:image:width`,
-          content: 800,
+          content: 600,
         },
         {
           property: `og:image:height`,
-          content: 800,
+          content: 500,
         },
         {
           name: `og:description`,
@@ -81,6 +83,10 @@ function Seo({
         },
         {
           property: `og:url`,
+          content: url,
+        },
+        {
+          property: `og:url:secure_url`,
           content: url,
         },
         {

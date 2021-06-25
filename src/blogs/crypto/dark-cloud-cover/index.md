@@ -3,7 +3,9 @@ title: Candle Stick Pattern - Dark Cloud Cover
 published: true
 date: 2021-06-20
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-description: "Dark cloud cover refers to the candlestick pattern in technical analysis, which is a bearish reversal signal. It can be observed when the down candle opens above the closing price of the previous up candle and continues to close below the midpoint of the up candle on the candlestick chart."
+category:crypto
+description: "Dark cloud cover refers to the candlestick pattern in technical analysis, which is a bearish reversal signal. It is observed when the down candle opens above the closing price of the previous up candle and continues to close below the midpoint of the up candle on the candlestick chart."
+keywords:candlestick,candle,candles,stock,crypt,bullish,bulls,bearish,trade,trading,pattern,dark,cloud,clouds,cover,chart,example,technical,analysis,forex,futures,price,market,meaning,trend,uptrend,invest
 ---
 
 # Dark Cloud Cover Candlestick Pattern for Stock/Crypto Trading
@@ -14,9 +16,9 @@ description: "Dark cloud cover refers to the candlestick pattern in technical an
 
 A dark cloud cover is a **bearish reversal** candlestick pattern in which a falling candle (usually black or red) has an opening price higher than the closing price of the previous rising candle (usually white or green), and then the closing price is lower than the middle of the rising candle. point.
 
-This pattern is important because it shows the **momentum change from up to down**. The pattern is created by an upward candle and a downward candle. Traders expect that the price will continue to fall on the next (third) candle.
+This pattern is important because it shows the **momentum change from up to down**. The pattern is created by an upward candle and a downward candle. Traders analysis that the price will continue to fall on the next (third) candle.
 
-## What Does it tell us?
+## What Does it means?
 
 Each candle has its own meaning and tells a unique story about the dynamics of the market.
 

@@ -37,8 +37,8 @@ function Seo({
     ? `${site.siteMetadata.url}${siteurl}/`
     : site.siteMetadata.url;
   const img =
-    `${site.siteMetadata.url}${siteImage}` ||
-    `${site.siteMetadata.url}${site.siteMetadata.image}`;
+    `${site.siteMetadata.siteUrl}${siteImage}` ||
+    `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`;
   const keyword = keywords ? keywords : site.siteMetadata.keywords.join(",");
 
   return (

@@ -73,7 +73,7 @@ module.exports = {
       "when",
       "time",
     ],
-    image: "./src/images/icon.png",
+    image: `${__dirname}/src/images/icon.png`,
     description:
       "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
   },

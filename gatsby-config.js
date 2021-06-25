@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Another Techs",
     siteUrl: "https://anothertechs.com",
-    titleTemplate: "%s · Wisdom for nerds",
+    titleTemplate: "%s · Another Techs",
     author: "Hatim",
     keywords: [
       "Blogs",

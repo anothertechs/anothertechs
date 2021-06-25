@@ -14,7 +14,6 @@ distribution for all user levels, from beginners to experts.
 As a free and open-source operating system, Linux continues to spread its wings,
 attracts the attention of novices and experienced people.
 
-
 Check out some of these desks and set up a desk that suits your interests and abilities.
 
 ## 1. Ubuntu

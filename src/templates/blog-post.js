@@ -23,6 +23,31 @@ export default function BlogPost({ data }) {
   const src =
     data.mdx.frontmatter.thumbnail.childrenImageSharp[0].fluid.srcWebp;
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://anothertechs.com${data.mdx.slug}/`,
+    },
+    headline: title,
+    description: desc,
+    image: `https://anothertechs.com${src}`,
+    author: {
+      "@type": "Person",
+      name: "Hatim Master",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://anothertechs.com/static/about_phot-3af4d7af10290361c408910909a8fcc2.webp",
+      },
+    },
+    datePublished: date,
+  };
+
   return (
     <div>
       <Seo
@@ -31,6 +56,7 @@ export default function BlogPost({ data }) {
         siteurl={data.mdx.slug}
         siteImage={src}
         keywords={keywords}
+        schemaMarkup={schema}
       />
       <NavBar />
       <Container>

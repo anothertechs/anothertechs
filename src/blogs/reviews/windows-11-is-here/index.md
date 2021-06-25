@@ -40,13 +40,13 @@ DirectX 12 Ultimate, which can achieve stunning, immersive graphics at high fram
 
 ## New and faster widgets
 
-![Window Widget](./windows-widget.webp)
+![Window Widget](./window-widget.webp)
 
 Windows 11 brings you closer to the news and information that matters to you through a new and faster widget - a new personalized feed, backed by world-class browser performance provided by AI and Microsoft Edge. We often use mobile phones to check the news, the weather, or notifications. Now you can open a similar planning view directly from the desktop. When you open a custom feed, it slides across your screen like a piece of glass, so it doesn't interfere with what you're doing. For creators , widgets will open up a new space in Windows to provide personalized content.
 
 ## New Microsoft Store
 
-![Window Store](./windows-store.webp)
+![Window Store](./window-store.webp)
 The new Microsoft Store has been redesigned to increase speed and has a new design that is beautiful and easy to use. Not only it offer you more apps than ever, but also make all content - apps, games, shows, movies - easier to search and discover through curated stories and collections.
 
 ## Running Android apps on windows

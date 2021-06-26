@@ -5,7 +5,7 @@ published: true
 thumbnail: ./merge-sort-implementation.png
 author: Hatim
 category: programming
-description: "Merge sort is a sorting algorithm based on "divide and conquer" technology. It is one of the most efficient classification algorithms.Merge Sort
+description: "Merge sort is a sorting algorithm based on divide and conquer technology. It is one of the most efficient classification algorithms.Merge Sort
 Iteratively decompose the array into two equal sub-arrays until each sub-array
 contains one element."
 keywords: python,C,C++,java,javascript,merge,sort,algorithm,exmaple,implimentation,code,complexity,program,time,analysis,divide,conquer,list,arrays,and,programming,language,python,array,matrix,length,list,data,structure,time,element

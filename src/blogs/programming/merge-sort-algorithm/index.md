@@ -27,10 +27,31 @@ times to order the resulting array.
 
 With the help of Example, this concept can be explained more effectively. Consider an unsorted array with the following elements: {40,29, 45, 5, 11, 84, 12}.
 
-![Merge Sort](./merge-sort-diagram.webp)
+![Merge Sort](./mergsort-diargram.webp)
 
 Here, the merge sort algorithm splits the matrix into two halves, calls
 for the two halves, and then merges the two ordered halves.
+
+## Space and Time Complexity of the Merge Sort Algorithm
+
+The Merge sort algorithm can be expressed in the form of the following
+recurrence relation:
+
+T(n) = 2T(n/2) + O(n)
+
+After solving this recurrence relation using the [master's theorem](https://en.wikipedia.org/wiki/Master_theorem) or
+recurrence tree method, you'll get the solution as O(n logn). Thus, the
+time complexity of the merge sort algorithm is **O(n logn)**.
+
+**The best-case time complexity of the merge sort:** O(n logn)
+
+**The average-case time complexity of the merge sort:** O(n logn)
+
+**The worst-case time complexity of the merge sort:** O(n logn)
+
+**The auxiliary space complexity** of the merge sort algorithm is
+**O(n)** as **n** auxiliary space is required in the merge sort
+implementation.
 
 ## Merge Sorting Algorithm
 

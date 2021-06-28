@@ -4,8 +4,8 @@ date: 2021-06-14
 thumbnail: ../../../images/cardmapr-thumbnail.jpg
 published: true
 category: crypto
-description: "A bearish engulfing chart pattern is a technical pattern that indicates lower prices to come. It consists of a high (green) candle followed by a large down (red) candle that engulfs the smaller up candle. The pattern is necessary because it signals that sellers have overtaken the buyers. These sellers are aggressively driving the price downwards, more than buyers can push up.
-This pattern is simply the opposite of a bullish pattern. It offers the best signal when seen above an uptrend and shows a rise in selling pressure. The candle mostly causes a trend reversal, as more sellers are going into the market to drive prices further down. The pattern is made up of two candles with the second candle completely engulfing the previous green candle."
+description: The cryptocurrency has exploded in popularity and widespread awareness. Part of the reason is that the value of some of these tokens has skyrocketed. A typical example is the rapid growth of Bitcoin over the years. Bitcoin's price when it debuted in 2010 was $ 0.0008 and skyrocketed to a recent high of over $ 60,000.
+keywords: crypto,cryptocurrency,digital,invest,investors,investment,2021,bitcoin,price,value,ethereum,dollars,project,binance,Enjin,enjin,btc,safemoon,nkn,DeFi,Diem,altcoin,market,million,purchases,popularity,blockchain,advice
 ---
 
 # 5 Crypto you should watch in 2021

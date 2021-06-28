@@ -2,9 +2,11 @@
 title: Candle Stick Pattern- The Engulfing Pattern
 date: 2021-06-19
 published: true
+author: Hatim
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto
-description: "A bearish engulfing chart pattern is a technical pattern that indicates lower prices to come. It consists of a high (green) candle followed by a large down (red) candle that engulfs the smaller up candle. The pattern is necessary because it signals that sellers have overtaken the buyers. These sellers are aggressively driving the price downwards, more than buyers can push up.This pattern is simply the opposite of a bullish pattern. It offers the best signal when seen above an uptrend and shows a rise in selling pressure. The candle mostly causes a trend reversal, as more sellers are going into the market to drive prices further down. The pattern is made up of two candles with the second candle completely engulfing the previous green candle. "
+keywords: engulfing,engulfs,pattern,chart,example,meaning,indicates,indicators,bearish,support,bullish,price,action,trading,trade,view,strategy,candle,candles,candlestick,enter,stocks,crypto,forex
+description: "An engulfing chart pattern is a technical pattern that indicates lower prices to come. It consists of a high (green) candle followed by a large down (red) candle that engulfs the smaller up candle. The pattern is necessary because it signals that sellers have overtaken the buyers."
 ---
 
 # Engulfing Candlestick Pattern for Stock/Crypto Trading
@@ -17,7 +19,7 @@ For example, when the price reaches a support zone, traders may think that buyer
 
 Trend traders can do similar things after a certain pullback. You will then buy a currency pair, believing that buyers who were in control in the past will actively withdraw from the market.
 
-# What in Engulfing Pattern ?
+# What in does Engulfing Pattern means?
 
 ![Engulfing Pattern](./engulfing-pattern.webp)
 

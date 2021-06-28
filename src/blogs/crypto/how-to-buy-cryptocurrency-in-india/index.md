@@ -36,7 +36,7 @@ I should also inform you that It’s a good practice to have the cryptocurrencie
 
 **Buying crypto in India is still a legitimate process that investors can quickly take part in by opening an account with a crypto exchange**. Citizens can trade various currencies, hold virtual currency in wallets, and more once they have registered for an account.
 
-### What  You Need To Buy Crypto In India?
+### What You Need To Buy Crypto In India?
 
 Before setting up an account online with a crypto exchange, you will need to confirm your identity with some documents. Various exchanges will have various rules when it comes to account setup, but the following things are good to have on hand to make the process faster:
 

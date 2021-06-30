@@ -10,14 +10,14 @@ keywords: hanging,man,pattern,candlestick,candle,example,formation,chart,stocks,
 
 # Hanging Man Candlestick Pattern for Stock/Crypto Trading
 
-## What is it?
+## What is Hanging Man Candlestick Pattern?
 
 Hanging Man is a bearish reversal candlestick pattern with a longer lower shadow and smaller real body.
 **This candlestick pattern appears at the end of an uptrend, indicating further weakness in price movements.**
 
-It was formed when the bulls raised prices and are now unable to apply further pressure.
+Hanging Man is formed when the bulls raised prices and are now unable to apply further pressure.
 **There is no upper shadow and the lower shadow is twice the length of its body.**
-This technical analysis of this model gives traders the opportunity to close a buy position and enter a short position
+Technical analysis on hanging man model gives traders the opportunity to close a buy position and enter a short position
 
 ## Formation of Hanging Man Pattern
 
@@ -31,11 +31,11 @@ When the high and open prices are equal, a bearish **red** hanging candle forms.
 
 Although the **green** candlestick is still bearish, it is considered less bearish due to the close of the day.
 
-## How to identify this pattern in candlestick chart:
+## How to identify Hanging Man pattern in candlestick chart:
 
 ![Hanging Man strategy](../../../images/hanging-man-2.webp "source cdn")
 
-Here are some points to consider when identifying this pattern on a candlestick chart:
+Here are some points to consider when identifying Hanging Man pattern on a candlestick chart:
 
 1. There is little or no upper shadow.
 2. The length of the lower shadow must be twice the length of the entity.

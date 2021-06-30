@@ -5,7 +5,7 @@ date: 2021-06-22
 published: true
 description: "Snap is a cross-platform packaging and deployment system developed by  Canonical for the Linux. It is compatible with most major Linux distributions, including Ubuntu,Linux mint, Debian, Arch Linux,Fedora, CentOS, and Manjaro."
 category: linux
-keywords: snap,snapd,store,snap store,ubuntu,linux,manjaro,arch, arch linux,download,install,package,manager,aur,deb,snapd,snapcraft,snaps,installing,linux mint,distros,command,dependencie,remove,uninstall,app,apps
+keywords: snap,snapd,store,snap store,ubuntu,linux,manjaro,arch, arch linux,download,install,package,manager,aur,deb,snapd,snapcraft,snaps,installing,linux mint,distros,command,dependencie,remove,uninstall,app,apps,application
 ---
 
 # Beginner guide to Snapcraft,Snap,Snapd and Snap Store
@@ -58,7 +58,9 @@ of the installation snaps and tracking updates on its system. Therefore, when yo
 , you can specify which
 channel you want to continue to use for each of these operations.
 
-## Command for installing Snap in Linux
+## Installing Snap in Linux
+
+Below is the command to install snap on different linux distros:
 
 On Debian/Ubuntu/Linux Mint based distros:
 
@@ -93,11 +95,11 @@ sudo systemctl start snapd.socket # To start snapd services
 sudo systemctl enable snapd.socket # To start services at boot
 ```
 
-## Common command of Snap
+## Usage of Snap
 
 ### Finding in Snap
 
-To find app accross different category:
+Command to find app accross different category:
 
 ```bash
 snap find category_name
@@ -108,6 +110,8 @@ snap find development
 ```
 
 ### Installing a snap Package
+
+Command to install app accross different category:
 
 ```bash
 sudo snap install app
@@ -120,11 +124,15 @@ After installation, you can find the program in the "Applications" menu of the L
 
 ### List all the snap apps
 
+Command to list app :
+
 ```bash
 snap list
 ```
 
 ### To Know the version information of Snap app
+
+Command to know version of snap applications:
 
 ```bash
 snap list package_name
@@ -134,6 +142,8 @@ snap list steam
 ```
 
 ### Updating snap apps
+
+Command to update snap applications:
 
 ```bash
 snap refresh
@@ -149,6 +159,8 @@ snap refresh steam
 ```
 
 ### Removing Snap app
+
+Command to remove snap applications
 
 ```bash
 snap remove package_name

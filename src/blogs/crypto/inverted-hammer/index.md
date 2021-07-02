@@ -1,5 +1,5 @@
 ---
-title: Candlestick Pattern - The Inverted Hammer
+title: Inverted Hammer Candlestick Pattern
 date: 2021-07-02
 author: Hatim
 category: crypto

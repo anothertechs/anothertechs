@@ -3,11 +3,15 @@ title: React 18 is out !
 date: 2021-06-15
 thumbnail: ../../../../images/thumbnail-react.jpg
 published: true
+category: programming
+author: Hatim
+description: react core team recently released an alpha version of react18. This version pays more attention to user experience and internal architecture changes, including adaptive concurrency functions. It gives you more control over dom rendering events.
+keywords: react,react18,reactjs,new,feature,alpha,architecture,dom,document,API,root,suspense,transition,effects,strict,javascript,mode
 ---
 
 # React 18 is Out!
 
-React Core Team recently released an alpha version of React18. This version pays more attention to user experience and internal architecture changes, including adaptive concurrency functions,it gives you more control over DOM rendering events.
+react core team recently released an alpha version of react18. this version pays more attention to user experience and internal architecture changes, including adaptive concurrency functions,it gives you more control over dom rendering events.
 
 ## Installation
 

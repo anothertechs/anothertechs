@@ -1,5 +1,5 @@
 ---
-title: Candlestick Pattern - Everything you need to know about Doji Star
+title: Doji Star Candlestick Pattern - Everything you need to know about
 category: crypto
 author: Hatim
 date: 2021-06-29

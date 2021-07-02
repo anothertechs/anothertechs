@@ -1,5 +1,5 @@
 ---
-title: Candlestick Pattern - Everthing you need to know about Shooting Star
+title: Shooting Star Candlestick Pattern- Everthing you need to know
 author: Hatim
 published: true
 date: 2021-07-01

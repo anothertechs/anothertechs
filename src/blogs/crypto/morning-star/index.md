@@ -1,5 +1,5 @@
 ---
-title: Understanding Morning Star Candlestick Pattern
+title: Morning Star Candlestick Pattern
 published: true
 date: 2021-06-24
 category: crypto

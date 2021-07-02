@@ -3,6 +3,8 @@ title: React Tutorial - Creating a simple weather app using React and Material U
 published: true
 date: 2021-06-15
 thumbnail: ../../../../images/thumbnail-wim-van-t.png
+description: We'll make a weather app with the react js material UI framework in this article.
+keywords: react,reactjs,React,weather,app,API,material,ui,tutorial,openweathermap,App.js,implemnentation,creating
 ---
 
 # React Tutorial - Creating weather App using Material UI
@@ -27,7 +29,7 @@ We will build three components :
 
 Now let's start by writing our first component:
 
- **App.js**
+**App.js**
 
 ```javascript
 import React from "react";
@@ -79,7 +81,7 @@ export default App;
 
 This statless is simple. We are creating a state name `city` using new feature of react js called react hooks. Whenever user writes the value in input field the state of the function get's updated and passed it to weatherAPI component.
 
- **weatherAPI.js**
+**weatherAPI.js**
 
 ```javascript
 

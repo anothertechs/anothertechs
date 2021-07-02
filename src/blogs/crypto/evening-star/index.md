@@ -1,5 +1,5 @@
 ---
-title: Evening Star - Japanese Candlestick Pattern
+title: Evening Star Candlestick Pattern
 date: 2021-06-26
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto

@@ -5,7 +5,8 @@ thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto
 author: Hatim
 published: true
-description: "The Evening Star composes of three candles.The first candle of the evening star should be bullish and have a relatively large body. The second candle is a star. It is a candle with a shorter body and does not touch the body of the previous candle.The gap between the two real bodies of the candlestick makes it a doji star."
+description: "The evening star is the bearish counterpart of the morning star pattern in technical analysis. Because the evening star is a top reversal, it should be acted upon if it occurs after an uptrend."
+"
 keywords: candlestick,pattern,chart,morning,star,evening,and,formation,bull,bullish,buyer,selling,bearish,forex,trade,trading,technical,analysis,defination,indicat,indication,example,japanese,strategy,reversal,indicat,stock,crypto,uptrend,trends,morning,analysts
 ---
 

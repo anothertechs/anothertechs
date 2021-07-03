@@ -1,10 +1,10 @@
 ---
-title: Candle stick Pattern - Hanging Man
+title: Hanging Man Candlestick Pattern
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 date: 2021-06-17
 published: true
 category: crypto
-description: "Hanging Man is a bearish reversal candlestick pattern .This candlestick pattern appears at the end of an uptrend, indicating further weakness in price movements.This model gives traders the opportunity to close a buy position and enter a short position"
+description: "Hanging Man is a bearish reversal candlestick pattern .This candlestick pattern appears at the end of an uptrend, indicating further weakness in price movements."
 keywords: hanging,man,pattern,candlestick,candle,example,formation,chart,stocks,bearish,confirmation,formation,strategy,green,red,stick,reversal,technical,analysis,formed,bearish,real,body,chart,bullish,trade,traders,price,stock
 ---
 

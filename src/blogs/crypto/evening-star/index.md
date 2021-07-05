@@ -5,8 +5,7 @@ thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto
 author: Hatim
 published: true
-description: "The evening star is the bearish counterpart of the morning star pattern in technical analysis. Because the evening star is a top reversal, it should be acted upon if it occurs after an uptrend."
-"
+description: "The evening star is the bearish counterpart of the morning star pattern in technical analysis. Because the evening star is a top reversal, it should be acted upon if it occurs after an uptrend"
 keywords: candlestick,pattern,chart,morning,star,evening,and,formation,bull,bullish,buyer,selling,bearish,forex,trade,trading,technical,analysis,defination,indicat,indication,example,japanese,strategy,reversal,indicat,stock,crypto,uptrend,trends,morning,analysts
 ---
 

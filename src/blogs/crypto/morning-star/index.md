@@ -1,5 +1,5 @@
 ---
-title: Morning Star Candlestick Pattern
+title: Morning Star Candlestick Pattern - Best guide to trade in Stock
 published: true
 date: 2021-06-24
 category: crypto

@@ -5,7 +5,8 @@ author: Hatim
 date: 2021-06-29
 published: true
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-descritpion: Doji Star
+description: Doji Star
+category: crypto
 keywords: doji,star,candlestick,candle,japanese,pattern,chart,trade,trading,reversal,bullish,bearish,meaning,downtrend,uptrend,forex,crypto,stock,morning,evening,technical,analysts,analyze,techniques,predict,example,morning,evening
 ---
 

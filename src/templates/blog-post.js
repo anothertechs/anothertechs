@@ -7,6 +7,7 @@ import { Container } from "react-bootstrap";
 import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 import { blogpostimage } from "../components/index.module.css";
+import RelatedPost from "../components/RelatedPost";
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
@@ -68,6 +69,10 @@ export default function BlogPost({ data }) {
             <MDXRenderer>{body}</MDXRenderer>
           </div>
         </div>
+        <div>
+          <h3> Realate Post </h3>
+          <RelatedPost category={data.mdx.frontmatter.category} />
+        </div>
       </Container>
       <Footer />
     </div>
@@ -82,6 +87,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "YYYY MMMM Do")
         title
+        category
         description
         keywords
         thumbnail {

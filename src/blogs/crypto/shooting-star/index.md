@@ -3,7 +3,7 @@ title: Shooting Star Candlestick Pattern- Everthing you need to know
 author: Hatim
 published: true
 date: 2021-07-01
-descritpion: A shooting star is a candlestick with a long upper shadow, little or no lower shadow, and a little true body. It appears after a period of upward movement. The distance between the high price and the opening price must be more than twice the size of the shooting star's body.
+description: A shooting star is a candlestick with a long upper shadow, little or no lower shadow, and a little true body. It appears after a period of upward movement. The distance between the high price and the opening price must be more than twice the size of the shooting star's body.
 category: crypto
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 keywords: shooting,star,price,technical,analysis,candlestick,shadown,body,trading,pattern,traders,shadow,upper,lower,bottom,top,reversal,price,period,day,bearish,high,close,volume,sell,buy,formation

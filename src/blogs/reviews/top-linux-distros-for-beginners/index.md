@@ -4,6 +4,8 @@ published: true
 date: 2021-06-16
 thumbnail: ../../../images/custom-linux-distro.jpg
 description: "Looking for a new Linux experience? Get to know the best Linuxdistribution for all user levels, from beginners to experts.As a free and open-source operating system, Linux continues to spread its wings,attracts the attention of novices and experienced people."
+category: review
+keywords: linux,linuxmint,ubuntu,beginners,experience,2021,distros,distribution,distro,elementoryos,debian,fedora,solus,opensuse,applications,operating,system,OS,Xfce,MATE,GNOME,KDE,Pantheon,PureOS,PHP,open,source,programming,productivity,code
 ---
 
 # Top linux distros to try in 2021

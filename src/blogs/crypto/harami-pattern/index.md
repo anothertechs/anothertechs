@@ -9,6 +9,8 @@ description: Harami is a two candle pattern. The first candle is usually long, a
 keywords: harami,candlestick,pattern,bullish,bearish,meaning,chart,buying,sellers,pregnant,risk,stock,crypto,forex,signal,trading,trader,traders,transaction,technical,analysis,reverse,reversal,price,action,indicate,indicators
 ---
 
+# Harami Candlestick Pattern- Everything you need to know about
+
 Before you start wondering, the name ‘Harami' does not refer to the Hindi word harami 😜.
 It's thought to be an old Japanese word for "pregnancy." When you see the [candlestick](https://www.investopedia.com/terms/c/candlestick.asp) formation, you'll appreciate how intuitive this word is.
 

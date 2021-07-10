@@ -9,6 +9,8 @@ keywords: javascript,code,programming,tip,tricks,tips,tactics,beginners,const,co
 thumbnail: ./javascript-cover.jpg
 ---
 
+# Javascript Beginners Tips and Best Practices 2021
+
 I'll discuss JavaScript tips, tactics, and best practises for beginners that I use and find valuable in this blog.
 
 ## Using Numeric Separator

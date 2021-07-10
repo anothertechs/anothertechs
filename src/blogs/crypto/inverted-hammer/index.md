@@ -9,6 +9,8 @@ thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 keywords: inverted,hammer,candlestick,pattern,chart,market,uptrend,bullish,meaning,reversal,indicate,forex,crypto,trade,trading,traders,techinal,analysis,means,shooting,star,market,shadow,body,real,lower,upper,low,high,lower,higher
 ---
 
+# Inverted Hammer Candlestick Pattern
+
 When it comes to trading, knowing how to recognize potential reversals will help you maximize your profits. One such signal that can assist you in identifying new trends is the **inverted hammer candlestick pattern**.
 
 This tutorial will tell you everything you need to know about the inverted hammer.

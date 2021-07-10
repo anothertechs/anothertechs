@@ -9,6 +9,8 @@ description: A tweezer can be described as a technical analysis pattern that use
 keywords: tweezer,top,bottom,candlestick,pattern,chart,bearish,bullish,bears,bulls,trade,trading,technical,analysis,trader,market,price,movement,scanner,chartlink,reverse,investment,indicator,identify
 ---
 
+# Understanding Tweezer Top and Bottom candlestick Pattern
+
 This guide will explain Tweezer Top candlesticks and Bottom candlesticks and how traders use them to detect market shifts.
 
 We will examine the relationship between tweezer top and tweezer bottom candlesticks, how to find these formations on charts, and how they indicate directional movement.

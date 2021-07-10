@@ -9,6 +9,8 @@ keywords: apple,app,tracking,ios,14.5,transparency,technology,ATT,iphone,ipad,us
 description: Apple's latest iOS 14.5 and iPad OS update includes a new tracking feature. App Tracking Transparency allows you to control which apps can track your activity across different companies' apps or websites.
 ---
 
+# Apple App Tracking Transparency Features - Complete Guide
+
 Apple's latest iOS 14.5, and iPadOS 14.5, introduced App Tracking Transparency. Apple states that App Tracking Transparency allows you to control which apps can track your activity across different companies' apps or websites. Apps will need to ask users if they are able to track them once this feature has been enabled.
 
 You may still be unfamiliar with the tracking technology. Think about all the times you searched for a product you might need just once. Although you may have purchased the item, you will be bombarded with advertisements for similar products on Facebook and Instagram. Do you feel this is happening to you? Facebook and other companies use user data such as browsing history to provide "personalized" ads. Although this may sound fine at first, it can become tedious after you see 50 advertisements for toilet bowl cleaners.

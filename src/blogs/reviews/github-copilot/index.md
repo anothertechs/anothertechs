@@ -9,6 +9,8 @@ description: GitHub and OpenAI launched a technical preview for a new AI tool ca
 keywords: GitHub,github,Visual,Studio,Copilot,Code,Codex,GPT,3,API,Autofill,tool,AI,OpenAI,matching,Python,Go,Ruby,Javascript,TypeScript
 ---
 
+# What is GitHub Copilot- Everything you need to know
+
 OpenAI and GitHub launched a technical preview for a new AI tool called **Copilot**. It lives within Visual Studio Code and autocompletes code snippets.
 
 Copilot is more than just a parrot back program, GitHub says that this was the case before. Instead, it analyzes what you have already written and generates new matching codes, with specific functions that were once called. Automatically writing the code to import Twitter, draw scatterplots, or Get a Goodreads rating.

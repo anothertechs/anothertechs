@@ -9,6 +9,8 @@ thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 keywords: shooting,star,price,technical,analysis,candlestick,shadown,body,trading,pattern,traders,shadow,upper,lower,bottom,top,reversal,price,period,day,bearish,high,close,volume,sell,buy,formation
 ---
 
+# Shooting Star Candlestick Pattern- Everthing you need to know
+
 When you hear the term "Shooting Star," what is the first thing that springs to mind?
 
 Isn't a star approaching the earth's surface?

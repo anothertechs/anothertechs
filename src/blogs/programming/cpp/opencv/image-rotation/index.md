@@ -35,7 +35,7 @@ In the above matrix:
 
 where c_x & c_y are the coordinates along which the image is rotated.
 
-## Steps in Rotating Image
+## Steps in Rotating Image using OpenCV
 
 1. First, you must determine the centre of rotation. This is usually the middle of the image you're attempting to rotate.
 2. Create the 2D-rotation matrix next. The above-mentioned getRotationMatrix2D() method is provided by OpenCV.

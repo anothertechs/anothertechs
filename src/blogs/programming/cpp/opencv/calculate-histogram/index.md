@@ -38,7 +38,7 @@ Almost all image processing software today includes a histogram feature.
 
 ![Gray Scale Image Histogram](./image-histogram.webp)
 
-## calHist() function in opnenCV
+## calHist() function in openCV
 
 `cv.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])`
 

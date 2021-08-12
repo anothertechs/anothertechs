@@ -163,7 +163,7 @@ int main(int argc, char **argv) {
 
 ## Explanation
 
-* We start the code by first reading our input file, which is a video frame by frame using 
+* We start the code by first reading our input file, which is a video frame by frame using `cap.read()` method.
 
 * Using [split()](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga0547c7fed86152d7e9d0096029c8518a) function we divide multi-channel array (i.e RGB) into separate single-channel array which we store in `bgr_planes`.
 

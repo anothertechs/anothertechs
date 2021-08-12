@@ -77,7 +77,7 @@ module.exports = {
     description:
       "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
   },
-  plugins: [
+  plugins:[
     "gatsby-plugin-image",
     {
       resolve: `gatsby-plugin-canonical-urls`,
@@ -194,6 +194,12 @@ module.exports = {
         path: `${__dirname}/src/blogs/`,
       },
       __key: "blogs",
+    },
+     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2965086569594457`
+      },
     },
   ],
 };

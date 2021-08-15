@@ -8,6 +8,7 @@ import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 import { blogpostimage } from "../components/index.module.css";
 import RelatedPost from "../components/RelatedPost";
+import AdSense from 'react-adsense';
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
@@ -66,9 +67,29 @@ export default function BlogPost({ data }) {
             <img src={src} alt={title} className={blogpostimage} />
           </div>
           <div>
+            <AdSense.Google
+              client='ca-pub-2965086569594457'
+              slot='9825781021'
+              style={{ display: 'block' }}
+              format='auto'
+              responsive='true'
+              layoutKey='-gw-1+2a-9x+5c'
+            />
+          </div>
+          <div>
             <MDXRenderer>{body}</MDXRenderer>
           </div>
         </div>
+          <div>
+            <AdSense.Google
+              client='ca-pub-2965086569594457'
+              slot='9825781021'
+              style={{ display: 'block' }}
+              format='auto'
+              responsive='true'
+              layoutKey='-gw-1+2a-9x+5c'
+            />
+          </div>
         <div>
           <h3> Realate Post </h3>
           <RelatedPost category={data.mdx.frontmatter.category} />

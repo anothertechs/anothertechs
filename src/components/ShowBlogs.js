@@ -9,7 +9,7 @@ export default function ShowBlogs({posts}) {
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
           {posts.map((post,index) => (
-            <Col className="d-flex align-self-stretch">
+              <div>
                 {
                     index % 5 === 0 ? 
                     <div>
@@ -17,11 +17,12 @@ export default function ShowBlogs({posts}) {
                         client='ca-pub-2965086569594457'
                         slot='9151719959'
                         style={{ display: 'block' }}
-                        format='fluid'
                         layout='in-article'
+                        format='fluid'
                         />
 
                     </div>:
+            <Col className="d-flex align-self-stretch">
               <Card className="p-2 border border-2 rounded" key={post.id}>
                 <Card.Img
                   variant="top"
@@ -44,8 +45,10 @@ export default function ShowBlogs({posts}) {
                 </Card.Footer>
               </Card>
 
-                }
             </Col>
+                }
+
+              </div>
           ))}
         </Row>
       </Container>

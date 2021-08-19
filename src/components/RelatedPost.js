@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticQuery, graphql, Link } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 import { Row, Col, Image } from "react-bootstrap";
 import { indexpostimage } from "../components/index.module.css";
 
@@ -27,9 +27,9 @@ const Post = ({ data, category }) => {
             </Col>
             <Col>
               <div className="mt-4">
-                <Link className="link-dark" to={`/${post.slug}`}>
+                <a className="link-dark" href={`/${post.slug}`}>
                   <h4>{post.frontmatter.title}</h4>
-                </Link>
+                </a>
                 <p className="mt-3 text-muted pt-1">
                   {post.frontmatter.description}
                 </p>

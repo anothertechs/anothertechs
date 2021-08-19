@@ -18,31 +18,31 @@ function Footer() {
             <Col xs={12} lg={4}>
               <div className="d-flex justify-content-center align-items-center">
                 <div className="m-3 p-2">
-                  <Link
+                  <a
                     className={navlink}
                     style={{ textDecoration: "none" }}
-                    to="/"
+                    href="/"
                   >
                     Home
-                  </Link>
+                  </a>
                 </div>
                 <div className="m-3 p-2">
-                  <Link
+                  <a
                     className={navlink}
                     style={{ textDecoration: "none" }}
-                    to="/blogs"
+                    href="/blogs"
                   >
                     Blogs
-                  </Link>
+                  </a>
                 </div>
                 <div className="m-3 p-2">
-                  <Link
+                  <a
                     className={navlink}
                     style={{ textDecoration: "none" }}
-                    to="/about"
+                    href="/about"
                   >
                     About
-                  </Link>
+                  </a>
                 </div>
               </div>
             </Col>
@@ -56,33 +56,33 @@ function Footer() {
             <Col xs={12} lg={4}>
               <div className="d-flex justify-content-center align-items-center">
                 <div className="m-3 p-2">
-                  <Link
-                    to="https://www.facebook.com/Another-Techs-102190855452182"
+                  <a
+                    href="https://www.facebook.com/Another-Techs-102190855452182"
                     className={navlink}
                   >
                     <Facebook size={25} />
-                  </Link>
+                  </a>
                 </div>
                 <div className="m-3 p-2">
-                  <Link
-                    to="https://www.instagram.com/anothertechs/"
+                  <a
+                    href="https://www.instagram.com/anothertechs/"
                     className={navlink}
                   >
                     <Instagram size={25} />
-                  </Link>
+                  </a>
                 </div>
                 <div className="m-3 p-2">
-                  <Link
-                    to="https://twitter.com/anothertechs"
+                  <a
+                    href="https://twitter.com/anothertechs"
                     className={navlink}
                   >
                     <Twitter size={25} />
-                  </Link>
+                  </a>
                 </div>
                 <div className="m-3 p-2">
-                  <Link to="https://github.com/Master52" className={navlink}>
+                  <a href="https://github.com/Master52" className={navlink}>
                     <Github size={25} />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </Col>

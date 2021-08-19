@@ -3,6 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
 import { navlink } from "./index.module.css";
 import { CodeSlash } from "react-bootstrap-icons";
+
 /*
           <Form className="d-lg-flex mx-sm-2 px-sm-2">
             <FormControl
@@ -44,8 +45,23 @@ const NavBar = () => {
               <Nav.Link href="/">
                 <div className={navlink}>Home</div>
               </Nav.Link>
-              <Nav.Link href="/blogs">
-                <div className={navlink}>Blogs</div>
+              <Nav.Link href="/programming">
+                <div className={navlink}>Programming</div>
+              </Nav.Link>
+              <Nav.Link href="/crypto">
+                <div className={navlink}>Trading</div>
+              </Nav.Link>
+              <Nav.Link href="/linux">
+                <div className={navlink}>Linux</div>
+              </Nav.Link>
+              <Nav.Link href="/reviews">
+                <div className={navlink}>Reviews</div>
+              </Nav.Link>
+              <Nav.Link href="/softwares">
+                <div className={navlink}>Software</div>
+              </Nav.Link>
+              <Nav.Link href="/techs">
+                <div className={navlink}>Technology</div>
               </Nav.Link>
               <Nav.Link href="/about">
                 <div className={navlink}>About</div>
@@ -58,3 +74,4 @@ const NavBar = () => {
   );
 };
 export default NavBar;
+

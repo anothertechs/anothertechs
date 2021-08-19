@@ -15,11 +15,10 @@ export default function ShowBlogs({posts}) {
                     <div>
                         <AdSense.Google
                         client='ca-pub-2965086569594457'
-                        slot='9825781021'
+                        slot='9151719959'
                         style={{ display: 'block' }}
-                        format='auto'
-                        responsive='true'
-                        layoutKey='-gw-1+2a-9x+5c'
+                        format='fluid'
+                        layout='in-article'
                         />
 
                     </div>:

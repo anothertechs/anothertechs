@@ -25,10 +25,10 @@ export default function ShowBlogs({ posts }) {
                     <Card.Body>
                       <AdSense.Google
                         client="ca-pub-2965086569594457"
-                        layoutKey="+37+p5-27-5t+zh"
-                        slot="4038477159"
+                        slot="9151719959"
                         style={{ display: "block" }}
-                        format="fluid"
+                        format="auto"
+                        responsive="true"
                       />
                     </Card.Body>
                   </div>

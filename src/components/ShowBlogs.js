@@ -29,7 +29,6 @@ export default function ShowBlogs({ posts }) {
                         slot="4038477159"
                         style={{ display: "block" }}
                         format="fluid"
-                        responsive="true"
                       />
                     </Card.Body>
                   </div>

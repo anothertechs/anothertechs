@@ -21,10 +21,9 @@ export default function ShowBlogs({ posts }) {
             <div>
               {post.ads === true ? (
                 <Card className="p-2 border border-2 rounded">
-                  <div>
+                  <div className={showGrid}>
                     <Card.Body>
                       <AdSense.Google
-                        className={showGrid}
                         client="ca-pub-2965086569594457"
                         slot="9151719959"
                         style={{ display: "block" }}

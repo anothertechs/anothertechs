@@ -5,6 +5,7 @@ import { showGrid } from "../components/index.module.css";
 
 export default function ShowBlogs({ posts }) {
   let p = [];
+  /* Understanding why i did this need GOD level of brain*/
   for (var i = 0, a = 0; a < posts.length; ++i) {
     if (i % 5 === 0) p.push({ ads: true });
     else {
@@ -28,6 +29,7 @@ export default function ShowBlogs({ posts }) {
                         slot="4038477159"
                         style={{ display: "block" }}
                         format="fluid"
+                        responsive="true"
                       />
                     </Card.Body>
                   </div>

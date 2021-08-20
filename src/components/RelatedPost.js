@@ -18,7 +18,7 @@ const Post = ({ data, category }) => {
     <div>
       {similarPost.map((post, index) => (
         <div key={index} className="mt-3 pt-2">
-          {index % 3 === 0 && (
+          {index % 2 === 0 && (
             <Row>
               <AdSense.Google
                 client="ca-pub-2965086569594457"

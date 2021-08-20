@@ -1,7 +1,7 @@
 ---
 title: "winget: Package manager for windows"
 description: "Windows Package Manager is a command-line tool used to manage software,which can be used in Windows 10 via command prompt or. The implementation is very similar to the Linux package manager."
-category: software
+category: softwares
 author: Hatim
 published: true
 date: 2021-06-16

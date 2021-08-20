@@ -1,6 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { Row, Col, Image } from "react-bootstrap";
+import AdSense from "react-adsense";
 import { indexpostimage } from "../components/index.module.css";
 
 const Post = ({ data, category }) => {
@@ -17,6 +18,18 @@ const Post = ({ data, category }) => {
     <div>
       {similarPost.map((post, index) => (
         <div key={index} className="mt-3 pt-2">
+          {index % 3 === 0 && (
+            <Row>
+              <AdSense.Google
+                client="ca-pub-2965086569594457"
+                layoutKey="-an-7l-bz+qf+1nf"
+                slot="9095362719"
+                style={{ display: "block" }}
+                format="fluid"
+              />
+              <hr />
+            </Row>
+          )}
           <Row>
             <Col md="4" sm="12">
               <Image

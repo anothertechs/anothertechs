@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Facebook, Instagram, Twitter, Github } from "react-bootstrap-icons";
-import { Link } from "gatsby";
 import { useSiteMetadata } from "../hooks/useSiteMetadata";
 import { navlink } from "./index.module.css";
 
@@ -65,7 +64,7 @@ function Footer() {
                 </div>
                 <div className="m-3 p-2">
                   <a
-                    href="https://www.instagram.com/anothertechs/"
+                    href="https://www.instagram.com/hatim_master/"
                     className={navlink}
                   >
                     <Instagram size={25} />

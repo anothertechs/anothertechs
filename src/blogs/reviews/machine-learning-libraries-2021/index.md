@@ -3,7 +3,7 @@ title: Best Machine Learning Libraries to Learn in 2021
 date: 2021-08-09
 author: Hatim
 published: true
-categroy: reviews
+category: reviews
 thumbnail: ./possessed-photography-g29arbbvPjo-unsplash.jpg
 keywords: machine,learning,top,best,2021,learn,libraries,library,artifical,intelligence,expert,jobs,data,science,engineering,pytorch,keras,mlpack,tensorflow,CPU,GPU,scikit,mlib,spark,theano,deep,API,regression, clustering, classification,python,R,C++,Cpp,java,neurla,network
 description: We'll go through 7 of the top machine learning libraries that machine learning enthusiasts and professionals all over the world love. 

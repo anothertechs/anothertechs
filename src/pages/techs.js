@@ -1,5 +1,5 @@
 import React from "react";
-import {  graphql } from "gatsby";
+import { graphql } from "gatsby";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Seo from "../components/seo";
@@ -14,12 +14,12 @@ const BlogIndex = ({ data }) => {
     alternateName: "Another Techs Blogs",
     description:
       "Blogs about many things, including, but not limited to  programming languages, Framework, Machine Learning, AI,cryptocurrency,Tech Related Blogs,Research, Tips and Tricks and many more related topics",
-    url: "https://anothertechs.com/blogs",
+    url: "https://anothertechs.com/softwares",
     logo: "https://anothertechs.com/static/about_phot-3af4d7af10290361c408910909a8fcc2.webp",
     sameAs: [
       "https://www.facebook.com/Another-Techs-102190855452182",
       "https://twitter.com/home",
-      "https://www.instagram.com/anothertechs/",
+      "https://www.instagram.com/hatim_master/",
       "https://github.com/anothertechs",
     ],
   };
@@ -27,7 +27,7 @@ const BlogIndex = ({ data }) => {
     <div>
       <Seo title="Blogs" schemaMarkup={schema} />
       <NavBar />
-      <ShowBlogs posts={posts}/>
+      <ShowBlogs posts={posts} />
       <Footer />
     </div>
   );
@@ -35,7 +35,9 @@ const BlogIndex = ({ data }) => {
 export const pageQuery = graphql`
   query Techs {
     allMdx(
-      filter: { frontmatter: { published: { eq: true },category: {eq:"techs"} } }
+      filter: {
+        frontmatter: { published: { eq: true }, category: { eq: "techs" } }
+      }
       sort: { fields: frontmatter___date, order: DESC }
     ) {
       nodes {

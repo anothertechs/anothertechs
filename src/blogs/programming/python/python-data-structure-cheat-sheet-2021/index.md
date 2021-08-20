@@ -4,7 +4,7 @@ category: programming
 author: Hatim
 published: true
 date: 2021-07-23
-keyword: python,data,structure,cheat,sheet,2021,list,code,snippet,2021,tuple,tuples,set,set,dictionary,remove,del,delete,adding,accessing,index,managing,organizing,storing,union,intersection,difference,symatric,operation
+keywords: python,data,structure,cheat,sheet,2021,list,code,snippet,2021,tuple,tuples,set,set,dictionary,remove,del,delete,adding,accessing,index,managing,organizing,storing,union,intersection,difference,symatric,operation
 description: In this tutorial we will lean about Built-In data structure of python which are used to organizing,managing and storing data in different structures.
 thumbnail: ./python-data-structure.jpg
 ---
@@ -411,4 +411,3 @@ foo ^ bar
 - https://www.tutorialspoint.com/python/python_data_structure.html
 - https://whataftercollege.com/python-programming/built-in-data-structures-in-python/
 - https://www.slideshare.net/EdurekaIN/what-are-data-structures-in-python-list-dictionary-tuple-explained-edureka
-

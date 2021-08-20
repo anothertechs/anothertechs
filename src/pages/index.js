@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import { Image, Container, Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
 import { indexpostimage } from "../components/index.module.css";
+import AdSense from "react-adsense";
 
 const IndexPage = ({ data }) => {
   const { nodes: posts } = data.allMdx;
@@ -31,6 +32,18 @@ const IndexPage = ({ data }) => {
       <Container>
         {posts.map((post, index) => (
           <div key={index} className="mt-3 pt-2">
+            {index % 3 === 0 && (
+              <Row>
+                <AdSense.Google
+                  client="ca-pub-2965086569594457"
+                  layoutKey="-an-7l-bz+qf+1nf"
+                  slot="9095362719"
+                  style={{ display: "block" }}
+                  format="fluid"
+                />
+                <hr />
+              </Row>
+            )}
             <Row>
               <Col md="5" sm="12">
                 <Image
@@ -66,7 +79,7 @@ export const recentBlogQuery = graphql`
     allMdx(
       sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { published: { eq: true } } }
-      limit: 7
+      limit: 15
     ) {
       nodes {
         fields {

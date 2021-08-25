@@ -3,11 +3,12 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 import { blogpostimage } from "../components/index.module.css";
 import RelatedPost from "../components/RelatedPost";
+import { BlogsAd } from "../components/blogsAd";
 import AdSense from "react-adsense";
 
 export default function BlogPost({ data }) {
@@ -77,7 +78,16 @@ export default function BlogPost({ data }) {
             />
           </div>
           <div>
-            <MDXRenderer>{body}</MDXRenderer>
+            <Row>
+              <Col md={9} sm={12}>
+                <MDXRenderer>{body}</MDXRenderer>
+              </Col>
+              <Col>
+                <div className=" m-2 p-2 sticky-top">
+                  <BlogsAd />
+                </div>
+              </Col>
+            </Row>
           </div>
         </div>
         <div>

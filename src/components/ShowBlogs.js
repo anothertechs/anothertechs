@@ -1,71 +1,49 @@
 import React from "react";
-import { Row, Container, Col, Card } from "react-bootstrap";
+import { Row, Image, Container, Col } from "react-bootstrap";
 import AdSense from "react-adsense";
-import { showGrid } from "../components/index.module.css";
+import { indexpostimage } from "../components/index.module.css";
 
 export default function ShowBlogs({ posts }) {
-  let p = [];
-  /* Understanding why i did this need GOD level of brain*/
-  for (var i = 0, a = 0; a < posts.length; ++i) {
-    if (i % 5 === 0) p.push({ ads: true });
-    else {
-      p.push(posts[a]);
-      ++a;
-    }
-  }
+  console.log(posts);
   return (
     <div>
       <Container>
-        <Row xs={1} md={2} lg={3} className="g-4">
-          {p.map((post, index) => (
-            <div>
-              {post.ads === true ? (
-                <Card className="p-2 border border-2 rounded">
-                  <div className={showGrid}>
-                    <Card.Body>
-                      <AdSense.Google
-                        client="ca-pub-2965086569594457"
-                        slot="9151719959"
-                        style={{ display: "block" }}
-                        format="auto"
-                        responsive="true"
-                      />
-                    </Card.Body>
-                  </div>
-                </Card>
-              ) : (
-                <Col className="d-flex align-self-stretch">
-                  <Card className="p-2 border border-2 rounded" key={post.id}>
-                    <Card.Img
-                      variant="top"
-                      width={300}
-                      height={300}
-                      src={
-                        post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp
-                      }
-                    />
-                    <div className="mt-3 pt-2 ">
-                      <a
-                        style={{ textDecoration: "none" }}
-                        href={`/${post.slug}`}
-                        className="link-dark"
-                      >
-                        <Card.Title>{post.frontmatter.title}</Card.Title>
-                      </a>
-                    </div>
-                    <Card.Body>{post.excerpt}</Card.Body>
-                    <Card.Footer>
-                      <small className="text-muted">
-                        {" "}
-                        {post.frontmatter.date}
-                      </small>
-                    </Card.Footer>
-                  </Card>
-                </Col>
-              )}
-            </div>
-          ))}
-        </Row>
+        {posts.map((post, index) => (
+          <div key={index} className="mt-3 pt-2">
+            {index % 5 === 0 && (
+              <Row>
+                <AdSense.Google
+                  client="ca-pub-2965086569594457"
+                  layoutKey="-an-7l-bz+qf+1nf"
+                  slot="9095362719"
+                  style={{ display: "block" }}
+                  format="fluid"
+                />
+                <hr />
+              </Row>
+            )}
+            <Row>
+              <Col md="4" sm="12">
+                <Image
+                  src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+                  alt={post.frontmatter.title}
+                  className={indexpostimage}
+                />
+              </Col>
+              <Col>
+                <div className="mt-4">
+                  <a className="link-dark" href={`/${post.slug}`}>
+                    <h4>{post.frontmatter.title}</h4>
+                  </a>
+                  <p className="mt-3 text-muted pt-1">
+                    {post.frontmatter.description}
+                  </p>
+                </div>
+              </Col>
+            </Row>
+            <hr />
+          </div>
+        ))}
       </Container>
     </div>
   );

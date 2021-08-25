@@ -112,7 +112,7 @@ module.exports = {
       options: {
         trackingIds: ["G-WY6TT5EQVC"],
         pluginConfig: {
-          head: true,
+          head: false,
         },
       },
     },
@@ -171,7 +171,12 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-plugin-preact",
-    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-transformer-sharp",
+      options: {
+        plugins: [`gatsby-remark-lazy-load`],
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {

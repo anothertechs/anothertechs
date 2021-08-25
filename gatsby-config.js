@@ -170,7 +170,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
-    "gatsby-plugin-preact",
     {
       resolve: "gatsby-transformer-sharp",
       options: {

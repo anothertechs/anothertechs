@@ -4,7 +4,7 @@ author: Hatim
 date: 2021-06-29
 published: true
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-description: Doji Star
+description: Doji candles belong to the Japanese candlestick chart family. It is named for its unique training. We will try to understand what a Doji candlestick is and what its support level should be when you see it.
 category: crypto
 keywords: doji,star,candlestick,candle,japanese,pattern,chart,trade,trading,reversal,bullish,bearish,meaning,downtrend,uptrend,forex,crypto,stock,morning,evening,technical,analysts,analyze,techniques,predict,example,morning,evening
 ---

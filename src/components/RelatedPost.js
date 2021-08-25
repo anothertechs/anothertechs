@@ -5,14 +5,10 @@ import AdSense from "react-adsense";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const Post = ({ data, category }) => {
-  var similarPost = [];
-  for (var i = 0; i < data.allMdx.nodes.length; ++i) {
-    if (data.allMdx.nodes[i].frontmatter.category === category) {
-      similarPost.push(data.allMdx.nodes[i]);
-    }
-  }
-  similarPost = similarPost.sort(() => Math.random() - 0.5);
-  similarPost = similarPost.slice(0, 5);
+  var similarPost = data.allMdx.nodes
+    .filter((node) => node.frontmatter.category === category)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 5);
 
   return (
     <div>

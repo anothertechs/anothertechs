@@ -92,7 +92,10 @@ export default function BlogPost({ data }) {
         </div>
         <div>
           <h3> Realate Post </h3>
-          <RelatedPost category={data.mdx.frontmatter.category} />
+          <RelatedPost
+            category={data.mdx.frontmatter.category}
+            currId={data.mdx.id}
+          />
         </div>
       </Container>
       <Footer />

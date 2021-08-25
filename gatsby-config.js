@@ -107,7 +107,15 @@ module.exports = {
         ],
       },
     },
-
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-WY6TT5EQVC"],
+        pluginConfig: {
+          head: false,
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

@@ -2,10 +2,10 @@ import * as React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Link, graphql } from "gatsby";
-import { Image, Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
-import { indexpostimage } from "../components/index.module.css";
 import AdSense from "react-adsense";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const IndexPage = ({ data }) => {
   const { nodes: posts } = data.allMdx;
@@ -46,10 +46,9 @@ const IndexPage = ({ data }) => {
             )}
             <Row>
               <Col md="5" sm="12">
-                <Image
-                  src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+                <GatsbyImage
+                  image={getImage(post.frontmatter.thumbnail)}
                   alt={post.frontmatter.title}
-                  className={indexpostimage}
                 />
               </Col>
               <Col
@@ -90,10 +89,7 @@ export const recentBlogQuery = graphql`
           published
           thumbnail {
             childImageSharp {
-              id
-              fluid {
-                srcWebp
-              }
+              gatsbyImageData(placeholder: BLURRED, formats: [WEBP])
             }
           }
           date

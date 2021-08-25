@@ -1,7 +1,8 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
-import { Row, Col, Image } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import AdSense from "react-adsense";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { indexpostimage } from "../components/index.module.css";
 
 const Post = ({ data, category }) => {
@@ -32,8 +33,8 @@ const Post = ({ data, category }) => {
           )}
           <Row>
             <Col md="4" sm="12">
-              <Image
-                src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+              <GatsbyImage
+                image={getImage(post.frontmatter.thumbnail)}
                 alt={post.frontmatter.title}
                 className={indexpostimage}
               />
@@ -70,9 +71,7 @@ const RelatedPost = ({ category }) => {
                 category
                 thumbnail {
                   childImageSharp {
-                    fluid {
-                      srcWebp
-                    }
+                    gatsbyImageData(placeholder: BLURRED, formats: [WEBP])
                   }
                 }
               }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Image, Container, Col } from "react-bootstrap";
 import AdSense from "react-adsense";
-import { indexpostimage } from "../components/index.module.css";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 export default function ShowBlogs({ posts }) {
   return (
@@ -23,10 +23,9 @@ export default function ShowBlogs({ posts }) {
             )}
             <Row>
               <Col md="4" sm="12">
-                <Image
-                  src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+                <GatsbyImage
+                  image={getImage(post.frontmatter.thumbnail)}
                   alt={post.frontmatter.title}
-                  className={indexpostimage}
                 />
               </Col>
               <Col>

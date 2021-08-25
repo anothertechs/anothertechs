@@ -170,12 +170,8 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
-    {
-      resolve: "gatsby-transformer-sharp",
-      options: {
-        plugins: [`gatsby-remark-lazy-load`],
-      },
-    },
+    "gatsby-transformer-sharp",
+
     {
       resolve: "gatsby-source-filesystem",
       options: {

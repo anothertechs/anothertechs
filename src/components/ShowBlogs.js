@@ -4,7 +4,6 @@ import AdSense from "react-adsense";
 import { indexpostimage } from "../components/index.module.css";
 
 export default function ShowBlogs({ posts }) {
-  console.log(posts);
   return (
     <div>
       <Container>

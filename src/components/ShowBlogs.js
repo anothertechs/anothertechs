@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Image, Container, Col } from "react-bootstrap";
+import { Row, Container, Col } from "react-bootstrap";
 import AdSense from "react-adsense";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 

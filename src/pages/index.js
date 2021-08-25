@@ -89,7 +89,7 @@ export const recentBlogQuery = graphql`
           published
           thumbnail {
             childImageSharp {
-              gatsbyImageData(placeholder: BLURRED, formats: [WEBP])
+              gatsbyImageData(placeholder: BLURRED, formats: [WEBP], width: 500)
             }
           }
           date

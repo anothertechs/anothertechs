@@ -3,7 +3,6 @@ import { StaticQuery, graphql } from "gatsby";
 import { Row, Col } from "react-bootstrap";
 import AdSense from "react-adsense";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { indexpostimage } from "../components/index.module.css";
 
 const Post = ({ data, category }) => {
   var similarPost = [];
@@ -36,7 +35,6 @@ const Post = ({ data, category }) => {
               <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail)}
                 alt={post.frontmatter.title}
-                className={indexpostimage}
               />
             </Col>
             <Col>
@@ -71,7 +69,11 @@ const RelatedPost = ({ category }) => {
                 category
                 thumbnail {
                   childImageSharp {
-                    gatsbyImageData(placeholder: BLURRED, formats: [WEBP])
+                    gatsbyImageData(
+                      placeholder: BLURRED
+                      formats: [WEBP]
+                      width: 500
+                    )
                   }
                 }
               }

@@ -202,5 +202,19 @@ module.exports = {
         publisherId: `ca-pub-2965086569594457`,
       },
     },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [
+          `/about`,
+          `/linux`,
+          `/reviews`,
+          `/techs`,
+          `/softwares`,
+          `/programming`,
+          `/crypto`,
+        ],
+      },
+    },
   ],
 };

@@ -83,7 +83,7 @@ export default function BlogPost({ data }) {
                 <MDXRenderer>{body}</MDXRenderer>
               </Col>
               <Col>
-                <div className=" m-2 p-2 sticky-top">
+                <div className="m-2 p-2 md-sticky-top">
                   <BlogsAd />
                 </div>
               </Col>

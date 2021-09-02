@@ -117,7 +117,7 @@ class ResidualBlock(nn.Module):
         return out
 ```
 
-In the [last]() article I have explain why we use `nn.Module` in our class so, I am going to skip that part.
+In the [last](https://anothertechs.com/programming/neural-network/cnn/) article I have explain why we use `nn.Module` in our class so, I am going to skip that part.
 We have created two convolution layer `self.conv1` and `self.conv2` just like in diagram.
 The `self.skip` is our shortcut layer which will be added to the output of `self.conv2`.
 The "if" part in `__init__()` method checks weather the dimenssion of `self.conv2` will change or not. If it changes than we have to change the ouput dimenssion of input by passing it to `nn.Conv2d` layer.

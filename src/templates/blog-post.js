@@ -81,7 +81,7 @@ export default function BlogPost({ data }) {
             <Row>
               <Col>
                 <div className="m-2 p-2 sticky-md-top">
-                  <BlogsAd />
+                  <BlogsAd slot="4363772608" />
                 </div>
               </Col>
               <Col md={6} sm={12}>
@@ -89,7 +89,7 @@ export default function BlogPost({ data }) {
               </Col>
               <Col>
                 <div className="m-2 p-2 sticky-md-top">
-                  <BlogsAd />
+                  <BlogsAd slot="9151719959" />
                 </div>
               </Col>
             </Row>

@@ -75,7 +75,7 @@ PyTorch provides very good class `transforms` which are use for modifying and tr
 
 Now let's get out dataset:
 
-```python3
+```python
 def get_dataset(train = True):
     if train:
         trainset = dt.ImageFolder(root = "./train/",transform = PREPROCESS)

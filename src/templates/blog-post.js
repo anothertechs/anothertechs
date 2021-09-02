@@ -79,7 +79,12 @@ export default function BlogPost({ data }) {
           </div>
           <div>
             <Row>
-              <Col md={9} sm={12}>
+              <Col>
+                <div className="m-2 p-2 sticky-md-top">
+                  <BlogsAd />
+                </div>
+              </Col>
+              <Col md={6} sm={12}>
                 <MDXRenderer>{body}</MDXRenderer>
               </Col>
               <Col>

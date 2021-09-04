@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { Link, graphql } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
-import AdSense from "react-adsense";
+import { BlogsAd } from "../components/blogsAd";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const IndexPage = ({ data }) => {
@@ -30,20 +30,12 @@ const IndexPage = ({ data }) => {
       <Seo title="Home" schemaMarkup={schema} />
       <NavBar />
       <Container>
+        <div className="mt-3 pt-2">
+          <BlogsAd slot="9825781021" />
+          <hr />
+        </div>
         {posts.map((post, index) => (
           <div key={index} className="mt-3 pt-2">
-            {index % 3 === 0 && (
-              <Row>
-                <AdSense.Google
-                  client="ca-pub-2965086569594457"
-                  layoutKey="-an-7l-bz+qf+1nf"
-                  slot="9095362719"
-                  style={{ display: "block" }}
-                  format="fluid"
-                />
-                <hr />
-              </Row>
-            )}
             <Row>
               <Col md="5" sm="12">
                 <GatsbyImage

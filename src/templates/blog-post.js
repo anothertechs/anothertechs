@@ -79,17 +79,17 @@ export default function BlogPost({ data }) {
           </div>
           <div>
             <Row>
-              <Col md={2} sm={12}>
-                <div className="m-2 p-2 sticky-md-top">
-                  <BlogsAd slot="4363772608" />
-                </div>
-              </Col>
-              <Col md={8} sm={12}>
+              <Col md={10} sm={12}>
                 <MDXRenderer>{body}</MDXRenderer>
               </Col>
               <Col md={2} sm={12}>
                 <div className="m-2 p-2 sticky-md-top">
-                  <BlogsAd slot="9151719959" />
+                  <div className="m-2 p-2">
+                    <BlogsAd slot="9151719959" />
+                  </div>
+                  <div className="m-2 p-2">
+                    <BlogsAd slot="4363772608" />
+                  </div>
                 </div>
               </Col>
             </Row>

@@ -12,20 +12,18 @@ const Post = ({ data, category }) => {
 
   return (
     <div>
+      <div>
+        <AdSense.Google
+          client="ca-pub-2965086569594457"
+          layoutKey="-an-7l-bz+qf+1nf"
+          slot="9095362719"
+          style={{ display: "block" }}
+          format="fluid"
+        />
+        <hr />
+      </div>
       {similarPost.map((post, index) => (
         <div key={index} className="mt-3 pt-2">
-          {index % 2 === 0 && (
-            <Row>
-              <AdSense.Google
-                client="ca-pub-2965086569594457"
-                layoutKey="-an-7l-bz+qf+1nf"
-                slot="9095362719"
-                style={{ display: "block" }}
-                format="fluid"
-              />
-              <hr />
-            </Row>
-          )}
           <Row>
             <Col md="4" sm="12">
               <GatsbyImage

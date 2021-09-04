@@ -38,9 +38,6 @@ export default function ShowBlogs({ posts }) {
               <div className="m-2 p-1">
                 <BlogsAd slot="9825781021" />
               </div>
-              <div className="m-2 p-1">
-                <BlogsAd slot="4363772608" />
-              </div>
             </div>
           </Col>
         </Row>

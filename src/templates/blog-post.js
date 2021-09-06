@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
 import { blogpostimage } from "../components/index.module.css";
@@ -62,7 +62,7 @@ export default function BlogPost({ data }) {
         schemaMarkup={schema}
       />
       <NavBar />
-      <Container>
+      <div className="m-4 p-2">
         <div className="mb-4 pb-2">
           <div className="mb-3 pb-2">
             <img src={src} alt={title} className={blogpostimage} />
@@ -79,10 +79,17 @@ export default function BlogPost({ data }) {
           </div>
           <div>
             <Row>
-              <Col md={10} sm={12}>
+              <Col md={9} sm={12}>
                 <MDXRenderer>{body}</MDXRenderer>
+                <div>
+                  <h3> Realate Post </h3>
+                  <RelatedPost
+                    category={data.mdx.frontmatter.category}
+                    currId={data.mdx.id}
+                  />
+                </div>
               </Col>
-              <Col md={2} sm={12}>
+              <Col md={3} sm={12}>
                 <div className="m-2 p-2 sticky-md-top">
                   <BlogsAd slot="4363772608" />
                 </div>
@@ -90,14 +97,7 @@ export default function BlogPost({ data }) {
             </Row>
           </div>
         </div>
-        <div>
-          <h3> Realate Post </h3>
-          <RelatedPost
-            category={data.mdx.frontmatter.category}
-            currId={data.mdx.id}
-          />
-        </div>
-      </Container>
+      </div>
       <Footer />
     </div>
   );

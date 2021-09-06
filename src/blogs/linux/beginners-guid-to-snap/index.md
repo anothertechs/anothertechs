@@ -65,25 +65,33 @@ Below is the command to install snap on different linux distros:
 On Debian/Ubuntu/Linux Mint based distros:
 
 ```bash
+
 sudo apt update && sudo apt install snapd
+
 ```
 
 On CentOS/RHEL- based distros:
 
 ```bash
+
 yum install epel-release && yum install snapd
+
 ```
 
 To install snap on Fedora:
 
 ```bash
+
 sudo dnf install snapd
+
 ```
 
 On Arch Based Distros:
 
 ```bash
+
 sudo pacman -S snapd
+
 ```
 
 Once installed, you have to start snap daemon(snapd service).
@@ -91,8 +99,10 @@ Once installed, you have to start snap daemon(snapd service).
 For **systemd** user you can run the following command:
 
 ```bash
+
 sudo systemctl start snapd.socket # To start snapd services
 sudo systemctl enable snapd.socket # To start services at boot
+
 ```
 
 ## Usage of Snap
@@ -102,6 +112,7 @@ sudo systemctl enable snapd.socket # To start services at boot
 Command to find app accross different category:
 
 ```bash
+
 snap find category_name
 
 #For Example
@@ -114,10 +125,12 @@ snap find development
 Command to install app accross different category:
 
 ```bash
+
 sudo snap install app
 
 #For example
 sudo snap install steam
+
 ```
 
 After installation, you can find the program in the "Applications" menu of the Linux distribution. Then you can run it directly from the menu or enter its name through the terminal.
@@ -127,7 +140,9 @@ After installation, you can find the program in the "Applications" menu of the L
 Command to list app :
 
 ```bash
+
 snap list
+
 ```
 
 ### To Know the version information of Snap app

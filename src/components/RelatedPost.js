@@ -25,13 +25,13 @@ const Post = ({ data, category }) => {
       {similarPost.map((post, index) => (
         <div key={index} className="mt-3 pt-2">
           <Row>
-            <Col md="4" sm="12">
+            <Col sm="2" className="d-flex align-items-center">
               <GatsbyImage
                 image={getImage(post.frontmatter.thumbnail)}
                 alt={post.frontmatter.title}
               />
             </Col>
-            <Col>
+            <Col sm="10">
               <div className="mt-4">
                 <a className="link-dark" href={`/${post.slug}`}>
                   <h4>{post.frontmatter.title}</h4>

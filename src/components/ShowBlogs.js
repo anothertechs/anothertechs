@@ -34,7 +34,7 @@ export default function ShowBlogs({ posts }) {
             ))}
           </Col>
           <Col md={4} sm={12}>
-            <div className="m-2 p-2 sticky-md-top">
+            <div className="d-flex align-items-center sticky-md-top">
               <div className="m-2 p-1">
                 <BlogsAd slot="9825781021" />
               </div>

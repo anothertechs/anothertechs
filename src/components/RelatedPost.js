@@ -1,8 +1,8 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { Row, Col } from "react-bootstrap";
-import AdSense from "react-adsense";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { BlogsAd } from "../components/blogsAd";
 
 const Post = ({ data, category }) => {
   var similarPost = data.allMdx.nodes
@@ -13,13 +13,7 @@ const Post = ({ data, category }) => {
   return (
     <div>
       <div>
-        <AdSense.Google
-          client="ca-pub-2965086569594457"
-          layoutKey="-an-7l-bz+qf+1nf"
-          slot="9095362719"
-          style={{ display: "block" }}
-          format="fluid"
-        />
+        <BlogsAd slot="9151719959" />
         <hr />
       </div>
       {similarPost.map((post, index) => (

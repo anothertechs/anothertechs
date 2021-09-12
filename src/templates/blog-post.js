@@ -9,7 +9,6 @@ import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/
 import { blogpostimage } from "../components/index.module.css";
 import RelatedPost from "../components/RelatedPost";
 import { BlogsAd } from "../components/blogsAd";
-import AdSense from "react-adsense";
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
@@ -68,14 +67,7 @@ export default function BlogPost({ data }) {
             <img src={src} alt={title} className={blogpostimage} />
           </div>
           <div>
-            <AdSense.Google
-              client="ca-pub-2965086569594457"
-              slot="9825781021"
-              style={{ display: "block" }}
-              format="auto"
-              responsive="true"
-              layoutKey="-gw-1+2a-9x+5c"
-            />
+            <BlogsAd slot="4363772608" />
           </div>
           <div>
             <Row>
@@ -91,7 +83,7 @@ export default function BlogPost({ data }) {
               </Col>
               <Col md={3} sm={12}>
                 <div className="m-2 p-2 sticky-md-top">
-                  <BlogsAd slot="4363772608" />
+                  <BlogsAd slot="9825781021" />
                 </div>
               </Col>
             </Row>

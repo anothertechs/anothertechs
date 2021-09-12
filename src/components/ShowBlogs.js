@@ -1,11 +1,22 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import { BlogsAd } from "../components/blogsAd";
+import { Row, Col } from "react-bootstrap";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import AdSense from "react-adsense";
 
 export default function ShowBlogs({ posts }) {
   return (
     <div>
+      <div>
+        <AdSense.Google
+          client="ca-pub-2965086569594457"
+          slot="9825781021"
+          style={{ display: "block" }}
+          format="auto"
+          responsive="true"
+          layoutKey="-gw-1+2a-9x+5c"
+        />
+      </div>
       <div className="m-4 p-2">
         <Row>
           <Col md={8} sm={12}>
@@ -34,7 +45,7 @@ export default function ShowBlogs({ posts }) {
             ))}
           </Col>
           <Col md={4} sm={12}>
-            <div className="d-flex align-items-center sticky-md-top">
+            <div className=" sticky-md-top">
               <div className="m-2 p-1">
                 <BlogsAd slot="9825781021" />
               </div>

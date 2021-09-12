@@ -6,7 +6,7 @@ author: Hatim
 published: true
 date: 2021-06-16
 thumbnail: ../../../../images/thumbnail-windows-package-manager.png
-keywords: windows,window 10,winget,install,download,window 7,install,installer,list,lists,package,manager,packages,server,repository,command,commands,github,powerskkjj/chell,command prompt,chocolatey,find,software,app,application,batch
+keywords: windows,window 10,winget,install,download,install,command,commands,github
 ---
 
 # Winget Package Manger for Windows

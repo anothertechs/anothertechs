@@ -1,12 +1,12 @@
 ---
-title: Upside Gap Two Crows Candlestick Pattern Defination 
+title: Upside Gap Two Crows Candlestick Pattern Defination
 published: true
 date: 2021-07-15
 author: Hatim
 category: crypto
 thumbnail: ./maxresdefault.jpg
 description: In technical analysis, an upside gap two crows pattern is a bearish candlestick reversal pattern. It indicates that upward momentum may be diminishing.
-keywords: upside,gap,two,crows,candlestick,patterns,pattern,chart,candle,candles,candlescanner,reversal,bearish,marubozu,market,volume,overbought,body,identify,technical,analysis,trade,trading,strategy,meaning,methods
+keywords: upside,gap,two,crows,candlestick,pattern,chart,candle,methods
 ---
 
 # Upside Gap Two Crows
@@ -131,4 +131,3 @@ Following the pattern, the price might either move sideways or continue higher.
 - https://www.youtube.com/watch?v=jmmxeX4GYI8
 - https://www.nothardtrading.com/upside-gap-two-crows-candle-pattern-explained/
 - http://www.candlescanner.com/candlestick-patterns/upside-gap-two-crows/
-

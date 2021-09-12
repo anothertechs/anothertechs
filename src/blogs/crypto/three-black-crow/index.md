@@ -6,7 +6,7 @@ author: Hatim
 category: crypto
 description: Three black crows is a bearish candlestick pattern that predicts a current uptrend's reversal.
 thumbnail: ./three-black-crow.webp
-keywords: three,black,crows,crow,candlestick,pattern,reversal,bearish,uptrend,high,low,closing,prices,stocks,forex,trading,traders,technical,analysis,signals,market,momentum,body,real,bulls,bears,downward,Marubozu,Doji,star
+keywords: three,black,crows,crow,candlestick,pattern,reversal,bearish,uptrend,trading,technical,analysis,signals
 ---
 
 # Three Black Crows Candlestick Pattern
@@ -116,4 +116,3 @@ Traders should look at additional chart patterns or technical indicators in addi
 - https://trading.funituresited.com/three-black-crows-pattern-explained-for-beginners/
 - https://www.feedroll.com/candlestick-patterns/1265-three-black-crows-pattern/
 - https://forextraininggroup.com/
-

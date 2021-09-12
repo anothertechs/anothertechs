@@ -6,7 +6,7 @@ date: 2021-06-28
 published: true
 thumbnail: ./max-chen-lud4OaUCP4Q-unsplash.jpg
 description: When programming in JavaScript, you often come across scenarios that require string manipulation. For example, when retrieving email , you may need to convert all characters to lowercase or use regular expressions to check if the entered password meets conditions.
-keywords: javascript,methods,functions,programming,code,string,substring,replace,index,indexOf,cheatsheat, Cheat,Sheet,2021,method,replace,str,uppercase,lowercase,trim,concatcharAt,charCodeAt,split,search,
+keywords: javascript,methods,functions,string,cheatsheat, Cheat,Sheet,2021,methods
 ---
 
 # Javascript String Methods Cheat Sheet 2021

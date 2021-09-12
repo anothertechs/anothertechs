@@ -5,7 +5,7 @@ date: 2021-06-22
 published: true
 description: "Snap is a cross-platform packaging and deployment system developed by  Canonical for the Linux. It is compatible with most major Linux distributions, including Ubuntu,Linux mint, Debian, Arch Linux,Fedora, CentOS, and Manjaro."
 category: linux
-keywords: snap,snapd,store,snap store,ubuntu,linux,manjaro,arch, arch linux,download,install,package,manager,aur,deb,snapd,snapcraft,snaps,installing,linux mint,distros,command,dependencie,remove,uninstall,app,apps,application
+keywords: snap,snapd,store,snap store,ubuntu,linux,manjaro,arch, arch linux,download,install,package,manager,aur,deb,What is,usage
 ---
 
 # Beginner guide to Snapcraft,Snap,Snapd and Snap Store

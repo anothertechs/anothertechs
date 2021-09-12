@@ -5,7 +5,7 @@ published: true
 date: 2021-08-17
 category: programming
 thumbnail: ./ss1.jpg
-keywords: react,responsice,drawer,material,ui,code,toolbar,appbar,menu,learn,tutorial,example,useSate,useHook,javascript,programming
+keywords: react,responsive,drawer,material,ui,code,toolbar,appbar,menu,learn,tutorial,useSate,useHook,javascript,programming
 description: In this blog we will look at how to create a responsive drawer using material-ui and react.
 ---
 

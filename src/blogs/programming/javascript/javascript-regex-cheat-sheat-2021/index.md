@@ -4,8 +4,9 @@ category: programming
 date: 2021-08-27
 published: true
 author: Hatim
-keywords: javascript,regex,regular,expression,2021,cheatsheet,string,pattern,match,code,programming,search,case,sensitive,aplanumeric,alpha,negative,posative,lookahead,wildcard,period,flass,character
+keywords: javascript,regex,regular,expression,2021,cheatsheet,pattern,match
 thumbnail: ./javascript-regex.png
+description: This short guide outlines the most important principles and illustrates them with examples to teach you everything you need to know about JavaScript Regular Expressions.
 ---
 
 # Javascript Regex Cheatsheet

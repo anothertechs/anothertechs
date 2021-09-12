@@ -5,7 +5,7 @@ date: 2021-09-03
 published: true
 category: crypto
 thumbnail: ./three-mountain.jpg
-keywords: three,mountain,budda,top,candlstick,pattern,trade,trading,formation,chart,signal,traders,profit,loss,trend,uptrend,downtrend,downwords,upwords
+keywords: three,mountain,budda,top,candlstick,pattern,trade,trading,formation,chart,signal
 descripton: A Three Mountain Top/Buddha Top is a technical chart pattern that indicates an asset is no longer rallying and is headed towards lower pricing.
 ---
 

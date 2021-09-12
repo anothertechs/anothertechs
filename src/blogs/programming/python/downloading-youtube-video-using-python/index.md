@@ -4,7 +4,7 @@ published: true
 date: 2021-06-19
 description: "Downloading youtube video using python. Here we will be using pytube module for downaloding youtube videos.pytube is a lightweight, Pythonic, dependency-free, library for downloading YouTube Videos."
 thumbnail: ./youtube-python-download.webp
-keywords: python,youtube,downloading,downaloder,pytube,library,tutorial,video,videos,beginners,audio,example,code,downaloder,project,api,bot,github,url,install,installing,module,stream,streaming,mp4,mp3,webm
+keywords: python,youtube,downloading,downaloder,pytube,tutorial,video,audio,example,downaloder,bot
 ---
 
 # Tutorial- Downloading YouTube videos using Python

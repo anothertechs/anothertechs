@@ -5,7 +5,7 @@ category: programming
 published: true
 date: 2021-07-05
 description: I will discuss JavaScript tips, tactics, and best practises for beginners that I use and find valuable in this blog
-keywords: javascript,code,programming,tip,tricks,tips,tactics,beginners,const,console,table,map,for,loop,try,catch,delete,splice,indexOf,includes,conditions,guide,practises,best,var,semicolons
+keywords: javascript,code,tip,tricks,tips,tactics,beginners,best
 thumbnail: ./javascript-cover.jpg
 ---
 

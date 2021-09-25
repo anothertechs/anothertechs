@@ -1,5 +1,5 @@
 ---
-title: What is pandas profiling ? Installing pandas profiling in jupyter notebook
+title: Everything you need to know about Python Pandas Data Profiling
 date: 2021-09-09
 published: true
 category: programming
@@ -9,13 +9,13 @@ keywords: pandas,profiling,python,data,frame,dataframe,report,variable,report,da
 thumbnail: ./pandas_profiling.jpg
 ---
 
-# What is Pandas Profiling ?
+# What is Pandas Data Profiling ?
 
 The Pandas library has a large number of functions. It aids in data manipulation and offers a diverse set of features for practically any activity. The pandas `describe()` function is a popular Pandas function. It provides a descriptive statistical overview of all the dataset's features to the user. Even though it is useful for understanding data, it lacks numerous capabilities.
 
 **Pandas profiling** is the answer to this problem. It let's you create reports for your dataset that include a range of features and adjustments. In this post, we'll examine at the functionality of this library, as well as some of the more advanced use cases and connectors that may help you create stunning data frame reports!
 
-## Installing Pandas Profiling in Jupyter notebook
+## Installing Pandas Data Profiling in Jupyter notebook
 
 Pandas profiling, like all other python packages, is quickly installed using the pip or conda package manager:
 
@@ -31,7 +31,7 @@ pip install pandas-profiling
  conda install -c conda-forge pandas-profiling
 ```
 
-## Setting up Pandas Profiling in jupyter notebook
+## Setting up Pandas Data Profiling in jupyter notebook
 
 Now we'll look at how to use the pandas profiling library and create a report from the data frames. Let's start by importing a dataset for which we'll be generating reports. In our example we will be using iris dataset from sklearn.
 

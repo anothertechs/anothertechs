@@ -19,7 +19,7 @@ Merge sort is a sorting algorithm based on "divide and conquer" technology. It i
 In this blog, you will learn about the working principle of the merge sort algorithm, the merge sort algorithm, its time and space complexity, and its implementation in various
 programming languages such as C++, Python, JavaScript and Java.
 
-## How does the merge sort work?
+## How does the merge sort algorithm work?
 
 The operating principle of merge management is divide and conquer. Merge Sort
 Iteratively decompose the array into two equal sub-arrays until each sub-array

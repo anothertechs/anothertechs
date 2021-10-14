@@ -2,9 +2,15 @@
 title: Starter guid to SSH (Secure Shell)
 published: true
 date: 2021-06-14
+author: Hatim
+category: progamming
+description: Welcome to our comprehensive tutorial to SSH (Secure Shell) key configuration.  This lesson will show you how to create SSH keys from scratch, as well as how to manage numerous keys and key pairs.
+keywords: ssh,secure,sheel,guid,user,client,connect,host,ecryption,decryption,commands
 thumbnail: ../../../images/thumbnail-markus.png
 ---
-# Starter guid to SSH 
+
+# Starter guid to SSH
+
 ## What is SSH?
 
 SSH or Secure Shell allows people to access your server remotely. It uses encryption technology to ensure that all communications to and from the server are encrypted.
@@ -105,7 +111,7 @@ ssh username@hostname_or_ip
 ssh test.server.com -p 3322
 ```
 
- **3. Generate SSH Keys Using SSH Keygen**
+**3. Generate SSH Keys Using SSH Keygen**
 
 ```bash
 ssh-keygen -t rsa

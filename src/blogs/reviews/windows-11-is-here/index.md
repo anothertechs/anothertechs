@@ -5,7 +5,7 @@ description: "Microsoft has redesigned the UI to increase users' experience of w
 published: true
 category: review
 thumbnail: ./windows-11.jpg
-keywords: microsoft,design,performance,speed,windows 11,window,windows,11,feature,features,game,games,gaming,wallpaper,update,desktop,school,snap,UI,user,experience,widget,team,store,android,app,applications,apps
+keywords: microsoft,design,windows 11,window,windows,11,features,gaming,UI,user,experience,widget,store,android,app
 ---
 
 # Windows 11 - All new features

@@ -2,7 +2,11 @@
 title: Every thing you need to know about cryptocurrencies
 published: true
 date: 2021-06-15
+author: Hatim
 thumbnail: ../../../images/thumbnail-bermix.jpg
+keywords: cryptocurrencies,crypto,currency,bitcon,dogecoin,ethereum,trader,trading,blockchain,software,digital,wallet
+category: crypto
+descrition: In this blog we will understand what is cryptocurrencies,how are they made and where cryptocurrencies are used.
 ---
 
 # Everything you need to know about Cryptocurrencies

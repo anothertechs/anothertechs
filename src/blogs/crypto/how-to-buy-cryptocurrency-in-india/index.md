@@ -3,6 +3,7 @@ title: How to Buy Cryptocurrency in India
 author: Hatim
 date: 2021-06-27
 thumbnail: ./executium-9pCV2MB65y8-unsplash.jpg
+category: crypto
 published: true
 description: "Buying crypto in India is still a legal process that investors can easily take part in by opening an account with a crypto exchange. Citizens can trade different currencies, hold virtual currency in wallets and more once they have registered for an account."
 keywords: crypto,cryptocurrency,india,bitcoin,exchange,exchanges,nvest,investment,investors,buy,trade,transaction,legal,illegal,market,wazirx,cahaa,zebpay,colodax,coin,switch,buyucoin,ban,secure,risk

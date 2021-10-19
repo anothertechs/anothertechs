@@ -1,5 +1,5 @@
 ---
-title: React Native Navigation Stack
+title: React Navigation
 keywords: react native,react,app,android,ios,navigate,navigation,stack,example,code,screen
 description: React Native Stack Navigator allows your programme to traverse between screens by stacking them
 published: true
@@ -8,7 +8,7 @@ category: programming
 thumbnail: ./output.jpg
 ---
 
-# React Native Navigation Stack
+# React Navigation
 
 There are several screens in mobile apps. When developing mobile apps, one of the most important considerations is how to handle a user's navigation across the app, such as how the screens are presented and how they transition between them.
 

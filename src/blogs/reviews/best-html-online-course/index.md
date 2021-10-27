@@ -1,5 +1,5 @@
 ---
-title: Top HTML,CSS courses for Beginner [2021]
+title: Top HTML & CSS Courses - Learn HTML & CSS Online
 category: review
 date: 2021-10-19
 published: true

@@ -1,6 +1,7 @@
 ---
 title: React Tutorial - Creating a simple weather app using React and Material UI
 published: true
+category: programming
 date: 2021-06-15
 thumbnail: ../../../../images/thumbnail-wim-van-t.png
 description: We'll make a weather app with the react js material UI framework in this article.

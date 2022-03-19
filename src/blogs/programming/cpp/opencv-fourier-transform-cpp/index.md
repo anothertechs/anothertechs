@@ -1,5 +1,5 @@
 ---
-title: OpenCV - Fourier Transform using C++
+title: OpenCV dft() - Fourier Transform using C++
 date: 2022-03-18
 published: true
 thumbnail: ./fourier_transform.png

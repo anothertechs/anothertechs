@@ -71,9 +71,6 @@ export default function BlogPost({ data }) {
             <BlogsAd slot="4363772608" />
           </div>
           <div>
-            <AmazonAffilateLink />
-          </div>
-          <div>
             <Row>
               <Col md={9} sm={12}>
                 <MDXRenderer>{body}</MDXRenderer>
@@ -88,6 +85,9 @@ export default function BlogPost({ data }) {
               <Col md={3} sm={12}>
                 <div className="m-2 p-2 sticky-md-top">
                   <BlogsAd slot="9825781021" />
+                </div>
+                <div className="m-2 p-2 sticky-md-top">
+                  <AmazonAffilateLink />
                 </div>
               </Col>
             </Row>

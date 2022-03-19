@@ -9,6 +9,7 @@ import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/
 import { blogpostimage } from "../components/index.module.css";
 import RelatedPost from "../components/RelatedPost";
 import { BlogsAd } from "../components/blogsAd";
+import { AmazonAffilateLink } from "./iframe";
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
@@ -68,6 +69,9 @@ export default function BlogPost({ data }) {
           </div>
           <div>
             <BlogsAd slot="4363772608" />
+          </div>
+          <div>
+            <AmazonAffilateLink />
           </div>
           <div>
             <Row>

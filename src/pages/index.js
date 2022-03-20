@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 import { Link, graphql } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
-import { BlogsAd } from "../components/blogsAd";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-
+/*
+ */
 const IndexPage = ({ data }) => {
   const { nodes: posts } = data.allMdx;
   const schema = {
@@ -25,15 +25,12 @@ const IndexPage = ({ data }) => {
       "https://github.com/anothertechs",
     ],
   };
+  const newpost = posts[0];
   return (
     <main>
       <Seo title="Home" schemaMarkup={schema} />
       <NavBar />
       <Container>
-        <div className="mt-3 pt-2">
-          <BlogsAd slot="9825781021" />
-          <hr />
-        </div>
         {posts.map((post, index) => (
           <div key={index} className="mt-3 pt-2">
             <Row>

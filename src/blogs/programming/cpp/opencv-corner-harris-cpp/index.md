@@ -163,6 +163,11 @@ Run:
 
 ### References
 
+- [Building Computer Vision Projects with OpenCV 4 and C++](https://amzn.to/3N7WwbC)
+- [Learning OpenCV 3: Computer Vision In C++ With The OpenCV Library](https://amzn.to/3toR4sR)
+- [OpenCV 4 Computer Vision Application Programming Cookbook: Build complex computer vision applications with OpenCV and C++, 4th Edition ](https://amzn.to/37ztG3o)
+- [Object-Oriented Programming with C++ | 8th Edition ](https://amzn.to/3ilHaC5)
+
 - https://docs.opencv.org/3.4/d4/d7d/tutorial_harris_detector.html
 - https://medium.com/data-breach/introduction-to-harris-corner-detector-32a88850b3f6
 - https://www.geeksforgeeks.org/python-corner-detection-with-harris-corner-detection-method-using-opencv/

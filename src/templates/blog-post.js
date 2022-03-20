@@ -3,13 +3,12 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
-import { blogpostimage } from "../components/index.module.css";
 import RelatedPost from "../components/RelatedPost";
 import { BlogsAd } from "../components/blogsAd";
-import { AmazonAffilateLink } from "./iframe";
+import DealOfDay from "../components/ads/amazon/dealofday.js";
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
@@ -63,36 +62,35 @@ export default function BlogPost({ data }) {
       />
       <NavBar />
       <div className="m-4 p-2">
-        <div className="mb-4 pb-2">
-          <div className="mb-3 pb-2">
-            <img src={src} alt={title} className={blogpostimage} />
+        <Container>
+          <div className="mb-4 pb-2">
+            <div className="mb-3 pb-2">
+              <Container>
+                <img
+                  src={src}
+                  alt={title}
+                  className="img-fluid rounded mx-auto d-block"
+                />
+              </Container>
+            </div>
+            <div>
+              <BlogsAd slot="4363772608" />
+            </div>
+            <div>
+              <DealOfDay />
+            </div>
+            <div>
+              <MDXRenderer>{body}</MDXRenderer>
+              <div>
+                <h3> Realate Post </h3>
+                <RelatedPost
+                  category={data.mdx.frontmatter.category}
+                  currId={data.mdx.id}
+                />
+              </div>
+            </div>
           </div>
-          <div>
-            <BlogsAd slot="4363772608" />
-          </div>
-          <div>
-            <Row>
-              <Col md={9} sm={12}>
-                <MDXRenderer>{body}</MDXRenderer>
-                <div>
-                  <h3> Realate Post </h3>
-                  <RelatedPost
-                    category={data.mdx.frontmatter.category}
-                    currId={data.mdx.id}
-                  />
-                </div>
-              </Col>
-              <Col md={3} sm={12}>
-                <div className="m-2 p-2 sticky-md-top">
-                  <BlogsAd slot="9825781021" />
-                </div>
-                <div className="m-2 p-2 sticky-md-top">
-                  <AmazonAffilateLink />
-                </div>
-              </Col>
-            </Row>
-          </div>
-        </div>
+        </Container>
       </div>
       <Footer />
     </div>

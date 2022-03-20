@@ -198,4 +198,9 @@ We can also rearrange the quadrants of the result for display purposes, so that 
 
 #### References
 
+- [Building Computer Vision Projects with OpenCV 4 and C++](https://amzn.to/3N7WwbC)
+- [Learning OpenCV 3: Computer Vision In C++ With The OpenCV Library](https://amzn.to/3toR4sR)
+- [OpenCV 4 Computer Vision Application Programming Cookbook: Build complex computer vision applications with OpenCV and C++, 4th Edition ](https://amzn.to/37ztG3o)
+- [Object-Oriented Programming with C++ | 8th Edition ](https://amzn.to/3ilHaC5)
+
 - https://pyimagesearch.com/

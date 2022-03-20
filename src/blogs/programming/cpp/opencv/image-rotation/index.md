@@ -128,3 +128,10 @@ int main(int argc,char** argv) {
 
 ![Output 1](./output1.webp)
 ![Output 2](./output2.webp)
+
+### References
+
+- [Building Computer Vision Projects with OpenCV 4 and C++](https://amzn.to/3N7WwbC)
+- [Learning OpenCV 3: Computer Vision In C++ With The OpenCV Library](https://amzn.to/3toR4sR)
+- [OpenCV 4 Computer Vision Application Programming Cookbook: Build complex computer vision applications with OpenCV and C++, 4th Edition ](https://amzn.to/37ztG3o)
+- [Object-Oriented Programming with C++ | 8th Edition ](https://amzn.to/3ilHaC5)

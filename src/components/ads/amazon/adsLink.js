@@ -26,3 +26,26 @@ export const HomePageAds = [
     link: "https://amzn.to/3wpBxLq",
   },
 ];
+
+export const BlogPageAds = [
+  {
+    title: "Philips Wiz Wi-Fi Enabled B22 9-Watt LED Smart Bulb",
+    img: "https://m.media-amazon.com/images/I/61ym888l4pL._SL1500_.jpg",
+    link: "https://amzn.to/3NjjQD5",
+  },
+  {
+    title: " Amazon Basics 4 Pack AA High-Performance Alkaline Batteries",
+    img: "https://m.media-amazon.com/images/I/71gfnsDd3-L._AC_SL1500_.jpg",
+    link: "https://amzn.to/3Lh7TfD",
+  },
+  {
+    title: "Security Home Camera Baby Monitor",
+    img: "https://m.media-amazon.com/images/I/61As5eVmZ7L._AC_SL1500_.jpg",
+    link: "https://amzn.to/3Nd8f8R",
+  },
+  {
+    title: "Nexillumi LED Lights for TV Backlight",
+    img: "https://m.media-amazon.com/images/I/81wDA5n5FoL._AC_SL1500_.jpg",
+    link: "https://amzn.to/36Jfh4u",
+  },
+];

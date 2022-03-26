@@ -74,6 +74,68 @@ The gradient magnitudes are compared with two threshold values, one smaller than
 
 - The 'weak' pixels are included in the final edge map if they are connected to those associated with strong edges.
 
+### References
+
+- [Learning OpenCV 3 with Python](https://amzn.to/3iyDkG0)
+- [Building Computer Vision Projects with OpenCV 4 and C++](https://amzn.to/3N7WwbC)
+- [Learning OpenCV 3: Computer Vision In C++ With The OpenCV Library](https://amzn.to/3toR4sR)
+- [OpenCV 4 Computer Vision Application Programming Cookbook: Build complex computer vision applications with OpenCV and C++, 4th Edition ](https://amzn.to/37ztG3o)
+- [Object-Oriented Programming with C++ | 8th Edition ](https://amzn.to/3ilHaC5)
+- https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html
+
+## Code Explanation
+
+1.  Declaring Variable:
+
+    ```cpp
+    const std::string window = "Canny Edge Detection"; //Window Name
+    int lowThreshold = 0;
+    const int maxThreshold = 100;
+    const int ratio = 3;
+    const int kernel_size = 3;
+
+    cv::Mat input,output; //input and output images;
+    cv::Mat detected_edges; //Edge Detected image;
+    ```
+
+2.  Loads the source image:
+
+    ```cpp
+    if (argc < 2 )
+    	return ErrorMsg("Specify Image in command line");
+
+    input = cv::imread(argv[1],cv::IMREAD_GRAYSCALE);
+
+    if(input.empty())
+    	return ErrorMsg("Could Not Open Image");
+    ```
+
+3.  Now let's check `CannyEdgeDetection()` step by step:
+
+    1.  First we blur the image using _GaussianBlur_:
+        `cv::GaussianBlur(input,detected_edges,cv::Size(5,5),0);`
+
+    2.  The we appy `cv::Canny()` function:
+
+        `cv::Canny(detected_edges,detected_edges,lowThreshold,lowThreshold * ratio,kernel_size);`
+
+        the following are the arguments:
+
+        - detected_edges: grayscale source image
+        - detected_edges: The detector's output (can be the same as the input)
+        - lowThreshold: The value input by the user when he or she moves the Trackbar.
+        - maxThreshold: Three times the lower threshold (as per Canny's recommendation) is set in the programme.
+        - kernel size: i.e. 3
+
+4.  A dst picture is filled with zeros (meaning the image is completely black).
+    `output = cv::Scalar::all(0);`
+
+5.  Finally, we'll use the `cv::Mat::copy` function. Only the parts of the image that have been identified as edges should be mapped (on a black background). `cv::Mat::copy` To copy the src picture to the destination (dst). However, it will only copy pixels with non-zero values in non-zero locations. Because the Canny detector's output is edge contours on a black background, the dst will be black everywhere except the detected edges.
+
+### Result
+
+![Ouput](./output.png)
+
 ### Code
 
 ```cpp
@@ -137,65 +199,3 @@ int main ( int argc,char** argv) {
 }
 
 ```
-
-## Explanation
-
-1.  Declaring Variable:
-
-    ```cpp
-    const std::string window = "Canny Edge Detection"; //Window Name
-    int lowThreshold = 0;
-    const int maxThreshold = 100;
-    const int ratio = 3;
-    const int kernel_size = 3;
-
-    cv::Mat input,output; //input and output images;
-    cv::Mat detected_edges; //Edge Detected image;
-    ```
-
-2.  Loads the source image:
-
-    ```cpp
-    if (argc < 2 )
-    	return ErrorMsg("Specify Image in command line");
-
-    input = cv::imread(argv[1],cv::IMREAD_GRAYSCALE);
-
-    if(input.empty())
-    	return ErrorMsg("Could Not Open Image");
-    ```
-
-3.  Now let's check `CannyEdgeDetection()` step by step:
-
-    1.  First we blur the image using _GaussianBlur_:
-        `cv::GaussianBlur(input,detected_edges,cv::Size(5,5),0);`
-
-    2.  The we appy `cv::Canny()` function:
-
-        `cv::Canny(detected_edges,detected_edges,lowThreshold,lowThreshold * ratio,kernel_size);`
-
-        the following are the arguments:
-
-        - detected_edges: grayscale source image
-        - detected_edges: The detector's output (can be the same as the input)
-        - lowThreshold: The value input by the user when he or she moves the Trackbar.
-        - maxThreshold: Three times the lower threshold (as per Canny's recommendation) is set in the programme.
-        - kernel size: i.e. 3
-
-4.  A dst picture is filled with zeros (meaning the image is completely black).
-    `output = cv::Scalar::all(0);`
-
-5.  Finally, we'll use the `cv::Mat::copy` function. Only the parts of the image that have been identified as edges should be mapped (on a black background). `cv::Mat::copy` To copy the src picture to the destination (dst). However, it will only copy pixels with non-zero values in non-zero locations. Because the Canny detector's output is edge contours on a black background, the dst will be black everywhere except the detected edges.
-
-### Result
-
-![Ouput](./output.png)
-
-### References
-
-- [Learning OpenCV 3 with Python](https://amzn.to/3iyDkG0)
-- [Building Computer Vision Projects with OpenCV 4 and C++](https://amzn.to/3N7WwbC)
-- [Learning OpenCV 3: Computer Vision In C++ With The OpenCV Library](https://amzn.to/3toR4sR)
-- [OpenCV 4 Computer Vision Application Programming Cookbook: Build complex computer vision applications with OpenCV and C++, 4th Edition ](https://amzn.to/37ztG3o)
-- [Object-Oriented Programming with C++ | 8th Edition ](https://amzn.to/3ilHaC5)
-- https://docs.opencv.org/3.4/da/d5c/tutorial_canny_detector.html

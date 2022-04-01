@@ -50,7 +50,7 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
-  if (node.internal.type === `Mdx`) {
+  if (node.internal.type === `Mdx` && node.fileAbsolutePath.includes(`blogs`)) {
     const slug = createFilePath({ node, getNode, basePath: `src` });
     createNodeField({
       node,

@@ -4,7 +4,7 @@ date: 2022-03-18
 published: true
 thumbnail: ./fourier_transform.png
 category: programming
-authour: Hatim
+author: Hatim
 keywords: OpenCV,C++,Cpp,Fourier,Transform,DFT,
 description: In this article we will discuss What is Fourier Transform, and How to Use Fourier Transform in image processing
 ---

@@ -6,6 +6,8 @@ import firebase from "../../../firebase";
 export function AmazonHomePageAds() {
   const [loading, setLoading] = useState(false);
   const [offers, setOffers] = useState([]);
+  const urlLinkInitial =
+    "https://couponsandoffer.github.io/couponsandoffer/#/product/";
   useEffect(() => {
     const getOffers = () => {
       const ref = firebase
@@ -36,12 +38,20 @@ export function AmazonHomePageAds() {
               <div className="row mt-1 pt-2">
                 <div className="col-md-6 ">
                   <div className="d-flex justify-content-center">
-                    <img src={ads.img} width="100px" height="100px" />
+                    <img
+                      src={ads.img}
+                      alt={ads.title}
+                      width="100px"
+                      height="100px"
+                    />
                   </div>
                 </div>
                 <div className="col-md-6 mt-sm-2 mt-md-0">
                   <div className="text-center">
-                    <a href={ads.link} style={{ color: "black" }}>
+                    <a
+                      href={`${urlLinkInitial}${ads.id}`}
+                      style={{ color: "black" }}
+                    >
                       <p> {ads.title}</p>
                     </a>
                   </div>

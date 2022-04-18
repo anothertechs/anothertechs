@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import React from "react";
 import { product } from "./Deals.module.css";
 import firebase from "../../../firebase";
+const urlLinkInitial =
+  "https://couponsandoffer.github.io/couponsandoffer/#/product/";
 
 export default function DealOfDay() {
   const [loading, setLoading] = useState(false);
@@ -42,7 +44,10 @@ export default function DealOfDay() {
           offers.map((ads, index) => (
             <div className="">
               <div className={product}>
-                <a href={ads.link} className="link-secondary">
+                <a
+                  href={`${urlLinkInitial}${ads.id}`}
+                  className="link-secondary"
+                >
                   <div className="d-flex justify-content-center">
                     <img
                       className="d-flex align-items-center"

@@ -4,7 +4,7 @@ date: 2022-04-16
 category: programming
 author: Hatim
 published: true
-keywords: opencv,image,segmentation,watershed,c++,algorithm,markers,marker,pixels,intensity,valleys,morphological,background,foreground,point
+keywords: opencv,image,segmentation,watershed,c++,algorithm,markers,marker,
 description: In this tutorial I will be showing principle of watershed algorithm and how to implement it using opencv and c++,
 thumbnail: ./jay-gomez-XvVakf_sbSE-unsplash.jpg
 ---

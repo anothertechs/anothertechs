@@ -3,7 +3,7 @@ title: OpenCV - Stereo Vision and Depth Estimation using C++
 category: programming
 date: 2022-04-07
 author: Hatim
-keywords: opencv,c++,stereo vision,depth estimation,image,disparity,StereoSGBM,compute,depth estimation,disparitymap,camera,distance
+keywords: opencv,c++,stereo vision,depth,image,disparity,StereoSGBM,compute,depth ,camera,map,rectified
 published: true
 description: Stereo Camera and OpenCV Depth Perception (disparity map for rectified stereo image pair, depth map from disparity map).
 thumbnail: ./output.png
@@ -43,7 +43,7 @@ Depth estimate is an important step in inferring scene geometry from two-dimensi
 
 The above diagram contains equivalent triangles. Writing their equivalent equations will yield us following result:
 
-`disparity=x−x′=Bf/Z`
+` disparity =x−x′=Bf/Z`
 
 The distance between points in the image plane corresponding to scene points 3D and their camera centre is given by x and x′. B is the known distance between two cameras, and f is the focal length of the camera (already known). In other words, the depth of a point in a scene is inversely proportional to the distance between matching picture points and their camera centres, according to the preceding equation. We can calculate the depth of all pixels in an image using this information.
 
@@ -93,7 +93,7 @@ Since Stereo images consists of two image we will read both image left and right
 
 - We will also need two parameter used two compute disparity of image:
 
-  1. **Number of disparity(numDisparities)**: Sets the range of disparity values to be searched. The overall range is from minimum disparity value to minimum disparity value + number of disparities. The following pair of images shows the disparity map calculated for two different disparity ranges. It is clearly visible that increasing the number of disparities increases the accuracy of the disparity map.
+  1. **Number of disparity (numDisparities)**: Sets the range of disparity values to be searched. The overall range is from minimum disparity value to minimum disparity value + number of disparities. The following pair of images shows the disparity map calculated for two different disparity ranges. It is clearly visible that increasing the number of disparities increases the accuracy of the disparity map.
 
   ```cpp
   	stereo->setNumDisparities(numDisparity * 16);

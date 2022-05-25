@@ -1,14 +1,14 @@
 ---
-title: Piercing Candlestick Pattern
+title: Candlestick Pattern - Piercing Pattern
 date: 2021-06-22
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 published: true
 description: "The piercing line pattern is considered a bullish reversal candlestick pattern that is at the bottom of a downtrend. When bulls enter the stock/crypto market and prices rise, it usually indicates a change in trend."
 category: crypto
-keywords: bearish,piercing,candlestick,trend,market,stock,crypto,trade,trading,buyers,price,bullish,bearish,bulls,bears,exmaple,chart,identify
+keywords: piercing pattern,piercing,candlestick,candle,bullish,bearish
 ---
 
-# Piercing Candlestick Pattern for Stock/Crypto Trading
+# Piercing Candlestick Pattern
 
 For each bearish pattern, there is also a bullish pattern. So previously we have seen a bearish pattern - [The Dark Cloud Cover](https://anothertechs.com/crypto/dark-cloud-cover/).
 Now its counterpart is the bullish [piercing pattern](https://anothertechs.com/crypto/piercing-pattern/).
@@ -17,7 +17,7 @@ Now its counterpart is the bullish [piercing pattern](https://anothertechs.com/c
 
 ![Bullish Piercing Pattern](./piercing-patttern-cnadlestick.webp)
 
-The piercing line pattern is considered a bullish reversal candlestick pattern that is at the bottom of a downtrend. When bulls enter the stock/crypto market and prices rise, it usually indicates a change in trend.
+The piercing pattern is considered a bullish reversal candlestick pattern that is at the bottom of a downtrend. When bulls enter the stock/crypto market and prices rise, it usually indicates a change in trend.
 
 This piercing pattern consists of two downtrend candles(red and green). The first candle is a red (or black) body and the second candle is a green (or white) body. This green (or white) candle has a lower open price, preferably below the low of the red (or black) prior candle. This is the support for buyers to push the price higher to reach more than 50% from the last bearish candle.
 

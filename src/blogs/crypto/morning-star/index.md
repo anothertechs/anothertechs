@@ -1,14 +1,14 @@
 ---
-title: Morning Star Candlestick Pattern - Best guide to trade in Stock
+title: Candlestick Pattern - Morning Star
 published: true
 date: 2021-06-24
 category: crypto
-description: "Morning star is a visual pattern composed of three candles, and technical analysts interpret it as a bullish signal. This is a sign of a reversal of the previous price trend."
+description: "Morning star candlestick pattern is a visual pattern composed of three candles, and technical analysts interpret it as a bullish signal. This is a sign of a reversal of the previous price trend."
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-keywords: morning,star,investing,investors,indicator,reversal,pattern,candlestick,candle,analysis,trading,reversal,bullish,examples,real,formation,technical analysis,crypto,stock,chart,analyst,trade,signal,understanding,traders,predict,market,price
+keywords: morning star,morning,star,candlestick
 ---
 
-# Understanding Morning Start Candlestick Pattern
+# Candlestick Pattern - Morning star
 
 For a long time, investors have been carefully studying the candlestick patterns that appear in the price trajectory. This is to predict the future. These areconsidered price signals in technical analysis.A fascinating set of **reversal** pattern analysis are those that indicate stars. A star is composed of a small real body (green/red or white/black), which separates the large real body before it. In other words, the actual body of the star may be within the upper shadow line of the previous trading day; all that is required is that the candles do not overlap.
 

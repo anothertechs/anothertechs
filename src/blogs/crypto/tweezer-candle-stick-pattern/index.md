@@ -1,12 +1,12 @@
 ---
-title: Understanding tweezer top and bottom candlestick pattern
+title: Understanding tweezer top and tweezer bottom candlestick pattern
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 date: 2021-07-08
 category: crypto
 author: Hatim
 published: true
 description: A tweezer can be described as a technical analysis pattern that uses two candlesticks. It can indicate a market top or bottom. Tweezer patterns can be reverse patterns.
-keywords: tweezer,top,bottom,candlestick,pattern,chart,bearish,bullish,bears,bulls,trade,trading,technical,analysis,trader,market,price,movement,scanner,chartlink,reverse,investment,indicator,identify
+keywords: tweezer top,tweezer bottom,candlestick,pattern,chart,bearish,bullish,tweezer,top,bottom
 ---
 
 # Understanding Tweezer Top and Bottom candlestick Pattern

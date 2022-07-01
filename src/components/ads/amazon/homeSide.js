@@ -33,7 +33,7 @@ export function AmazonHomePageAds() {
         <div />
       ) : (
         offers.map((ads, index) => (
-          <div className="d-none d-sm-block">
+          <div key={index} className="d-none d-sm-block">
             <div className={product}>
               <div className="row mt-1 pt-2">
                 <div className="col-md-6 ">
@@ -52,7 +52,7 @@ export function AmazonHomePageAds() {
                       href={`${urlLinkInitial}${ads.id}`}
                       style={{ color: "black" }}
                     >
-                      <p> {ads.title}</p>
+                      <p> {`${ads.title.substring(0, 30)}..`}</p>
                     </a>
                   </div>
                 </div>

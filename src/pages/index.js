@@ -53,7 +53,7 @@ const IndexPage = ({ data }) => {
         <NewPost post={posts[1]} />
       </div>
       <div className="m-2 p-2">
-        <div clasName="container">
+        <div>
           <div className="row">
             <div className="col-md-9">
               <ProgrammingPost posts={programmingPost} name={"Coding"} />
@@ -95,7 +95,7 @@ function Posts({ posts, name }) {
         </p>
       </div>
       {posts.map((post, index) => (
-        <div className="row">
+        <div key={index} className="row">
           <div className="col-md-6 d-flex align-items-center">
             <GatsbyImage
               image={getImage(post.frontmatter.thumbnail)}
@@ -148,7 +148,7 @@ function ProgrammingPost({ posts, name }) {
         </div>
         <div className="col-md-6 ">
           {restPost.map((post, index) => (
-            <div className="row mt-2 pt-2">
+            <div key={index} className="row mt-2 pt-2">
               <div className="col-6">
                 <GatsbyImage
                   image={getImage(post.frontmatter.thumbnail)}

@@ -14,7 +14,7 @@ export default function DealOfDay() {
         .firestore()
         .collection("offers")
         .orderBy("date", "desc")
-        .limit(4);
+        .limit(5);
       setLoading(true);
       ref.onSnapshot((querySnapshot) => {
         const items = [];
@@ -28,8 +28,6 @@ export default function DealOfDay() {
     getOffers();
   }, []);
 
-  console.log(offers);
-
   return (
     <div>
       <div>
@@ -42,7 +40,7 @@ export default function DealOfDay() {
           <div />
         ) : (
           offers.map((ads, index) => (
-            <div className="">
+            <div key={index} className="mr-1 pr-1">
               <div className={product}>
                 <a
                   href={`${urlLinkInitial}${ads.id}`}
@@ -61,7 +59,7 @@ export default function DealOfDay() {
                     className="d-none d-sm-block text-center"
                     style={{ fontSize: 16 }}
                   >
-                    <u>{ads.title}</u>
+                    <u>{`${ads.title.substring(0, 30)}..`}</u>
                   </p>
                 </a>
               </div>

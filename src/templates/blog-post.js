@@ -6,9 +6,14 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { Container } from "react-bootstrap";
 import Seo from "../components/seo";
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
-import RelatedPost from "../components/RelatedPost";
+import loadable from "@loadable/component";
 import { BlogsAd } from "../components/blogsAd";
-import DealOfDay from "../components/ads/amazon/dealofday.js";
+
+const DealOfDay = loadable(() =>
+  import("../components/ads/amazon/dealofday.js")
+);
+
+const RelatedPost = loadable(() => import("../components/RelatedPost"));
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();

@@ -17,6 +17,10 @@ const RelatedPost = loadable(() => import("../components/RelatedPost"));
 
 export default function BlogPost({ data }) {
   deckDeckGoHighlightElement();
+  const similar =
+    data.mdx.frontmatter.category === "programming"
+      ? data.mdx.slug.split("/")[1]
+      : data.mdx.frontmatter.category;
   const {
     mdx: { body },
   } = data;
@@ -66,9 +70,9 @@ export default function BlogPost({ data }) {
         schemaMarkup={schema}
       />
       <NavBar />
-      <div className="m-4 p-2">
-        <Container>
-          <div className="mb-4 pb-2">
+      <div className="m-2 p-2">
+        <div>
+          <div className="m-3 p-1">
             <div className="mb-3 pb-2">
               <Container>
                 <img
@@ -84,18 +88,17 @@ export default function BlogPost({ data }) {
             <div>
               <DealOfDay />
             </div>
-            <div>
-              <MDXRenderer>{body}</MDXRenderer>
-              <div>
-                <h3> Realate Post </h3>
-                <RelatedPost
-                  category={data.mdx.frontmatter.category}
-                  currId={data.mdx.id}
-                />
+            <div className="row">
+              <div className="col-sm-8">
+                <MDXRenderer>{body}</MDXRenderer>
+              </div>
+
+              <div className="col-sm-4">
+                <RelatedPost category={similar} currId={data.mdx.id} />
               </div>
             </div>
           </div>
-        </Container>
+        </div>
       </div>
       <Footer />
     </div>

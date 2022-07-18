@@ -1,8 +1,8 @@
 .navlink {
-  color: white;
+  color: #000000;
 }
 .navlink:hover {
-  color: yellow;
+  color: #81d4fa;
 }
 
 .barger {

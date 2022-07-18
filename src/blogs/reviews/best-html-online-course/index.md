@@ -61,7 +61,7 @@ The course has the following features:
 5. You can get a free eBook with all of the course material.
 6. Full access to 11.5 hours of on-demand videos, seven supplement sources, and eleven articles that will vastly improve your knowledge and skills.
 
-[Course Link](https://www.udemy.com/course/web-design-for-beginners-real-world-coding-in-html-css/)
+[Course Link](https://ekaro.in/enkr20220718s13184879)
 
 ## Linkdin Learning
 

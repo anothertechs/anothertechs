@@ -74,7 +74,11 @@ const IndexPage = ({ data }) => {
           </div>
           <div>
             <form method="get" action="/blogs">
-              <button type="submit" className="btn btn-secondary">
+              <button
+                type="submit"
+                style={{ width: "10%" }}
+                className="rounded-pill btn btn-primary"
+              >
                 More
               </button>
             </form>

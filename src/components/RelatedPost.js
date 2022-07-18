@@ -3,40 +3,40 @@ import { StaticQuery, graphql } from "gatsby";
 import { Row, Col } from "react-bootstrap";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { BlogsAd } from "../components/blogsAd";
+import { product } from "../components/ads/amazon/Deals.module.css";
 
 const Post = ({ data, category }) => {
   var similarPost = data.allMdx.nodes
-    .filter((node) => node.frontmatter.category === category)
+    .filter((node) => node.slug.match(new RegExp(`\\b${category}\\b`, "gi")))
     .sort(() => Math.random() - 0.5)
-    .slice(0, 5);
+    .slice(0, 7);
 
   return (
-    <div>
-      <div>
-        <BlogsAd slot="9151719959" />
-        <hr />
+    <div className="">
+      <div className="mt-2 ">
+        <h4> Realate Post </h4>
       </div>
       {similarPost.map((post, index) => (
-        <div key={index} className="mt-3 pt-2">
-          <Row>
-            <Col sm="2" className="d-flex align-items-center">
-              <GatsbyImage
-                image={getImage(post.frontmatter.thumbnail)}
-                alt={post.frontmatter.title}
-              />
-            </Col>
-            <Col sm="10">
-              <div className="mt-4">
-                <a className="link-dark" href={`/${post.slug}`}>
-                  <h4>{post.frontmatter.title}</h4>
-                </a>
-                <p className="mt-3 text-muted pt-1">
-                  {post.frontmatter.description}
-                </p>
-              </div>
-            </Col>
+        <div key={index}>
+          <Row className={product}>
+            {index % 3 === 0 && <BlogsAd />}
+            <>
+              <Col sm="6" className="d-flex align-items-center">
+                <GatsbyImage
+                  imgStyle={{ borderRadius: "5%" }}
+                  image={getImage(post.frontmatter.thumbnail)}
+                  alt={post.frontmatter.title}
+                />
+              </Col>
+              <Col sm="6">
+                <div className="mt-4">
+                  <a className="link-dark" href={`/${post.slug}`}>
+                    <p>{post.frontmatter.title}</p>
+                  </a>
+                </div>
+              </Col>
+            </>
           </Row>
-          <hr />
         </div>
       ))}
     </div>

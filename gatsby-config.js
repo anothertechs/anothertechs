@@ -146,6 +146,9 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-highlight-code`,
+            options: {
+              theme: "night-owl",
+            },
           },
         ],
         plugins: [

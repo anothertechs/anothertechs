@@ -42,7 +42,7 @@ The instructor executes the SQL queries using Firefox and the SQLite Manager add
 
 ![Udemy](./udemy.webp)
 
-[The Ultimate MySQL Bootcamp](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) course on Udemy is a great place to start if you're new to databases. The course is designed for total novices and includes over 20 hours of video. The course is divided into approximately 300 lectures that cover a wide range of topics in a reasonable amount of time. The instructor gently guides you through the process of installing the MySQL database and creating an Instagram-like database, which you'll then use to perform some real-world data queries.
+[The Ultimate MySQL Bootcamp](https://ekaro.in/enkr20220718s13184861) course on Udemy is a great place to start if you're new to databases. The course is designed for total novices and includes over 20 hours of video. The course is divided into approximately 300 lectures that cover a wide range of topics in a reasonable amount of time. The instructor gently guides you through the process of installing the MySQL database and creating an Instagram-like database, which you'll then use to perform some real-world data queries.
 
 Previously, the instructor recommended and used the online Cloud9 IDE, but now advises students to use the Goorm.io IDE, which is very comparable. He also demonstrates how to install MySQL on Windows and Mac OS X, but he advises that you do so at the end of the course.
 

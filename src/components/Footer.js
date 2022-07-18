@@ -7,10 +7,7 @@ import { navlink } from "./index.module.css";
 function Footer() {
   const { title } = useSiteMetadata();
   return (
-    <div
-      style={{ backgroundColor: "black", borderRadius: "7px" }}
-      className="mt-5 pt-4 d-flex align-items-center "
-    >
+    <div className="mt-5 pt-4 d-flex align-items-center ">
       <Container>
         <div>
           <Row>
@@ -47,7 +44,7 @@ function Footer() {
             </Col>
             <Col xs={12} lg={4}>
               <div className="d-flex justify-content-center align-items-center">
-                <div className="text-white m-3 p-2">
+                <div className=" m-3 p-2">
                   <h4>{title}</h4>
                 </div>
               </div>
@@ -89,7 +86,7 @@ function Footer() {
         </div>
         <hr className="bg-light border-2 border-top border-light" />
         <div>
-          <p className="text-white text-center">
+          <p className=" text-center">
             &copy; {new Date().getFullYear()} {title}. All rights reserved.
           </p>
         </div>

@@ -1,9 +1,11 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import { Row, Container, Col, Card } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Seo from "../components/seo";
+import { BlogCard } from "../components/BlogCard";
+
 //import Dump from "../components/Dump";
 
 //<Dump previous={data} />
@@ -31,35 +33,21 @@ const BlogIndex = ({ data }) => {
     <div>
       <Seo title="Blogs" schemaMarkup={schema} />
       <NavBar />
-      <Container>
-        <Row xs={1} md={2} lg={4} className="g-4">
-          {posts.map((post) => (
+      <Row xs={1} md={2} lg={4} className="g-4">
+        {posts.map((post) => (
+          <>
             <Col className="d-flex align-self-stretch">
-              <Card className="p-2 border border-2 rounded" key={post.id}>
-                <Card.Img
-                  variant="top"
-                  width={300}
-                  height={300}
-                  src={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
-                />
-                <div className="mt-3 pt-2 ">
-                  <Link
-                    style={{ textDecoration: "none" }}
-                    to={`/${post.slug}`}
-                    className="link-dark"
-                  >
-                    <Card.Title>{post.frontmatter.title}</Card.Title>
-                  </Link>
-                </div>
-                <Card.Body>{post.excerpt}</Card.Body>
-                <Card.Footer>
-                  <small className="text-muted"> {post.frontmatter.date}</small>
-                </Card.Footer>
-              </Card>
+              <BlogCard
+                img={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+                slug={`/${post.slug}`}
+                title={post.frontmatter.title}
+                excerpt={post.excerpt}
+                date={post.frontmatter.date}
+              />
             </Col>
-          ))}
-        </Row>
-      </Container>
+          </>
+        ))}
+      </Row>
       <Footer />
     </div>
   );

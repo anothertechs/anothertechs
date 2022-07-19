@@ -9,9 +9,10 @@ import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/
 import loadable from "@loadable/component";
 import { BlogsAd } from "../components/blogsAd";
 
-const DealOfDay = loadable(() =>
+/*const DealOfDay = loadable(() =>
   import("../components/ads/amazon/dealofday.js")
 );
+*/
 
 const RelatedPost = loadable(() => import("../components/RelatedPost"));
 
@@ -84,9 +85,6 @@ export default function BlogPost({ data }) {
             </div>
             <div>
               <BlogsAd slot="4363772608" />
-            </div>
-            <div>
-              <DealOfDay />
             </div>
             <div className="row">
               <div className="col-sm-8">

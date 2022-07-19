@@ -1,7 +1,7 @@
 import React from "react";
-import { BlogsAd } from "../components/blogsAd";
+//import { BlogsAd } from "../components/blogsAd";
 import { Row, Col } from "react-bootstrap";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { BlogCard } from "../components/BlogCard";
 import AdSense from "react-adsense";
 
 export default function ShowBlogs({ posts }) {
@@ -18,39 +18,20 @@ export default function ShowBlogs({ posts }) {
         />
       </div>
       <div className="m-4 p-2">
-        <Row>
-          <Col md={8} sm={12}>
-            {posts.map((post, index) => (
-              <div className="mt-3 pt-2">
-                <Row>
-                  <Col md="3" sm="12" className="d-flex align-items-center">
-                    <GatsbyImage
-                      image={getImage(post.frontmatter.thumbnail)}
-                      alt={post.frontmatter.title}
-                    />
-                  </Col>
-                  <Col md="9" sm="12">
-                    <div className="mt-4">
-                      <a className="link-dark" href={`/${post.slug}`}>
-                        <h4>{post.frontmatter.title}</h4>
-                      </a>
-                      <p className="mt-3 text-muted pt-1">
-                        {post.frontmatter.description}
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
-                <hr />
-              </div>
-            ))}
-          </Col>
-          <Col md={4} sm={12}>
-            <div className=" sticky-md-top">
-              <div className="m-2 p-1">
-                <BlogsAd slot="9825781021" />
-              </div>
+        <Row xs={1} md={2} lg={4} className="g-4">
+          {posts.map((post, index) => (
+            <div key={index}>
+              <Col className="d-flex align-self-stretch">
+                <BlogCard
+                  img={post.frontmatter.thumbnail.childImageSharp.fluid.srcWebp}
+                  slug={`/${post.slug}`}
+                  title={post.frontmatter.title}
+                  excerpt={post.frontmatter.description}
+                  date={post.frontmatter.date}
+                />
+              </Col>
             </div>
-          </Col>
+          ))}
         </Row>
       </div>
     </div>

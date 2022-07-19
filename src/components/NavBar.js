@@ -36,9 +36,6 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
             <div className="mx-2 text-white text-uppercase px-1 mx-lg-0 px-lg-0 d-lg-flex">
-              <Nav.Link href="/blogs">
-                <div className={navlink}>Blogs</div>
-              </Nav.Link>
               <Nav.Link href="/programming">
                 <div className={navlink}>Programming</div>
               </Nav.Link>

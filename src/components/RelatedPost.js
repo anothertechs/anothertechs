@@ -19,7 +19,6 @@ const Post = ({ data, category }) => {
       {similarPost.map((post, index) => (
         <div key={index}>
           <Row className={product}>
-            {index % 3 === 0 && <BlogsAd />}
             <>
               <Col sm="6" className="d-flex align-items-center">
                 <GatsbyImage
@@ -36,6 +35,8 @@ const Post = ({ data, category }) => {
                 </div>
               </Col>
             </>
+            {index === 3 && <BlogsAd />}
+            {index === 6 && <BlogsAd />}
           </Row>
         </div>
       ))}

@@ -4,8 +4,8 @@ author: Hatim
 date: 2022-04-22
 published: true
 category: programming
-keywrods: OpenCV,grabcut,c++,foreground,background,algorithm,bounding,area,rectangle,model,distribution,Gaussian,remove
-desciption: In this article we will learn to seprate foreground from background of an image using grabcut algorithm
+keywords: OpenCV,grabcut,c++,foreground,background,algorithm,bounding,area,rectangle,model,distribution,Gaussian,remove
+description: In this article we will learn to seprate foreground from background of an image using grabcut algorithm
 thumbnail: ./grabcut_thumbnail.webp
 ---
 

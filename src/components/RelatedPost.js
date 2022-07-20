@@ -18,16 +18,16 @@ const Post = ({ data, category }) => {
       </div>
       {similarPost.map((post, index) => (
         <div key={index}>
-          <Row className={product}>
+          <Row className="mt-2 pt-1">
             <>
-              <Col sm="6" className="d-flex align-items-center">
+              <Col md="7" className="d-flex align-items-center">
                 <GatsbyImage
                   imgStyle={{ borderRadius: "5%" }}
                   image={getImage(post.frontmatter.thumbnail)}
                   alt={post.frontmatter.title}
                 />
               </Col>
-              <Col sm="6">
+              <Col className={product} md="5">
                 <div className="mt-4">
                   <a className="link-dark" href={`/${post.slug}`}>
                     <p>{post.frontmatter.title}</p>
@@ -35,7 +35,7 @@ const Post = ({ data, category }) => {
                 </div>
               </Col>
             </>
-            {index === 3 && <BlogsAd />}
+            {index === 1 && <BlogsAd />}
             {index === 6 && <BlogsAd />}
           </Row>
         </div>

@@ -1,5 +1,5 @@
 ---
-title: ReactJS - A complete guide to React refs
+title: React JS - A complete guide to React refs
 date: 2022-07-04
 author: Hatim
 published: true

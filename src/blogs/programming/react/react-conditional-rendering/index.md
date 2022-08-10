@@ -1,5 +1,5 @@
 ---
-title: ReactJS - React Conditional Rendering
+title: React JS - React Conditional Rendering
 category: programming
 date: 2022-06-15
 author: Hatim

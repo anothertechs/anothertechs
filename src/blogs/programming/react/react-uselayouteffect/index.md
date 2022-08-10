@@ -1,5 +1,5 @@
 ---
-title: ReatJS - What is useLayoutEffect hook in react
+title: Reat JS - What is useLayoutEffect hook in react
 date: 2022-07-14
 author: Hatim
 category: programming

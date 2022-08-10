@@ -1,5 +1,5 @@
 ---
-title: ReactJS - useReducer() hook in react
+title: React JS - useReducer hook in react
 date: 2022-07-17
 author: Hatim
 published: true

@@ -1,5 +1,5 @@
 ---
-title: ReactJS - React API call cheat sheet
+title: React JS - React API call cheat sheet
 date: 2022-07-23
 category: programming
 author: Hatim
@@ -13,7 +13,7 @@ thumbnail: ./daduk_visa.jpg
 
 **API** or **Application Programming Interface** is a way a programmer talk between two piece software. An API is used by the programmer to make the software simpler and easy. It also facilitates the programmer with an efficient and organise way to build their software.
 
-In React API are mostly used in getting data from the server. Here the data can be of any type text,image,video or xml or json file which a programmer uses in different way to build a web app.
+In React API, are mostly used in getting data from the server. Here the data can be of any type text,image,video or xml or json file which a programmer uses in different way to build a web app.
 
 The most frequent action in any modern online application is calling APIs. The majority of the time, collecting data from an API call, managing success or error cases, and other repeated tasks are required while communicating with an API.
 
@@ -90,7 +90,7 @@ function App() {
 }
 ```
 
-## 3, React API call using Axios
+## 3. React API call using Axios
 
 Your front-end application and Node.js backend can both use **Axios**, a Promise-based HTTP client for JavaScript.
 Sending asynchronous HTTP queries to REST endpoints and carrying out CRUD processes are simple when using Axios.
@@ -99,7 +99,7 @@ In this case, you must first use npm or yarn to install Axios before adding it a
 
 ```bash
 
-npm install Axios
+npm install axios
 
 ```
 

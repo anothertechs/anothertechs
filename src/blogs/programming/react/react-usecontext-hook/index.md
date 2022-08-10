@@ -1,5 +1,5 @@
 ---
-title: ReactJS - Understanding useContext hook in Reactjs with example
+title: React JS - Understanding useContext hook in Reactjs with example
 published: true
 author: Hatim
 category: programming

@@ -5,23 +5,23 @@ thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto
 author: Hatim
 published: true
-description: The evening star is the bearish counterpart of the morning star pattern in technical analysis. Because the evening star is a top reversal, it should be acted upon if it occurs after an uptrend
-keywords: candlestick,pattern,star,evening,formation,bullish,bearish,forex,trade,trade,reversal,candle
+description: The evening star candlestick pattern is the bearish counterpart of the morning star pattern in technical analysis. Because the evening star pattern is a top reversal, it should be acted upon if it occurs after an uptrend
+keywords: evening,star,pattern,candlestick,candle
 ---
 
-# Evening Star - Japanese Candlestick Pattern
+# Evening Star Pattern
 
-The evening star candlestick pattern is the bearish counterpart of the [morning star](https://anothertechs.com/crypto/morning-star/) pattern in technical analysis. Because the evening star is a top reversal, it should be acted upon if it occurs after an uptrend.
+The evening star candlestick pattern is the bearish counterpart of the [morning star](https://anothertechs.com/crypto/morning-star/) pattern in technical analysis. Because the evening star pattern is a top reversal, it should be acted upon if it occurs after an uptrend.
 
-## What does Evening Star Candlestick Pattern means?
+## What does Evening Star Pattern means?
 
-![Evening Star- Japanese Candlestick Pattern](./evening-star.webp)
+![Evening Star Candlestick Pattern](./evening-star.webp)
 
-The Evening Star composes of three candles. The first candle of the evening star should be light-colored and have a relatively large body. The second candle is a star. It is a candle with a shorter body and does not touch the body of the previous candle. The gap between the two real bodies of the candlestick makes it a Doji star.
+The Evening Star composes of three candles. The first candle of the evening star pattern should be light-colored and have a relatively large body. The second candle is a star. It is a candle with a shorter body and does not touch the body of the previous candle. The gap between the two real bodies of the candlestick makes it a Doji star.
 
 The evening star shows the first visualization of weakness, since the buyer could not raise the price until it is much higher than the closing of the previous period. This weakness is confirmed by the following the stars. These candles should be a dark and must close well with the previous candle.
 
-**An evening star should have a gap separating the first and second real bodies and then another gap separating the second and third real bodies.**
+**An evening star candlestick pattern should have a gap separating the first and second real bodies and then another gap separating the second and third real bodies.**
 
 ## How to identify Evening Star Candlestick Pattern?
 
@@ -47,7 +47,7 @@ As mentioned above, the evening star pattern consists of three candles, one per 
 
 However, the second day was still a wavering day between bullish and bearish sentiment. If there is a gap down when the market opens on the third day, it indicates that momentum will reverse and traders have made a short decision. When the price closed much lower at the end of the third day, the evening star pattern is confirmed.
 
-## How do technical analysts trade when they see the evening star candlestick pattern?
+## How do technical analysts trade when they see the evening star pattern?
 
 Once the evening star candlestick pattern appears, traders may wish to use it as a signal to place a sell order. This may be particularly useful before major news releases, as the star indicates that the market will lack the belief that the upward trend will continue. However, traders who want to reduce their risk may wish to wait and use the star as a signal, planning to enter the market by selling in a subsequent downtrend. This is because the breakout can follow the initial reversal to a lower trading range.
 
@@ -61,9 +61,9 @@ The following is an example of one way to trade the evening star pattern:
 
 - **Degradation Time Frame** - After confirming that the RSI is above 70 (overbought state) on the long-term chart, it's time to zoom in.
 
-## Difference between Evening Star and Morning Star
+## Difference between Evening Star Pattern and Morning Star Pattern
 
-Contrary to the [evening](https://anothertechs.com/crypto/evening-star/) star pattern, the [morning star](https://anothertechs.com/crypto/morning-star/) pattern sets the trend from bearish to bullish. The first candle of the morning star pattern is a long bearish candle, indicating bearish price momentum. "Morning Star" is a short-body candle (bullish or bearish) or doji.
+Contrary to the [evening star](https://anothertechs.com/crypto/evening-star/)  pattern, the [morning star](https://anothertechs.com/crypto/morning-star/) pattern sets the trend from bearish to bullish. The first candle of the morning star pattern is a long bearish candle, indicating bearish price momentum. "Morning Star" is a short-body candle (bullish or bearish) or doji.
 
 The third candle is bullish, confirming the reversal and offsetting most of the loss from the first candle. Ideally, there is a space between the first candle and the [morning star](https://anothertechs.com/crypto/morning-star/) and a space between the [morning star](https://anothertechs.com/crypto/morning-star/) and the confirmation candle.
 

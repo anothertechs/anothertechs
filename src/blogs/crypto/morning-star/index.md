@@ -1,11 +1,11 @@
 ---
-title: Candlestick Pattern - Morning Star
+title: Morning Star Candlestick Pattern
 published: true
 date: 2021-06-24
 category: crypto
-description: "Morning star candlestick pattern is a visual pattern composed of three candles, and technical analysts interpret it as a bullish signal. This is a sign of a reversal of the previous price trend."
+description: Morning star candlestick pattern is a visual pattern composed of three candles, and technical analysts interpret it as a bullish signal. This is a sign of a reversal of the previous price trend.
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-keywords: morning star,morning,star,candlestick
+keywords: morning,star,pattern,candlestick,bullish,bearish
 ---
 
 # Candlestick Pattern - Morning star
@@ -16,7 +16,7 @@ For a long time, investors have been carefully studying the candlestick patterns
 
 ![Morning Star Pattern](./morningstar.webp "source dstockmarket")
 
-Morning star is a visual pattern composed of three candles, and technical analysts interpret it as a **bullish signal**. Morning star formed after a downtrend, indicating that it started to climb upwards. This is a sign of a reversal of the previous price trend. Traders observe the formation of Morning Star and then use other indicators to find confirmation that a reversal has indeed occurred.
+Morning star candlstick is a visual pattern composed of three candles, and technical analysts interpret it as a **bullish signal**. Morning star pattern formed after a downtrend, indicating that it started to climb upwards. This is a sign of a reversal of the previous price trend. Traders observe the formation of Morning Star and then use other indicators to find confirmation that a reversal has indeed occurred.
 
 ## Formation of Morning star candlestick pattern
 
@@ -28,15 +28,15 @@ Morning star is a visual pattern composed of three candles, and technical analys
 
 3. Lastly,third is a bullish candle (green) whose length is at least equal to half of the first candle.
 
-## What does morning star analysis tells us?
+## What does morning star candlstick pattern tells us?
 
-The morning star's small real body represent a stalement between the bulls and bear. The bear are obviously in charge in a brisky descending market(crypto,stock,foreing exchange). With the emergence of a morning star in such an environment,it is a signal of a shift from the **seller being in control to a deadlock between the selling and buying forces**.This dealock may have occured either because of a diminution in the selling forces or an increase in the buying pressure. Either way, the morning star analysis tells us the rally's prior power has slightly dissipated. This means the market will move upwards.
+The morning star pattern's small real body represent a stalement between the bulls and bear. The bear are obviously in charge in a brisky descending market(crypto,stock,foreing exchange). With the emergence of a morning star in such an environment,it is a signal of a shift from the **seller being in control to a deadlock between the selling and buying forces**.This dealock may have occured either because of a diminution in the selling forces or an increase in the buying pressure. Either way, the morning star pattern tells us the rally's prior power has slightly dissipated. This means the market will move upwards.
 
-## Using Morning Star Indicator in Trading
+## Using Morning Star Candlestick Pattern in Trading
 
-Morning star is a powerful price signal with high precision. The morning star candle pattern is very popular with price action traders. The best combination is to use analytical indicators to identify trends. Then use morning star candlestick pattern to determine the entry point.
+Morning star pattern is a powerful price signal with high precision. The morning star candlestick pattern is very popular with price action traders. The best combination is to use analytical indicators to identify trends. Then use morning star pattern to determine the entry point.
 
-There are many way you can trade using morning start pattern few of them are:
+There are many way you can trade using morning star pattern few of them are:
 
 ### 1. Combining with Support
 
@@ -63,7 +63,7 @@ When the RSI indicator appears in the oversold zone (30) and Morning star mode, 
 ### Notes
 
 - Don't use morning star candlestick pattern just to find a trade. Combine it with at least one indicator or other price signal to get a higher probability of winning.
-- Restrict the use of morning star mode when the market deviates. Because the accuracy of this candlestick pattern in the side market is not high.
+- Restrict the use of morning star pattern  when the market deviates. Because the accuracy of this candlestick pattern in the side market is not high.
 
 ## Limitation of Morning Star Pattern
 

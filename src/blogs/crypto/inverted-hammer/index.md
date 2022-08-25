@@ -6,7 +6,7 @@ category: crypto
 description: The real body of an inverted hammer candle is small, with an extended upper wick and little or no lower wick. It appears near the bottom of a downtrend and indicates the possibility of a bullish reversal. The validity of this move will be confirmed or rejected by price action in the future.
 published: true
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
-keywords: inverted,hammer,candlestick,pattern,chart,market,uptrend,bullish,meaning,reversal,indicate,forex,crypto,trade,trading,traders,techinal,analysis,means,shooting,star,market,shadow,body,real,lower,upper,low,high,lower,higher
+keywords: inverted,hammer,candlestick,pattern,candle
 ---
 
 # Inverted Hammer Candlestick Pattern
@@ -45,15 +45,15 @@ Furthermore, the longer upper wick may be signaling to investors that the bulls 
 
 A bullish, green Inverted Hammer candlestick is formed when the low and open are the same, and it is regarded as a stronger bullish sign than when the low and close are the same (a red Inverted Hammer).
 
-## Psychology behind Inverted Hammer Candlestick Pattern
+## Psychology behind inverted hammer candlestick pattern
 
-An inverted hammer indicates that buyers are exerting market pressure.
+An inverted hammer candlestick pattern indicates that buyers are exerting market pressure.
 It warns that after a bearish trend, there may be a price turnaround.
 It's vital to remember that the inverted hammer candlestick shouldn't be used as a stand-alone indication; always double-check any potential signals with other forms or technical indicators.
 
 Finally, before acting on the inverted hammer, examine your trading plan.
 
-## Advantages and Disadvantages of the inverted hammer
+## Advantages and disadvantages of the inverted hammer candlestick pattern
 
 ### Advantages
 
@@ -65,7 +65,7 @@ Finally, before acting on the inverted hammer, examine your trading plan.
 
 - Price action is represented by the Inverted Hammer, which is a single candle. Without evaluating further supporting evidence/indicators, relying just on a single candle to overturn market momentum might lead to sub-optimal results.
 
-- The Inverted Hammer Candle may indicate a brief uptick in positive price activity, but not a longer-term trend reversal. This can occur if purchasers are unable to maintain buying pressure in the face of a strong downward trend.
+- The inverted hammer candle may indicate a brief uptick in positive price activity, but not a longer-term trend reversal. This can occur if purchasers are unable to maintain buying pressure in the face of a strong downward trend.
 
 ## Here's how to trade an inverted hammer candlestick pattern if you come across one.
 

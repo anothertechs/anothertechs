@@ -1,15 +1,15 @@
 ---
-title: Best Online SQL Courses To Enroll in 2021
+title: Best SQL online Courses To Enroll in 2022
 date: 2021-09-08
 published: true
 author: Hatim
 category: review
 thumbnail: ./sql-course.jpg
-keywords: best,sql,online,courses,enroll,learn,2021
+keywords: best,sql,online,courses,learn
 description: Build your SQL skills with these top SQL online courses.
 ---
 
-# Best Online SQL Courses To Enroll in 2021
+# Best SQL online courses To enroll 
 
 Whether you're a beginner or an established user, the top online SQL courses make it straightforward and uncomplicated to increase your understanding in Structured Query Language (SQL).
 

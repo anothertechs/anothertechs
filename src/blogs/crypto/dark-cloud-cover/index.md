@@ -1,14 +1,14 @@
 ---
-title: Candle Stick Pattern - Dark Cloud Cover
+title: Dard Cloud Cover - Candlstick Pattern
 published: true
 date: 2021-06-20
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto
 description: "Dark cloud cover refers to the candlestick pattern in technical analysis, which is a bearish reversal signal. It is observed when the down candle opens above the closing price of the previous up candle and continues to close below the midpoint of the up candle on the candlestick chart."
-keywords: candlestick,candle,candles,stock,crypt,bullish,bulls,bearish,trade,trading,pattern,dark,cloud,clouds,cover,chart,example,technical,analysis,forex,futures,price,market,meaning,trend,uptrend,invest
+keywords: dark,cloud,cover,candlestick,candle,pattern,
 ---
 
-# Dark Cloud Cover Candlestick Pattern for Stock/Crypto Trading
+# Dark Cloud Cover Candlestick Pattern 
 
 ## What it is?
 
@@ -24,7 +24,7 @@ Each candle has its own meaning and tells a unique story about the dynamics of t
 
 The uptrend market is driven by positive sentiment. The bulls are under control and continue to drive the market higher.
 
-With the formation of the first bullish candle of the pattern, we notice that the buying pressure is high and buyers continue to support the uptrend.
+With the formation of the first bullish candle of the dark cloud cover pattern, we notice that the buying pressure is high and buyers continue to support the uptrend.
 
 As the market opens higher, this sentiment will continue until the next day's open. Buying pressure continues to drive the market higher.
 
@@ -34,7 +34,7 @@ At that stage, as more and more investors began to worry that the market was not
 
 Most traders believe that only dark cloud cover patterns that appear after an uptrend or general price increase are useful. As prices rise, this pattern becomes more important in marking possible downtrends. If the price movement fluctuates, the pattern is not important, because the price can remain volatile after the pattern.
 
-### Criteria
+### Criteria for dark cloud cover candlestick pattern
 
 1. Existing bullish uptrend.
 2. The up (bullish) candle in this uptrend.

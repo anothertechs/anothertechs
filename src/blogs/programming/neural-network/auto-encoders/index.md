@@ -4,12 +4,12 @@ date: 2021-09-23
 published: true
 category: programming
 author: Hatim
-keywords: python,autoencoder,pytorch,understanding,implementing,encoder,decoder,architecture
+keywords: python,autoencoder,pytorch,encoder,decoder
 description: In this tutorial we are going to understand what are autoencoder and how to implement autoencoder in python using Pytorch
 thumbnail: ./autoencoder.jpg
 ---
 
-# Understanding and Implementing AutoEncoder in PyTorch
+# AutoEncoder Neural Network in PyTorch
 
 In our last section we have seen what is [ResNet](https://anothertechs.com/programming/neural-network/resnet/) and how to implement it. In this article we will look at **AutoEncoders** and how to implement it in PyTorch.
 
@@ -40,11 +40,11 @@ It is the compressed representation of the input data. This is the lowest possib
 
 This is the method which tell us how well the decoder perfromed in reconstructing data and how close the ouput is to the original data
 
-## Architecture
+## Architecture of AutoEncoder
 
 The network architecture for autoencoders can vary between a simple FeedForward network, LSTM network or Convolutional Neural Network depending on the use case.
 
-## Implementation
+## Implementation AutoEncoder
 
 ![Autoencoder Architecture](./Autoencoder_structure.png)
 

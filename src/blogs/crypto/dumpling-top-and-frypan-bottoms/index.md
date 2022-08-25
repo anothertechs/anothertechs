@@ -17,7 +17,7 @@ Dumpling top and frypan bottoms. Someone must have been hungry when they thought
 
 ![Dumpling Top](./Dumpling-Top.jpg)
 
-Several [Japanese candlesticks](./https://en.wikipedia.org/wiki/Candlestick_pattern) form the top structure of a dumpling. With a small body, the first candlesticks are bullish or bearish. This candlestick arrangement should form a rounded top. Following that, a final candlestick is formed with a bearish gap opening.
+Several [Japanese candlesticks](https://en.wikipedia.org/wiki/Candlestick_pattern) form the top structure of a dumpling. With a small body, the first candlesticks are bullish or bearish. This candlestick arrangement should form a rounded top. Following that, a final candlestick is formed with a bearish gap opening.
 
 When small real body candlesticks slowly rise and then move in a neutral to downward direction, a dumpling top occurs. When a bearish candlestick gaps down from the other candlesticks, the dumpling top pattern is complete.
 
@@ -47,7 +47,7 @@ The fry pan bottom pattern is the inverse of the dumpling top pattern. When smal
 
 When a bullish candlestick gaps up from the rest of the candlesticks, the frypan bottom pattern is complete.
 
-The bottom of the fry pan represents a market that is bottoming and whose price action forms a [concave](./https://en.wikipedia.org/wiki/Concave) design before opening a window to the upside.
+The bottom of the fry pan represents a market that is bottoming and whose price action forms a [concave](https://en.wikipedia.org/wiki/Concave) design before opening a window to the upside.
 It looks like a Western rounded bottom, but the Japanese fry pan bottom should have a window in an upmove to confirm the bottom.
 
 **Notes:**

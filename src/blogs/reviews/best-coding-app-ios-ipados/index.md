@@ -27,7 +27,7 @@ Descriptions of each lesson are included in the guide, as well as an estimate of
 
 ![Swift Playgrounds](./swift-playground.webp)
 
-Despite being exclusive to the iPad, [Swift Playgrounds](./https://www.apple.com/swift/playgrounds/) is a fun and easy way to learn Apple's programming language. Students and developers can learn how to create their own apps on the platform by using the app.
+Despite being exclusive to the iPad, [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) is a fun and easy way to learn Apple's programming language. Students and developers can learn how to create their own apps on the platform by using the app.
 
 While you're solving riddles using coding, the app also gives you access to an editor where you may create your own apps and games! If your app is accepted into the App Store, you'll be the first to know about it thanks to Swift Playgrounds. Using this application, which is absolutely free, you may learn how to develop better apps with Swift.
 

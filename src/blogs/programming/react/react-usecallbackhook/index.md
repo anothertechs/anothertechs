@@ -49,7 +49,7 @@ _Note: In JavaScript fucntion are treated as First Class function_
 
 ## useCallback Hook
 
-Similar to [useMemo hook]() which we have studied in our last article useCallback hook returns a memoization value but intead of returning a value this hook return a **callback function**.
+Similar to [useMemo hook](https://anothertechs.com/programming/react/react-usememo-hook/) which we have studied in our last article useCallback hook returns a memoization value but intead of returning a value this hook return a **callback function**.
 
 _Think of memoization as caching ceratin value so that it does not need to be recalculated.__
 

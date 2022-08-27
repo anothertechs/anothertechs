@@ -1,9 +1,9 @@
 ---
-title: Everything you need to know about Python Class Method Decorator
+title: Python Class Method Decorator
 date: 2021-11-12
 published: true
 category: programming
-keywords: classmethod,python,@classmethod,class,method,decorators,example,meaning,what,when,use
+keywords: python,classmethod,decorator,overloading,static,method
 description: With the help of examples, we'll learn how to use the Python classmethod() function.
 thumbnail: ./Python-@classmethod-decorator.jpg
 ---

@@ -1,14 +1,14 @@
 ---
-title: Candlestick Pattern - Hammer Candlestick
+title: Hammer Candlestick Pattern
 published: true
 date: 2021-06-16
 thumbnail: ../../../images/m-b-m-ZzOa5G8hSPI-unsplash.jpg
 category: crypto
-description: "The hammer Candlestick Pattern is one of the most important reversal patterns that traders should pay attention to. The hammer is considered a bullish reversal from , but only when it appears under certain conditions. The pattern generally forms near the bottom of a downtrend, indicating that the market is trying to define the lower"
-keywords: hammer,candles,stick,candlestick,trading,traders,market,define,downtrend,uptrend,pattern,reversal,inverted,bullish,bearish,bulls,bears,stock,crypto,cryptocurrency,forex,up,down,downside,looks,buy,sell,sellers,sentiment,example,entry,chartmeans,signal,limitation
+description: The hammer Candlestick Pattern is one of the most important reversal patterns that traders should pay attention to. The hammer is considered a bullish reversal from , but only when it appears under certain conditions. The pattern generally forms near the bottom of a downtrend, indicating that the market is trying to define the lower
+keywords: hammer,candlestick,pattern,candle
 ---
 
-# Hammer Candlestick pattern for stock/forex/crypto trading
+# Hammer Candlestick pattern
 
 ## What is a hammer candlestick?
 

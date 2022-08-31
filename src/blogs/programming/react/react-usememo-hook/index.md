@@ -165,3 +165,10 @@ The `expensiveCalculation` function will only run when the state of `count` chan
 ## Conclusion
 
 useMemo is the hook which will memoize expensive computation. Once memoized, the hook will return the memoized value without triggering computation given that the **dependency value** is same.
+
+## Reference
+- [React Docs](https://reactjs.org/docs/hooks-reference.html#usememo)
+- [Shallow Comparison](https://stackoverflow.com/questions/36084515/how-does-shallow-compare-work-in-react)
+- [memoization](https://en.wikipedia.org/wiki/Memoization) 
+- [Road to React](https://amzn.to/3wFXiFZ)
+- [React.js Essentials](https://amzn.to/3TkzxND)

@@ -1,17 +1,15 @@
 ---
-title: PyTorch tutorial - Creating Convolutional Neural Network [2021]
+title: Implementing Convolutional Neural Network (CNN) using Python
 author: Hatim
 published: true
 category: programming
 date: 2021-08-23
 thumbnail: ./cnn.png
 description: In this tutorial, we'll show you how to design convolutional neural network (CNN) models Create CNN models to solve a classification problem.
-keywords: pytorch,cnn,nerual,network,python,features,map,polling,output,input,dataset,convolutional,dataset,data,random,maps,activation,padding,strides,max,example,code,layer,hidding
+keywords: convolutional,neural,network,cnn,python
 ---
 
-# PyTorch tutorial - Creating Convolutional Neural Network
-
-## What is Convolutional Neural Network
+# What is Convolutional Neural Network (CNN)
 
 In our [previous](https://anothertechs.com/programming/neural-network/cnn/) article we have discussed how a simple neural network works.The problem with fully conntected neural network is that they are computationally expensive. Also, by adding lots of layer we come across some problem:
 
@@ -19,15 +17,17 @@ In our [previous](https://anothertechs.com/programming/neural-network/cnn/) arti
 2. Another issue is that number of trainable parameter grows rapidly. Because of this trainning slows down or became practically impossible.
 3. Fully connected neural network can be easily exposed to overfitting
 
-Convolutional Neural Network(or CNN) can solve this problem by finding correlations between adjacent input between dataset(eg. image or time series). This means that not every node in the network is connected to every other node in the next layer and this cut down number of weight parameter required to be trained in the model.
+Convolutional Neural Network (or CNN) can solve this problem by finding correlations between adjacent input between dataset (eg. image or time series). This means that not every node in the network is connected to every other node in the next layer and this cut down number of weight parameter required to be trained in the model.
 
-## How Convolutional Network works
+## How Convolutional Neural Network (CNN) works 
 
 According to wikipedia a **convolution** is a operation between to function the produce third function expression how the shape of one modified by the other. In convolutional neural network this means that we move a window or filter across the image being studied. We can imagine this as a 2x2(or 3x3) filter sliding accross all the available nodes/ pixels in the input image.
 
 ![CNN](typical_cnn.webp)
 
-Now let's look at some of the important term used in CNN
+Now let's look at some of the important term used in convolutional nerual network (CNN)
+
+## Components of Convolutional Neural Network (CNN)
 
 ### Feature mapping (or activation map)
 
@@ -54,7 +54,7 @@ Sometimes our sliding window doest not fit perfactly with the input image. So we
 - Pad the image with zero(also called zero-padding).
 - Drop or clip the part of the image where our filter window did not fit. This is also known as valid padding which keeps only valid part of the image.
 
-## Implementation Convolutional Nerual Network
+## Implementing Convolutional Nerual Network
 
 Firt let's import our necessary libraries:
 

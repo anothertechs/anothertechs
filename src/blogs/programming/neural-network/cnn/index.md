@@ -1,15 +1,15 @@
 ---
-title: Understanding and building simple Neural Network using PyTorch
+title: Implementing Convolutional Neural Network (CNN) using PyTorch
 author: Hatim
 date: 2021-08-21
 published: true
 category: programming
-keywords: CNN,convolutional,neural,network,code,pytorch,tensors,GPU,CPU,deep,learning,artifical,intelligance,array,predict,autograd,back,gradient,layer,input,output,hidden,torch,forward,tensor,data,dataset
-description: As the name implies, neural networks are a collection of algorithms that attempt to detect relationships in a data set using a technique that resembles the way the human brain functions.
+keywords: CNN,convolutional,neural,network,pytorch
+description: In this tutorial we are going to learn how to implement Convolutional Neural Network (CNN) using pytorch
 thumbnail: ./neural-network.png
 ---
 
-# Understanding and building simple Neural Network using PyTorch
+# Implementing Convolutional Neural Network (CNN) in Pytorch
 
 In this turorial, we’ll go through the basic ideas of PyTorch starting at tensors and computational graphs and finishing at the Variable class and the PyTorch autograd functionality.
 
@@ -131,7 +131,7 @@ if __name__ == '__main__':
 
 ```
 
-In the main fucntion first we create instance of our model class. Then we define our loss function, here I have used SGD loss function. Next we set our log criterion which is negative log likelihood.
+In the main fucntion first we create instance of our model class. Then we define our loss function, here I have used [SGD](https://anothertechs.com/programming/machine-learning/sgd/) loss function. Next we set our log criterion which is negative log likelihood.
 
 Next in trainnig part i have extracted data from `train` object which is included in PyTourch utility module.This object supplies batched of input. In the outer loop is the number of epochs while the inner loop runs through entire trainning set. The `view` function operates on PyTorch variable to reshape them.`optimizer.zero_grad()` reset all the gradient in this model. `loss.backward()` runs back-propogation operation from loss Variable and `optimizer.step()` method execute gradient descent step based on gradient calculated during the `.backward()` operation.
 

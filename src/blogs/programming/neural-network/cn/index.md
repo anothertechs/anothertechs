@@ -232,4 +232,9 @@ Accuracy: 89.43333333333334
 
 ### References
 
+- [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 - https://medium.com/swlh/convolutional-neural-networks-mathematics-1beb3e6447c0
+- [Feature Mapping](https://www.geeksforgeeks.org/feature-mapping/)
+- [PyTorch torch.nn](https://pytorch.org/docs/stable/nn.html)
+- [PyTorch Convolution Layer](https://pytorch.org/docs/stable/nn.html#convolution-layers)
+- [PyTorch Normalization Layer](https://pytorch.org/docs/stable/nn.html#normalization-layers)

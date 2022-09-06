@@ -258,3 +258,11 @@ Second, introducing context hook makes unit testing the components more challeng
 No matter where in the components tree a child component is located, React's concept of useContext hook enables you to supply it with global data. The context must be created, provided, and consumed before it can be used.
 
 Remember that the useContext hook adds a significant degree of complexity when incorporating it into your application. It's not always a big deal to drill the props through two or three layers of the hierarchy.
+
+
+## References
+
+- [Context](https://en.wikipedia.org/wiki/Context_(computing))
+- [useContext Hooks React Docs](https://reactjs.org/docs/hooks-reference.html#usecontext)
+- [Medium](https://medium.com/technofunnel/usecontext-in-react-hooks-aa9a60b8a461)
+- [React Hooks](https://amzn.to/3TM9f76)

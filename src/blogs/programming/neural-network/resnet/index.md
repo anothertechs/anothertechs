@@ -1,19 +1,19 @@
 ---
-title: Understanding and Implimenting ResNet using PyTorch [2021]
+title: Understanding and Implimenting ResNet using Python
 date: 2021-09-02
 author: Hatim
 published: true
 category: programming
-keywords: resnet,pytorch,convolution,neural,network,code,programming,layer,hidden,deep,connection,mapping,alexnet,vggnet,model,batch,channel,input,output,dimenssion,residual,block,cuda,loss,optimizer,grad
+keywords: resnet,python,Convolutional,neural,network,pytorch
 description: The main goal is to provide insight into ResNets and dive into ResNet for the ImageNet dataset.  It makes sense, according to researchers, to declare that “the deeper the better” when it comes to...
 thumbnail: ./resnet-arch.jpg
 ---
 
-# Understanding and Implimenting ResNet using PyTorch
+# Understanding and Implimenting ResNet using Python
 
-## Deep Convolution Neural Network
+## Deep Convolutional Neural Network
 
-In our [last article](https://anothertechs.com/programming/neural-network/cn/) we have seen how a simple convolution neural network works.A **Deep Convolution Neural Network** are the network which consists of many hidden layer for examples _AlexNet_ which consist of 8 layer where first 5 were convlutional layer and last 3 were full connected layer or _VGGNet_ which consists of 16 convolution layer.
+In our [last article](https://anothertechs.com/programming/neural-network/cn/) we have seen how a simple Convolutional neural network works.A **Deep Convolution Neural Network** are the network which consists of many hidden layer for examples _AlexNet_ which consist of 8 layer where first 5 were convlutional layer and last 3 were full connected layer or _VGGNet_ which consists of 16 Convolutional layer.
 
 The problem with these deep neural network were as you increase the layer we start seeing degradation problem. Or to put it in another word as we increase depth of the network the accuracy gets saturated and starts degrading rapidly. In a deep neural network as we perform back-propogation, repeated mulitplication for finding optimal solution makes gradient very small which result in degradation. This problem is often called vanishing gradient/exploding gradient.
 
@@ -37,9 +37,9 @@ Now let's impliment ResNet model. Here I will be using ResNet18 model which cons
 
 ![ResNet Architecture](./resnet-arch.webp)
 
-In the above diagram first we take input image which consists 3 channel(RGB) passed it to convolution layer of _kernel_size_ = 3 and get 64 channel ouput.
-The convolution block between the curved arrow represent a _Residual Block_ which will consists of:
-convolution layer -> Batch Normalization -> ReLU activation -> convolution layer.
+In the above diagram first we take input image which consists 3 channel(RGB) passed it to Convolutional layer of _kernel_size_ = 3 and get 64 channel ouput.
+The Convolutional block between the curved arrow represent a _Residual Block_ which will consists of:
+Convolutional layer -> Batch Normalization -> ReLU activation -> Convolutional layer.
 
 Ouput of these rediual block is than added to the initial input(i.e x) of residual block.After adding the ouput is than passed to ReLU activation function for next layer.
 
@@ -118,7 +118,7 @@ class ResidualBlock(nn.Module):
 ```
 
 In the [last](https://anothertechs.com/programming/neural-network/cnn/) article I have explain why we use `nn.Module` in our class so, I am going to skip that part.
-We have created two convolution layer `self.conv1` and `self.conv2` just like in diagram.
+We have created two Convolutional layer `self.conv1` and `self.conv2` just like in diagram.
 The `self.skip` is our shortcut layer which will be added to the output of `self.conv2`.
 The "if" part in `__init__()` method checks weather the dimenssion of `self.conv2` will change or not. If it changes than we have to change the ouput dimenssion of input by passing it to `nn.Conv2d` layer.
 In `forward()` method it is straight forward that how our data will flow.
@@ -213,7 +213,6 @@ Let's train our model:
 I have used 10 epochs to train the model. `optimizer.zero_grad()` method is used to make gradient to 0. Next we call `backword()` on our loss variable to perfrom back-propogation. After the gradient has been calculated we optimize our model by using `optimizer.step()` method.
 
 ### Testing
-
 ```python
     test = get_data(train = False)
 
@@ -234,3 +233,13 @@ I have used 10 epochs to train the model. `optimizer.zero_grad()` method is used
 Since we don't need to calculate weight during back-propogation while testing our model we use `torch.no_grad` method. Rest part is same as training.
 
 After 10 epochs I got accuracy of 93.23%.
+
+
+
+## References
+
+- [ResNet](https://en.wikipedia.org/wiki/Residual_neural_network)
+- [Overview of Resnet](https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035)
+- [PyTorch Docs](https://pytorch.org/hub/pytorch_vision_resnet/)
+- [Deep Learning](https://amzn.to/3qe3BwT)
+- [ResNet Architecture](https://www.analyticsvidhya.com/blog/2021/06/build-resnet-from-scratch-with-python/)

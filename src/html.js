@@ -25,6 +25,14 @@ export default function HTML(props) {
           async
           src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         ></script>
+          <script
+  dangerouslySetInnerHTML={{
+    __html: `
+    function KJ_AsOT(){var a=document.getElementsByTagName("head")[0],b=document.createElement("script");b.type="text/javascript",b.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",a.appendChild(b)}setTimeout(KJ_AsOT,1500);
+
+        `,
+  }}
+/>
       </body>
     </html>
   );

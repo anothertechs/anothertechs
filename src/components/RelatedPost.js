@@ -2,7 +2,6 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { Row, Col } from "react-bootstrap";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { BlogsAd } from "../components/blogsAd";
 import { product } from "../components/ads/amazon/Deals.module.css";
 
 const Post = ({ data, category }) => {
@@ -35,8 +34,6 @@ const Post = ({ data, category }) => {
                 </div>
               </Col>
             </>
-            {index === 1 && <BlogsAd />}
-            {index === 6 && <BlogsAd />}
           </Row>
         </div>
       ))}

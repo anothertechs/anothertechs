@@ -5,7 +5,7 @@ published: true
 author: Hatim
 date: 2022-12-07
 description: Looking for the best Candlestick patterns? Look no further! Our top traders share their favorite patterns and setups.
-keywords: candlestick,candlestick chart,pattern,best,top,trade,traders
+keywords: best candlestick,candlestick chart,candlestick pattern,candlestick bearing,best candlestick chart,morning star,evening star,doji star,engulfing sta,hammer candlestick Pattern
 thumbnail: ./pexels-alesia-kozik-6781273.jpg
 ---
 

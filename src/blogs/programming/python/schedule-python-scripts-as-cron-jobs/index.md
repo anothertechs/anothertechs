@@ -47,40 +47,34 @@ Cron jobs are an incredibly useful tool that can help you automate various tasks
 
 Python cron jobs are an easy way to schedule Python scripts to run automatically. They can be used to schedule tasks such as backing up files, sending emails, or updating data. To set up a Python cron job, you will first need to create a Python script that you want to run. This script can be as simple or complex as you like. Once you have created your script, you will need to save it in a location that is accessible to the cron job system. Next, you will need to create a file called \"crontab\" in the same directory as your Python script. This file will contain the instructions for your cron job. Each line in the file represents a different task that you want the cron job to perform. The first line of the file should look like this: 
 
-```sh
+```bash
 SHELL=/bin/bash
 ```
 
 
  This tells the system which shell to use when running the commands in the cron job file. The next line is where you will specify the schedule for your cron job. This schedule is made up of six fields: minute, hour, day of month, month, day of week, and command. The asterisk character ( \* ) is used as a wildcard in these fields. For example, if you wanted your cron job to run every minute, you would use this schedule: 
- ```sh
+
+ ```bash
  \* \* \* \* \* /path/to/your/script.py 
  ```
  
  If you wanted your cron job to run every hour, you would use this schedule: 
 
- ```sh
+ ```bash
  0 \* \* \* \* /path/to/your/script.py 
  ```
  You can also use multiple asterisks in a single field. For example, if you wanted your cron job to run every day at midnight, you would use this schedule:
 
-```sh 
+```bash 
   0 0 \* \* \* /path/to/your/script.py
 ```
  The final field on each line is the command that you want the cron job to run. In our example, this is the path to our Python script. Once you have created your crontab file, you will need to add it to the cron job system. This can be done with the following command: 
 
- ```sh
+ ```bash
  $ crontab /path/to/your/crontabfile 
  ```
  
  This will add your cron jobs to the system and they will be executed according to the schedule that you have specified. You can view the cron jobs that are currently in the system with the following command: \$ crontab -l And you can remove a cron job from the system with the following command: \$ crontab -r
-
-##  Creating Cron Jobs using Python Schedule Module
-
-If you want to automate a process using Python, you can do so by using
-the built-in library `schedule` . This library allows you to create
-scheduled tasks that will run at a specified time. To use this library,
-you first need to import it into your Python script: 
 
 
 ## Conclusion

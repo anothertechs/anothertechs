@@ -3,6 +3,7 @@ title: React Router - A Simple Introduction For Beginners
 date: 2023-03-01
 category: programming
 author: Hatim
+published: true
 description: React Router is a powerful routing library for React that lets you add dynamic, server-side rendering, and code-splitting to your React apps. In this tutorial, we'll introduce React Router and show you how to use it to
 thumbnail: ./react-route.jpg
 keywords: React Router, dynamic routing, server-side rendering, code- splitting, introduce React Router

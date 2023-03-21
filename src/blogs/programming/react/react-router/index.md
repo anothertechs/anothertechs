@@ -25,7 +25,7 @@ If you're a web developer who uses React, you know that building single-page app
 6. Protected Routes
 7. Conclusion
 
-##1. What is React Router?
+## 1. What is React Router?
 React Router is a library that enables routing in React applications. It's a powerful and flexible tool that allows developers to create dynamic, client-side web applications. React Router is built on top of the React framework, so it integrates seamlessly with other React libraries and components.
 
 ## 2. Why use React Router?

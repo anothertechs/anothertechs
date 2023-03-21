@@ -1,20 +1,17 @@
 ---
-title: React Js - useCallback Hook in React
+title: Boost Your React App's Performance with useCallback() Hook
 date: 2022-08-25
 authour: Hatim
 category: programming
 keywords: react,usecallback,hook,memo,function,callback,state
-description: In this article we will go through useCallback hook and how it help us to optimize our react component
+description: Learn how to optimize your React app's performance with the useCallback() hook. Discover when and how to use it, and improve your app's speed and user experience."
 published: true
 thumbnail: ./reactuseCallback.jpg
 ---
-# React Js - useCallback Hook in React
+# Boost Your React App's Performance with useCallback() Hook
 
-It goes without saying that React.js has gained a lot of popularity in recent years.  These days, many of the biggest names on the internet, like Facebook and WhatsApp, prefer using this JavaScript library.
+Are you looking for ways to boost your React app's performance? Look no further than the useCallback() hook! In this article, we'll explore how this powerful hook can help improve your app's speed and user experience.
 
-The inclusion of hooks in version 16.8 was one of the primary causes of its increase.  You can use React features without constructing class components by using React hooks.  Developers now use functional components with hooks as their preferred React coding framework. 
-
-We'll delve more into one particular hook in this article, useCallback, because it refers to memoization, a crucial component of functional programming.  You'll be fully aware of the optimal times to apply the useCallback hook's performance-enhancing features.
 
 Before understanding how useCallback Hook works first let us understand what is **Function Equality Checks**.
 
@@ -47,9 +44,9 @@ _Note: In JavaScript fucntion are treated as First Class function_
 
 
 
-## useCallback Hook
+## useCallback() Hook
 
-Similar to [useMemo hook](https://anothertechs.com/programming/react/react-usememo-hook/) which we have studied in our last article useCallback hook returns a memoization value but intead of returning a value this hook return a **callback function**.
+Similar to [useMemo() hook](https://anothertechs.com/programming/react/react-usememo-hook/) which we have studied in our last article useCallback() hook returns a memoization value but intead of returning a value this hook return a **callback function**.
 
 _Think of memoization as caching ceratin value so that it does not need to be recalculated.__
 
@@ -57,9 +54,9 @@ In a react application every function inside a component is regenerated when it 
 
 A memoized instance of the callback will be returned by `useCallback(callback, dependencies)`, and it will only change if one of the dependencies has changed.  **This implies that we can reuse the same function object between renders rather than constructing a new one for each new render.**
 
-The primary and only purpose of the useCallback hook is to prevent needless re-renders in your code, which will speed up and improve the performance of your application.
+The primary and only purpose of the useCallback() hook is to prevent needless re-renders in your code, which will speed up and improve the performance of your application.
 
-The **array of dependencies**  and a **function** are both passed as parameters to the useCallback hook.  The callback will only be modified by the useCallback hook if one of the dependencies has changed. It will return a memoized version of the callback.
+The **array of dependencies**  and a **function** are both passed as parameters to the useCallback() hook.  The callback will only be modified by the useCallback() hook if one of the dependencies has changed. It will return a memoized version of the callback.
 
 
 ```jsx
@@ -201,15 +198,15 @@ Now if you will click on "+" button you will see that `<Todos/>` compoenent will
 
 
 
-## When not to use useCallback Hook
+## When not to use useCallback() Hook
 
-Let's be careful not to overdo it.  The main drawback of useCallback hook is code complexity.  There are several circumstances in which adding useCallback hook is unnecessary, and you must accept function recreation.
+Let's be careful not to overdo it.  The main drawback of useCallback() hook is code complexity.  There are several circumstances in which adding useCallback hook is unnecessary, and you must accept function recreation.
 
 The performance cost of using useCallback() is that it has be called every time a component is rendered again.
 
 
 ## Conclusion
 
-As cool as useCallback and useMemo are, keep in mind that they have specific use cases and should not be used to wrap every function.  A dependency on another hook or a prop passed to a memoized component are good indicators that you should use useCallback if the function is computationally complex.
+As cool as useCallback() and useMemo() are, keep in mind that they have specific use cases and should not be used to wrap every function.  A dependency on another hook or a prop passed to a memoized component are good indicators that you should use useCallback if the function is computationally complex.
 
 We hope this article helped you understand advanced React functionality and gained confidence in functional programming along the way!

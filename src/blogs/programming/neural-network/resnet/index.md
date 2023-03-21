@@ -1,15 +1,20 @@
 ---
-title: Understanding and Implimenting ResNet using Python
+title: ResNet -  Understanding the Revolutionary Neural Network Architecture for Deep Learning
 date: 2021-09-02
 author: Hatim
 published: true
 category: programming
 keywords: resnet,python,Convolutional,neural,network,pytorch
-description: The main goal is to provide insight into ResNets and dive into ResNet for the ImageNet dataset.  It makes sense, according to researchers, to declare that “the deeper the better” when it comes to...
+description: Explore the latest advancements in neural network technology with ResNet, a revolutionary deep learning architecture. Understand how it works, its benefits, and potential applications.
 thumbnail: ./resnet-arch.jpg
 ---
 
-# Understanding and Implimenting ResNet using Python
+# ResNet: Understanding the Revolutionary Neural Network Architecture for Deep Learning
+
+
+ResNet (Residual Network) is a powerful convolutional neural network architecture that has revolutionized the field of deep learning. It was introduced in a research paper by Microsoft Research Asia in 2015 and has since become one of the most popular deep learning models due to its high accuracy and efficiency.
+
+ResNet addresses the problem of vanishing gradients that often occur in very deep neural networks. When a neural network has many layers, the gradients can become very small, which makes it difficult for the network to learn. ResNet solves this problem by introducing shortcut connections, also known as skip connections, that allow the network to skip over certain layers and directly propagate the input to deeper layers. This helps to preserve the gradient and make it easier for the network to learn.
 
 ## Deep Convolutional Neural Network
 
@@ -28,6 +33,10 @@ H(x) = f(x) + x
 So, instead of mapping direct function of x -> y with a function f(x), here we define a residual function using f(x) = H(x) - x. Which can be reframed to H(x) = f(x) + x, where f(x) represent stack of non-linear layers and x represent identity function. From this if the identity mapping is optimal we can easily put f(x) = 0 simply by putting value of weight to 0. So the f(x) is what authors call residual function.
 
 This mapping ensure that higher layer will perfrom at least as good as lower layer, and not worse.
+
+The ResNet architecture consists of several blocks, each of which contains multiple convolutional layers, batch normalization layers, and ReLU activation functions. The shortcut connections are added between these blocks, allowing the network to learn more complex features and improve its accuracy.
+
+One of the major benefits of ResNet is its ability to train very deep neural networks with high accuracy. It has been used in a variety of applications, including image classification, object detection, and segmentation. In fact, ResNet is the backbone architecture for many state-of-the-art computer vision models, such as Faster R-CNN and Mask R-CNN.
 
 ## Implimenting ResNet
 
@@ -233,6 +242,10 @@ I have used 10 epochs to train the model. `optimizer.zero_grad()` method is used
 Since we don't need to calculate weight during back-propogation while testing our model we use `torch.no_grad` method. Rest part is same as training.
 
 After 10 epochs I got accuracy of 93.23%.
+
+## Conclusion
+
+In conclusion, ResNet is a powerful deep learning architecture that has become an essential tool for computer vision applications. By understanding its working, benefits, and potential applications, you can leverage ResNet to improve the accuracy and efficiency of your neural network models.
 
 
 

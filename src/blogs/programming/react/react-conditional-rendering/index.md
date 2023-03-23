@@ -185,3 +185,10 @@ function Status({ state }) {
 In conclusion, conditional rendering is an important feature of React that allows developers to create dynamic and responsive user interfaces. In this comprehensive guide, we've covered everything from the basics to advanced techniques, helping you master React's conditional rendering functionality.
 
 Whether you're a beginner or an experienced React developer, mastering conditional rendering will help you build better and more complex web applications. So, start experimenting with these techniques and take your React skills to the next level!
+
+## References
+
+* [React](https://react.dev/)
+* [React Hooks](https://hy.reactjs.org/docs/hooks-rules.html)
+* [React Router](https://reactrouter.com/en/main)
+* [React State Managment](https://react.dev/learn/managing-state)

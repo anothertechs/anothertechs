@@ -10,7 +10,7 @@ thumbnail: ./reactuseCallback.jpg
 ---
 # Boost Your React App's Performance with useCallback() Hook
 
-Are you looking for ways to boost your React app's performance? Look no further than the useCallback() hook! In this article, we'll explore how this powerful hook can help improve your app's speed and user experience.
+Are you looking for ways to boost your React app's performance? Look no further than the useCallback() hook! In this article, we'll explore how this powerful [hook](https://reactjs.org/docs/hooks-intro.html) can help improve your app's speed and user experience.
 
 
 Before understanding how useCallback Hook works first let us understand what is **Function Equality Checks**.
@@ -18,7 +18,7 @@ Before understanding how useCallback Hook works first let us understand what is 
 
 ## Function Equality Checks
 
-Functions can be used in JavaScript just like any other variable.  A function's arguments may be provided to other functions, it may be returned by another function, it may be used as a value for a variable, it may be compared, and so on.  It can, in essence, perform any action that an object can. 
+[Functions](https://en.wikipedia.org/wiki/Functional_programming) can be used in JavaScript just like any other variable.  A function's arguments may be provided to other functions, it may be returned by another function, it may be used as a value for a variable, it may be compared, and so on.  It can, in essence, perform any action that an object can. 
 
 Let's understand this with simple example:
 
@@ -46,9 +46,9 @@ _Note: In JavaScript fucntion are treated as First Class function_
 
 ## useCallback() Hook
 
-Similar to [useMemo() hook](https://anothertechs.com/programming/react/react-usememo-hook/) which we have studied in our last article useCallback() hook returns a memoization value but intead of returning a value this hook return a **callback function**.
+Similar to [useMemo() hook](https://anothertechs.com/programming/react/react-usememo-hook/) which we have studied in our last article useCallback() hook returns a [memoization](https://en.wikipedia.org/wiki/Memoization) value but intead of returning a value this hook return a **callback function**.
 
-_Think of memoization as caching ceratin value so that it does not need to be recalculated.__
+_Think of [memoization](https://en.wikipedia.org/wiki/Memoization) as caching ceratin value so that it does not need to be recalculated.__
 
 In a react application every function inside a component is regenerated when it is re-rendered, so the references to these functions vary between renders.
 
@@ -81,11 +81,11 @@ However, there are times when you must keep a single instance of a function runn
 
 
 
-1. an internal component wrapped inside `React.memo()` is capable of accepting a function object as prop.
+1. an internal component wrapped inside [`React.memo()`](https://reactjs.org/docs/react-api.html#reactmemo) is capable of accepting a function object as prop.
 
-2. when a hook, such as useEffect(..., [callback]) , depends on another function object.
+2. when a hook, such as [`useEffect(..., [callback])`](https://anothertechs.com/programming/react/react-useeffect-hook/) , depends on another function object.
 
-3. when the function is throttled or debounced, or whenever it has an internal state.
+3. when the function is [throttled or debounced](https://css-tricks.com/debouncing-throttling-explained-examples/), or whenever it has an internal state.
 
 In this case, useCallback(callbackFun, deps) hooks comes in handy because it returns the same function instance across renderings if the dependency values provided by `deps` are the same (aka memoization)
 

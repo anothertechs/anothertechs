@@ -1,17 +1,17 @@
 ---
-title: Python Data Structure Cheat Sheet 2021
+title: Python Data Structure Cheat Sheet- Your Complete Guide
 category: programming
 author: Hatim
 published: true
 date: 2021-07-23
-keywords: python,data,structure,cheat,sheet,2021,list,code,snippet,2021,tuple,tuples,set,set,dictionary,remove,del,delete,adding,accessing,index,managing,organizing,storing,union,intersection,difference,symatric,operation
-description: In this tutorial we will lean about Built-In data structure of python which are used to organizing,managing and storing data in different structures.
+keywords: python data structure,cheat sheet,data,list,tuples,sets,data structure,python
+description: Simplify your understanding of Python data structures with our comprehensive cheat sheet for 2021. Perfect for beginners and experienced programmers alike, this guide covers everything you need to know about Python data structures, including lists, tuples, sets, and more
 thumbnail: ./python-data-structure.jpg
 ---
 
-# Python Built-In Data Structure Cheat Sheet 2021
+# Python Data Structure Cheat Sheet: Your Complete Guide
 
-Python programming language is widely utilized in various industries, including website development, software engineering, artificial intelligence, data science, and many others. However, data plays a critical part in making all of these things possible, which implies that this data must be kept efficiently and accessed on time. To accomplish this, we employ a technique known as Data Structures. So, in this essay, we will go through the concepts in Python Data Structures.
+Python is a popular programming language that is widely used in various fields such as data science, machine learning, web development, and more. Understanding data structures is essential for any programmer, as it helps in organizing and storing data efficiently. In this article, we will provide you with a Python data structure cheat sheet that you can use as a quick reference guide when working with data in Python.
 
 ## What is Data Structure?
 
@@ -64,11 +64,33 @@ Python has the following built-in data structures:
 
 ### List
 
-Lists are the most basic data structures, and they are used to store data of various types in a sequential order.
+[Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) are the most basic data structures, and they are used to store data of various types in a sequential order.
 The Interpreter allocated addresses to each element of the list called an Index during list creation.
 The index value in the list begins at 0 and continues until the last entry; this index is known as the positive index.
 We also have negative indexing in Lists, which starts at -1 and allows us to access entries from the last to the first.
 Following are the code snippet to grasp lists and their features better.
+
+**Pros**:
+1. Versatility: Python lists can store a variety of data types such as strings, integers, and even other lists.
+
+2. Mutable: Lists in Python are mutable, meaning you can modify them after creation. This makes it easy to add or remove elements from a list.
+
+3. Easy to access: Elements in a list are indexed, making it easy to access individual elements within the list.
+
+4. Many built-in methods: Python provides many built-in methods for working with lists, such as sorting, reversing, and slicing.
+
+5. Memory efficient: Lists in Python are implemented using dynamic arrays, which means they can be resized as needed. This makes them more memory efficient compared to other data structures like arrays.
+
+**Cons**:
+
+1. Slow for large data: When dealing with very large amounts of data, Python lists can be slower than other data structures like NumPy arrays or sets.
+
+2. Not suitable for certain operations: Certain operations like searching for an element in a list can be inefficient, especially for large lists. In these cases, other data structures like dictionaries or sets may be more suitable.
+
+3. Time complexity for some operations: Some operations on a Python list, like inserting or deleting elements from the middle of the list, can have a time complexity of O(n). This means that for very large lists, these operations can be slow.
+
+4. Not ideal for ordered data: While Python lists are indexed and maintain order, they are not optimized for searching and sorting, and can be slower than other data structures like arrays or linked lists.
+
 
 #### Creating List
 
@@ -141,7 +163,6 @@ To remove specific element by it's value from the list we use `remove()` method:
 ```python
 foo = ["Another Techs",52,53,786,110,'cpp']
 foo.remove('cpp')
-
 print(foo)
 ```
 
@@ -173,9 +194,30 @@ print(foo)
 
 ### Tuples
 
-Tuples are similar to lists, except that once data is inserted into a tuple, it cannot be modified in any way, i.e. it is immutable.
+[Tuples](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences) are similar to lists, except that once data is inserted into a tuple, it cannot be modified in any way, i.e. it is immutable.
 The lone exception is when the data inside the tuple is mutable (e.g., a list), in which case we can update the tuple data.
 Let us now use the following examples to grasp tuples and their functionalities better.
+
+**Pros:**
+1. Immutable: Tuples are immutable, meaning once they are created, you cannot modify them. This makes tuples more reliable and safe than lists, as they cannot be accidentally modified.
+
+2. Faster than lists: Since tuples are immutable, they are generally faster than lists for certain operations like indexing and iteration.
+
+3. Suitable for certain data types: Tuples are suitable for storing data that should not be modified, such as constant values, coordinates, or dates.
+
+4. Memory efficient: Tuples are more memory efficient than lists, as they don't need to be resized or modified after creation.
+
+5. Can be used as dictionary keys: Since tuples are immutable, they can be used as keys in dictionaries, while lists cannot.
+
+**Cons:**
+
+1. Limited functionality: Tuples have limited functionality compared to lists, as they cannot be modified after creation. This makes certain operations like adding or removing elements impossible.
+
+2. Less versatile: Tuples can only store elements of the same data type, unlike lists which can store a variety of data types.
+
+3. Not ideal for large datasets: Tuples are not ideal for storing large datasets, as they cannot be modified or resized. This means that if you need to add or remove elements from a tuple, you will need to create a new tuple, which can be inefficient for large datasets.
+
+4. Less readable: Tuples can be less readable than lists, especially when the tuple contains many elements.
 
 #### Creating Tuples
 
@@ -233,7 +275,7 @@ print(foo)
 
 ### Dictionaries
 
-**Data is stored in the form of key-value pairs in dictionaries.**
+**Data is stored in the form of key-value pairs in [dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries).**
 
 Imagine a phone directory with hundreds of thousands of names of different people and their accompanying phone numbers to comprehend dictionary data structure.
 Here are the constant values (such as Name) and Phone Numbers, which we referred to as the keys.
@@ -243,6 +285,28 @@ If we want to get the values of the keys, we will need all of the names and phon
 
 So a key-value pair is precisely that.
 Moreover, Dictionaries are used to hold this structure in Python.
+
+**Pros:**
+
+1. Fast lookup: Dictionaries provide fast lookup times for accessing data, as data is accessed using keys rather than index positions.
+
+2. Easy to update: Dictionaries are mutable, meaning you can add, modify, or delete key-value pairs as needed.
+
+3. Versatile data types: Dictionaries can store a variety of data types as keys and values, such as strings, integers, lists, or even other dictionaries.
+
+4. No duplicate keys: Dictionaries do not allow duplicate keys, ensuring that each key is unique and allowing for easy retrieval of values.
+
+5. Built-in methods: Python provides many built-in methods for working with dictionaries, such as sorting, merging, or iterating over key-value pairs.
+
+**Cons:**
+
+1. Not ordered: Dictionaries are not ordered, meaning that key-value pairs are not stored in any particular order. If you need to maintain order, you will need to use other data structures like lists.
+
+2. Time complexity for some operations: Some operations on a Python dictionary, such as searching for a key, can have a time complexity of O(n). This means that for very large dictionaries, these operations can be slow.
+
+3. Memory usage: Dictionaries can use a significant amount of memory, especially if they contain a large number of key-value pairs.
+
+4. Not suitable for certain operations: Dictionaries are not suitable for certain types of operations, such as iterating over values in a specific order, or performing mathematical operations on values.
 
 #### Creating a Dictionary
 
@@ -329,9 +393,31 @@ print('Empty Dictionary', foo)
 
 ### Sets
 
-A set is a data type consisting of a collection of unordered elements and is a mutable (changeable) collection of unique components, i.e. there are no duplicate copies of elements.
+A [set](https://docs.python.org/3/tutorial/datastructures.html#sets) is a data type consisting of a collection of unordered elements and is a mutable (changeable) collection of unique components, i.e. there are no duplicate copies of elements.
 Unlike arrays, which are type-specific, elements in sets can be of any data type.
 Because the values of a set are unindexed, indexing operations cannot be performed on them.
+
+**Pros:**
+
+1. Unique elements: Sets only store unique elements, meaning there are no duplicates. This makes them ideal for removing duplicates from lists or other collections.
+
+2. Fast operations: Sets provide fast operations for checking membership, intersection, union, and difference between sets. This is because sets are implemented using hash tables.
+
+3. Math operations: Sets can be used to perform math operations like union, intersection, and difference between sets. This can be useful in many applications, such as data analysis or graph theory.
+
+4. Flexible data types: Sets can store a variety of data types, including numbers, strings, and tuples.
+
+5. Mutable: Sets are mutable, meaning you can add or remove elements as needed.
+
+**Cons:**
+
+1. Unordered: Like dictionaries, sets are unordered. This means that elements are not stored in any particular order, and you cannot access elements using an index.
+
+2. Cannot store mutable data types: Sets cannot store mutable data types like lists or other sets. This is because the hash value of a mutable object can change, making it difficult to implement the hash table.
+
+3. Memory usage: Like dictionaries, sets can use a significant amount of memory, especially if they contain a large number of elements.
+
+4. Type casting: Type casting can be slow, especially when converting from lists to sets or vice versa.
 
 #### Creating Sets
 
@@ -405,7 +491,9 @@ foo - bar
 foo ^ bar
 ```
 
-### References
+## Conclusion
+
+## References
 
 - https://docs.python.org/3/tutorial/datastructures.html
 - https://www.tutorialspoint.com/python/python_data_structure.html

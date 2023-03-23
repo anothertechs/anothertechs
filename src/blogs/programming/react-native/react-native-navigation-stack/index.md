@@ -205,6 +205,13 @@ When it is feasible to return from the active screen, the native stack navigator
 
 ![Detail Screen](./detail-screen.webp)
 
-### Final Thoughts
+## Final Thoughts
 
 In conclusion, React Native Navigation Stack is a powerful and flexible navigation solution that can help you create intuitive and easy-to-use interfaces for your users. By following the best practices and tips outlined in this article, you can ensure that your app's navigation is smooth, predictable, and visually appealing. So, what are you waiting for? Start implementing React Native Navigation Stack in your projects today!
+
+## References
+* [React Native](https://reactnative.dev/): The official website of React Native, a JavaScript framework used for building native mobile applications.
+* [React Navigation](https://reactnavigation.org/): A popular routing and navigation library for React Native apps.
+* [React Native Animations](https://reactnative.dev/docs/animated): A guide to using animations in React Native apps.
+* [React Native UI Components](https://reactnativeelements.com/): A collection of customizable UI components for React Native.
+* [Expo](https://expo.dev/): A free and open-source platform for building and deploying React Native apps.

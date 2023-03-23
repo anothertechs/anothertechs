@@ -1,14 +1,15 @@
 ---
-title: Understanding Tailwind Scrollbar- A Comprehensive Guide
+title: How to Customize Scrollbar in TailwindCSS
 date: 2023-03-23
 category: programming
-keywords: Tailwind,Tailwind CSS,Scrollbar,HTML,CSS,TailwindCSS,Tailwind UI,scrollbar color,scrollbar border,Responsive
-description: Tailwind css scrllobar tutorial
+keywords: tailwindcss scrollbar,custom scrollbar tailwindcss,tailwindcss custom scrollbar,scrollbar tailwindcss,customize scrollbar tailwindcss
+description: Learn how to create and customize scrollbars in TailwindCSS using our easy-to-follow guide. Enhance your website's design with custom scrollbar styles.
 author: Hatim
 thumbnail: ./maxresdefault.jpg
 published: true
 ---
-# Understanding Tailwind CSS Scrollbar: A Comprehensive Guide
+# How to Customize Scrollbar in TailwindCSS
+
 If you're looking for a way to improve the look and feel of your website, you might want to consider using Tailwind CSS. This popular utility-first CSS framework can help you style your website in a way that's both easy and efficient. In this article, we're going to explore one particular aspect of Tailwind CSS that's been gaining a lot of attention lately: Tailwind Scrollbar. We'll cover what it is, how to use it, and some best practices to keep in mind.
 
 ## What is Tailwind CSS Scrollbar?

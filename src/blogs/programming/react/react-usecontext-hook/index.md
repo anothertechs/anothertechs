@@ -1,15 +1,15 @@
 ---
-title: React JS - Understanding useContext hook in Reactjs with example
+title: React useContext Hook- Simplifying State Management in React
 published: true
 author: Hatim
 category: programming
 thumbnail: ./emre-turkan-KULAXcZZ22U-unsplash.jpg
-description: This little article will show you how to pass state using React's useContext hook.
+description: Learn how to use the React useContext hook for simplified state management in your React applications. Our tutorial covers everything you need to know to get started.
 date: 2022-06-30
-keywords: context,hook,useContext,react,reactjs,component,data,example
+keywords: React useContext Hook,React Hooks,React Context API,React State Management,React Tutorial
 ---
 
-# ReactJS - Understanding useContext hook in Reactjs with example
+# React useContext Hook: Simplifying State Management in React
 
 In a typical React application, data is passed top-down (from parent to child) by props, however this can be challenging for some prop types (such locale preference and UI theme), which are needed by numerous components that are nested at different levels within an application.
 
@@ -80,7 +80,7 @@ const ChildComponent5 = ({data}) => {
 
 Despite the fact that components 2-4 did not require the state, they had to send it on so that component 5 could receive it.
 
-## Context to the rescue
+## React useContext to the rescue
 
 The context, the provider extrapolated from the context, and the consumer are the three players required to apply the React context.
 
@@ -231,6 +231,76 @@ const ChildComponent5 = () => {
 ```
 
 On the screen, "Another Techs" (context value) would be visible. The context value switches to "ReactJS Context Hook" after two seconds, and the screen updates to reflect the new value.
+
+### Real world example where useContext Hook might come handy
+Suppose you have a React app that displays a list of products. You want to be able to add and remove products from the list, and you also want to be able to display the total number of products in the list. One way to do this is to use the useContext hook to manage the state of the products list and the total number of products.
+
+First, you need to create a context object that will hold the state of the products list and the total number of products. Here's how you can do it:
+
+```jsx
+import React, { createContext, useContext, useState } from 'react';
+
+const ProductContext = createContext();
+
+export const useProduct = () => useContext(ProductContext);
+
+export const ProductProvider = ({ children }) => {
+  const [products, setProducts] = useState([]);
+  const [totalProducts, setTotalProducts] = useState(0);
+
+  const addProduct = (product) => {
+    setProducts([...products, product]);
+    setTotalProducts(totalProducts + 1);
+  };
+
+  const removeProduct = (product) => {
+    const newProducts = products.filter((p) => p.id !== product.id);
+    setProducts(newProducts);
+    setTotalProducts(totalProducts - 1);
+  };
+
+  return (
+    <ProductContext.Provider value={{ products, totalProducts, addProduct, removeProduct }}>
+      {children}
+    </ProductContext.Provider>
+  );
+};
+
+
+```
+In the above code, we create a ProductContext object using the createContext method. We also define a custom hook called useProduct that will be used to retrieve the state values from the context. Inside the ProductProvider component, we define the state values using the useState hook, and we define two functions called addProduct and removeProduct to add and remove products from the list. Finally, we pass the state values and functions to the context using the Provider component.
+
+Now, in any component that needs to access the products list or the total number of products, you can use the useProduct hook to retrieve the values from the context. Here's an example:
+
+```jsx
+import React from 'react';
+import { useProduct } from './ProductContext';
+
+const ProductList = () => {
+  const { products, totalProducts, removeProduct } = useProduct();
+
+  return (
+    <>
+      <h2>Products ({totalProducts})</h2>
+      <ul>
+        {products.map((product) => (
+          <li key={product.id}>
+            {product.name} - {product.price}
+            <button onClick={() => removeProduct(product)}>Remove</button>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+};
+
+export default ProductList;
+
+
+```
+In the above code, we import the useProduct hook from the ProductContext file. We then use the useProduct hook to retrieve the products list, total number of products, and the removeProduct function from the context. We render the products list as a list of items, and we use the removeProduct function to remove a product from the list when the user clicks the "Remove" button.
+
+Using the useContext hook in this way can make your code cleaner and easier to maintain. By centralizing the state management in the context, you can avoid having to pass props down the component tree, which can make your code more efficient as well.
 
 ## When to use useContext hook ?
 

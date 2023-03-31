@@ -54,6 +54,9 @@ const NavBar = () => {
               <Nav.Link href="/techs">
                 <div className={navlink}>Technology</div>
               </Nav.Link>
+                 <Nav.Link href="/contactUs">
+                <div className={navlink}>Contact Us</div>
+              </Nav.Link>
               <Nav.Link href="/about">
                 <div className={navlink}>About</div>
               </Nav.Link>

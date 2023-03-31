@@ -1,6 +1,6 @@
 ---
 title: 12 Tips to Optimize Landing Page Image Size
-category: seo
+category: techs
 date: 2023-03-31
 published: true
 author: Caroline Joyce

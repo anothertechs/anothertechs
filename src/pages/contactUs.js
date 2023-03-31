@@ -19,9 +19,8 @@ function ContactUs() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID, 
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, formData, 
-        process.env.REACT_APP_EMAILJS_PUB_KEY)
+    emailjs.send("service_8xc6dbi", 
+        "template_2ntiet3", formData, "XsLVD8bgPOUm48u2-")
       .then(result => {
         alert('Your message has been sent successfully.');
         e.target.reset();

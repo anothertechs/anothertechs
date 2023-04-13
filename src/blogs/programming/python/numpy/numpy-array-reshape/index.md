@@ -1,15 +1,15 @@
 ---
-title: numpy.reshape() function for reshaping array in Python
+title: Reshaping Numpy Arrays- A Comprehensive Guide to Numpy Array Reshape
 date: 2022-08-31
 published: true
 category: programming
 author: Hatim
-description: In this article we will learn about python numpy reshape function (np.reshape). We will also look into different order to reshape arrays in numpy
+description: Learn how to reshape numpy arrays easily with our comprehensive guide on numpy array reshape. Our article covers all you need to know about numpy reshape, including examples and best practices.
 keywords: python,numpy,reshape,array,order,flatten,dimension
 thumbnail: ./numpy-reshape.jpg
 ---
 
-# Numpy Reshape
+# Reshaping Numpy Arrays: A Comprehensive Guide to Numpy Array ReshapeNumpy Reshape
 
 You might frequently want to reshape an existing array into an array with a different number of dimensions while working with Numpy arrays. This might be very helpful if you transform data in stages.
 
@@ -18,6 +18,10 @@ The NumPy array reshape() function in Python is used to change the shape of an a
 In this article, I'll show you how to use the `numpy.reshape()` function to reshape a Python NumPy array using examples.
 
 But Before Diving into numpy reshape let us first discuss about array shape
+
+## What is a Numpy Array?
+
+A Numpy array is a collection of elements of the same data type. It can be created using the Numpy library in Python. Numpy arrays are more efficient than Python lists for numerical computations. They can be one-dimensional or multidimensional.
 
 
 ## Array Shape in Numpy
@@ -197,6 +201,7 @@ print(np.reshape(arr,(1,4,3)))
 Flattening an array means reducing a multidimensional array to a single dimension. To obtain 1D array from any multidimensional array we use `np.reshape(-1)`:
 
 #### -1 in `np.reshape`
+
 In `np.reshape`, we can use -1 in a shape. -1 is a placeholder that takes the appropriate value so that the input and output shapes match. This is especially useful when writing a function and not knowing the exact dimensions of the input array, but knowing that the output should have two columns, for example. However, only one value can be replaced by -1 at a time.
 
 ```python
@@ -217,9 +222,71 @@ print(np.reshape(-1))
 
 ```
 
+## Using numpy.resize()
+
+
+The resize() function is used to change the shape and size of an array. If the new size is larger than the original size, the original array will be repeated to fill the new size. The syntax of the resize() function is as follows:
+
+```python
+numpy.resize(a, new_shape)
+```
+
+## Using transpose()
+
+The transpose() function is used to reverse or permute the axes of an array. It returns a view of the original array with the axes rearranged. The syntax of the transpose() function is as follows:
+
+```python
+numpy.transpose(a, axes=None)
+
+```
+
+Here, a is the array to be transposed, and axes is the new order of the axes.
+
+Let's see an example:
+
+```python
+import numpy as np
+a = np.array([[1, 2], [3, 4], [5, 6]])
+b = np.transpose(a)
+print(b)
+
+## Output
+
+[[1 3 5]
+ [2 4 6]]
+
+```
+
+## using ravel()
+
+The ravel() function is similar to the flatten() function. It returns a flattened view of the original array. The syntax of the ravel() function is as follows:
+
+```python
+
+numpy.ravel(a, order='C')
+```
+Here, a is the array to be flattened, and order is the order in which the elements are read.
+
+Let's see an example:
+
+```python
+
+import numpy as np
+a = np.array([[1, 2], [3, 4], [5, 6]])
+b = a.ravel()
+print(b)
+
+#Output:
+
+[1 2 3 4 5 6]
+```
+
+
 ## Conclusion
 
-As long as the elements needed for reshaping are identical in both shapes, we can transform any array into any shape. We are permitted to have one "unknown" dimension, which is interesting. That implies that for one of the dimensions in the reshape technique, you are not need to provide an example number. In this situation, supply -1 as the value and NumPy will generate the number for you.
+In this article, we covered all you need to know about Numpy array reshape, including examples and best practices. We started with an introduction to Numpy arrays and then covered different ways of reshaping arrays, including the reshape(), resize(), transpose(), flatten(), and ravel() functions.
+
+Numpy array reshape is a powerful feature that allows you to manipulate arrays easily. By mastering these functions, you can handle complex data processing tasks efficiently.
 
 ## References
 
@@ -228,6 +295,4 @@ As long as the elements needed for reshaping are identical in both shapes, we ca
 - [N-dimensional](https://numpy.org/doc/stable/reference/arrays.ndarray.html)  
 - [Learning Numpy Array](https://amzn.to/3Q1Ob9o)
 - [Numpy for beginners](https://amzn.to/3TnKnSW)
-
-
 

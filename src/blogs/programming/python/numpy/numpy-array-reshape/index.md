@@ -5,7 +5,7 @@ published: true
 category: programming
 author: Hatim
 description: Learn how to reshape numpy arrays easily with our comprehensive guide on numpy array reshape. Our article covers all you need to know about numpy reshape, including examples and best practices.
-keywords: python,numpy,reshape,array,order,flatten,dimension
+keywords: python,numpy,reshape,array,Reshaping arrays,Array manipulation,NumPy arrays,NumPy functions,Array indexing,Data transformation,Computational tools
 thumbnail: ./numpy-reshape.jpg
 ---
 
